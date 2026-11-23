@@ -1,0 +1,100 @@
+{
+  "document_id": "test_bank_statement_0082",
+  "document_type": "bank_statement",
+  "bank_name": "Metro Alliance Bank",
+  "branch": "Sector 62, Noida",
+  "ifsc": "METR0395744",
+  "account_holder": "Jyoti Iyer",
+  "account_number": "96674186535",
+  "period_start": "2025-01-01",
+  "period_end": "2025-01-31",
+  "opening_balance": 45364.83,
+  "closing_balance": 130607.88,
+  "total_deposits": 118897.96,
+  "total_withdrawals": 33654.91,
+  "transactions": [
+    {
+      "date": "2025-01-03",
+      "raw_date": "2025-01-03",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN67229772",
+      "debit": 0.0,
+      "credit": 5451.52,
+      "balance": 50816.35
+    },
+    {
+      "date": "05-Jan-2025",
+      "raw_date": "2025-01-05",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN11582229",
+      "debit": 0.0,
+      "credit": 18673.86,
+      "balance": 69490.21
+    },
+    {
+      "date": "06-Jan-2025",
+      "raw_date": "2025-01-06",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN11818926",
+      "debit": 4296.23,
+      "credit": 0.0,
+      "balance": 65193.98
+    },
+    {
+      "date": "07/01/2025",
+      "raw_date": "2025-01-07",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN21220004",
+      "debit": 0.0,
+      "credit": 9067.83,
+      "balance": 74261.81
+    },
+    {
+      "date": "08-Jan-2025",
+      "raw_date": "2025-01-08",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN24272571",
+      "debit": 0.0,
+      "credit": 33839.45,
+      "balance": 108101.26
+    },
+    {
+      "date": "10/01/2025",
+      "raw_date": "2025-01-10",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN85544613",
+      "debit": 0.0,
+      "credit": 17074.68,
+      "balance": 125175.94
+    },
+    {
+      "date": "11-Jan-2025",
+      "raw_date": "2025-01-11",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN17499483",
+      "debit": 0.0,
+      "credit": 5830.71,
+      "balance": 131006.65
+    },
+    {
+      "date": "13-Jan-2025",
+      "raw_date": "2025-01-13",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN23799637",
+      "debit": 0.0,
+      "credit": 28959.91,
+      "balance": 159966.56
+    },
+    {
+      "date": "2025-01-15",
+      "raw_date": "2025-01-15",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN29036775",
+      "debit": 29358.68,
+      "credit": 0.0,
+      "balance": 130607.88
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

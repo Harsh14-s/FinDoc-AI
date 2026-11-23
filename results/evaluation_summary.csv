@@ -1,0 +1,13 @@
+Metric,Value
+Total Test Documents,96
+Processing Success Rate (%),100.00
+Processing Failure Rate (%),0.00
+Average Processing Time (ms),42.3
+Baseline Rule Classification Accuracy (%),100.00
+ML Classifier Accuracy (%),100.00
+Clean Document False Positive Rate (%),60.24
+Review Flag Precision (%),17.81
+Review Flag Recall (%),100.00
+Review Flag F1-Score (%),30.23
+Digital PDF Field Accuracy (%),87.38
+Scanned Image Field Accuracy (%),52.43

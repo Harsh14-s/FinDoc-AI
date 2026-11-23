@@ -1,0 +1,11 @@
+{
+  "document_id": "train_aadhaar_card_0012",
+  "document_type": "aadhaar_card",
+  "full_name": "Lakshmi Sidhu",
+  "gender": "Female",
+  "dob": "1985-01-28",
+  "aadhaar_number": "5441 9031 2729",
+  "address": "H.No. 462, Aggarwal Chowk, Orai 814893",
+  "is_tampered": false,
+  "tamper_types": []
+}

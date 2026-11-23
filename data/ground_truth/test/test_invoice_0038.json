@@ -1,0 +1,32 @@
+{
+  "document_id": "test_invoice_0038",
+  "document_type": "invoice",
+  "vendor_name": "BlueSky Office Supplies Pvt Ltd",
+  "vendor_gstin": "09DDDDD3456D1Z1",
+  "vendor_category": "Office Equipment",
+  "client_name": "Sampath, Purohit and Borah",
+  "client_gstin": "07GSAIC7979Y6X8",
+  "invoice_number": "INV-2025-3576",
+  "invoice_date": "2025-06-09",
+  "due_date": "2025-07-09",
+  "line_items": [
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 1,
+      "unit_price": 25000.0,
+      "total": 25000.0
+    },
+    {
+      "description": "Network Security Audit & Patching",
+      "quantity": 3,
+      "unit_price": 18000.0,
+      "total": 54000.0
+    }
+  ],
+  "subtotal": 79000.0,
+  "tax_amount": 14220.0,
+  "tax_rate": "18%",
+  "grand_total": 93220.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

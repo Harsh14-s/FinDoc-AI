@@ -1,0 +1,50 @@
+{
+  "document_id": "train_invoice_0112",
+  "document_type": "invoice",
+  "vendor_name": "Apex Logistics & Supply Chain Ltd",
+  "vendor_gstin": "27BBBBB5678B1Z2",
+  "vendor_category": "Freight & Warehousing",
+  "client_name": "Modi Group",
+  "client_gstin": "07DXQVS1138I2A6",
+  "invoice_number": "INV-2025-8896",
+  "invoice_date": "2025-06-22",
+  "due_date": "2025-07-22",
+  "line_items": [
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 1,
+      "unit_price": 25000.0,
+      "total": 25000.0
+    },
+    {
+      "description": "Network Security Audit & Patching",
+      "quantity": 2,
+      "unit_price": 18000.0,
+      "total": 36000.0
+    },
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 5,
+      "unit_price": 6200.0,
+      "total": 31000.0
+    },
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 4,
+      "unit_price": 7500.0,
+      "total": 30000.0
+    },
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 4,
+      "unit_price": 4500.0,
+      "total": 18000.0
+    }
+  ],
+  "subtotal": 140000.0,
+  "tax_amount": 25200.0,
+  "tax_rate": "18%",
+  "grand_total": 165200.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

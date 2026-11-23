@@ -1,0 +1,136 @@
+{
+  "document_id": "train_bank_statement_0097",
+  "document_type": "bank_statement",
+  "bank_name": "Apex National Bank",
+  "branch": "Connaught Place, New Delhi",
+  "ifsc": "APEX0923002",
+  "account_holder": "Mohammed Borde",
+  "account_number": "49150812729",
+  "period_start": "2025-07-01",
+  "period_end": "2025-08-01",
+  "opening_balance": 86137.1,
+  "closing_balance": -4588.02,
+  "total_deposits": 61166.69,
+  "total_withdrawals": 151891.81,
+  "transactions": [
+    {
+      "date": "03/07/2025",
+      "raw_date": "2025-07-03",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN59797531",
+      "debit": 13869.69,
+      "credit": 0.0,
+      "balance": 72267.41
+    },
+    {
+      "date": "05/07/2025",
+      "raw_date": "2025-07-05",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN45338986",
+      "debit": 0.0,
+      "credit": 15879.25,
+      "balance": 88146.66
+    },
+    {
+      "date": "2025-07-07",
+      "raw_date": "2025-07-07",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN18273096",
+      "debit": 0.0,
+      "credit": 9765.39,
+      "balance": 97912.05
+    },
+    {
+      "date": "08-Jul-2025",
+      "raw_date": "2025-07-08",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN65564347",
+      "debit": 28382.22,
+      "credit": 0.0,
+      "balance": 69529.83
+    },
+    {
+      "date": "09/07/2025",
+      "raw_date": "2025-07-09",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN80139805",
+      "debit": 0.0,
+      "credit": 13855.16,
+      "balance": 83384.99
+    },
+    {
+      "date": "11/07/2025",
+      "raw_date": "2025-07-11",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN20597167",
+      "debit": 16931.05,
+      "credit": 0.0,
+      "balance": 66453.94
+    },
+    {
+      "date": "12-Jul-2025",
+      "raw_date": "2025-07-12",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN86703472",
+      "debit": 18330.2,
+      "credit": 0.0,
+      "balance": 48123.74
+    },
+    {
+      "date": "2025-07-13",
+      "raw_date": "2025-07-13",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN32436477",
+      "debit": 15991.87,
+      "credit": 0.0,
+      "balance": 32131.87
+    },
+    {
+      "date": "14-Jul-2025",
+      "raw_date": "2025-07-14",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN20518444",
+      "debit": 0.0,
+      "credit": 1972.32,
+      "balance": 34104.19
+    },
+    {
+      "date": "16/07/2025",
+      "raw_date": "2025-07-16",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN89865944",
+      "debit": 22139.3,
+      "credit": 0.0,
+      "balance": 11964.89
+    },
+    {
+      "date": "18/07/2025",
+      "raw_date": "2025-07-18",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN84095459",
+      "debit": 0.0,
+      "credit": 19694.57,
+      "balance": 31659.46
+    },
+    {
+      "date": "20-Jul-2025",
+      "raw_date": "2025-07-20",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN93625419",
+      "debit": 30634.59,
+      "credit": 0.0,
+      "balance": 1024.87
+    },
+    {
+      "date": "22-Jul-2025",
+      "raw_date": "2025-07-22",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN88911183",
+      "debit": 5612.89,
+      "credit": 0.0,
+      "balance": -4588.02
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

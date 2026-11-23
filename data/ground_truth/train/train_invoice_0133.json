@@ -1,0 +1,52 @@
+{
+  "document_id": "train_invoice_0133",
+  "document_type": "invoice",
+  "vendor_name": "BlueSky Office Supplies Pvt Ltd",
+  "vendor_gstin": "09DDDDD3456D1Z1",
+  "vendor_category": "Office Equipment",
+  "client_name": "Sanghvi, Ravel and Sahni",
+  "client_gstin": "07ZNDSX4160F5B2",
+  "invoice_number": "INV-2025-3795",
+  "invoice_date": "2030-04-01",
+  "due_date": "2030-05-01",
+  "line_items": [
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 2,
+      "unit_price": 25000.0,
+      "total": 50000.0
+    },
+    {
+      "description": "Network Security Audit & Patching",
+      "quantity": 3,
+      "unit_price": 18000.0,
+      "total": 54000.0
+    },
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 4,
+      "unit_price": 6200.0,
+      "total": 24800.0
+    },
+    {
+      "description": "Software License Subscription",
+      "quantity": 5,
+      "unit_price": 12000.0,
+      "total": 60000.0
+    },
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 5,
+      "unit_price": 3500.0,
+      "total": 17500.0
+    }
+  ],
+  "subtotal": 206300.0,
+  "tax_amount": 37134.0,
+  "tax_rate": "18%",
+  "grand_total": 243434.0,
+  "is_tampered": true,
+  "tamper_types": [
+    "future_dates: invoice date 2030-04-01 is far in the future"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "document_id": "test_invoice_0055",
+  "document_type": "invoice",
+  "vendor_name": "Apex Logistics & Supply Chain Ltd",
+  "vendor_gstin": "27BBBBB5678B1Z2",
+  "vendor_category": "Freight & Warehousing",
+  "client_name": "Barman, Sastry and Kamdar",
+  "client_gstin": "07QWFCH6134X0Z7",
+  "invoice_number": "INV-2025-9057",
+  "invoice_date": "2025-01-04",
+  "due_date": "2025-02-03",
+  "line_items": [
+    {
+      "description": "Network Security Audit & Patching",
+      "quantity": 4,
+      "unit_price": 18000.0,
+      "total": 72000.0
+    },
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 3,
+      "unit_price": 6200.0,
+      "total": 18600.0
+    }
+  ],
+  "subtotal": 90600.0,
+  "tax_amount": 16308.0,
+  "tax_rate": "18%",
+  "grand_total": 106908.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

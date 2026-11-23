@@ -1,0 +1,29 @@
+# FinDocAI - Requirements & Dependencies
+# Python 3.11+ required
+# Each library is chosen for local, explainable, lightweight processing without paid APIs.
+
+# Web Frameworks
+fastapi>=0.110.0           # REST API backend for document upload, processing, corrections, export
+uvicorn>=0.28.0            # ASGI server to run the FastAPI backend
+python-multipart>=0.0.9    # Enables file upload handling in FastAPI endpoints
+httpx>=0.27.0              # HTTP client required for FastAPI TestClient automated endpoint testing
+streamlit>=1.32.0          # Interactive frontend dashboard for document review and human-in-the-loop corrections
+
+# Data Processing & Storage
+pandas>=2.2.0              # Structured table manipulation, CSV export, running balance calculations
+pydantic>=2.6.0            # Data schemas, validation models, and type safety
+
+# Document Ingestion & OCR
+pymupdf>=1.24.0            # High-speed PDF text, table, and metadata extraction; rendering PDFs to images
+pdfplumber>=0.11.0         # Table structure extraction from digital PDF bank statements
+pytesseract>=0.3.10        # OCR wrapper for Tesseract to extract text from scanned images
+pillow>=10.2.0             # Image manipulation, degradation simulation (blur, noise, rotation), and preprocessing
+
+# Machine Learning & Synthetic Data Generation
+scikit-learn>=1.4.0        # TF-IDF vectorization and Logistic Regression for document type classification
+reportlab>=4.1.0           # Programmatic PDF generation for realistic synthetic financial documents
+faker>=24.0.0              # Realistic names, dates, addresses, and transaction descriptions generation
+matplotlib>=3.8.0          # Evaluation plotting, confusion matrix visualization, and accuracy benchmarking charts
+
+# Testing & Quality Assurance
+pytest>=8.0.0              # Automated unit and integration test suite across all pipeline modules

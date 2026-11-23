@@ -1,0 +1,13 @@
+{
+  "document_id": "train_aadhaar_card_0219",
+  "document_type": "aadhaar_card",
+  "full_name": "Ekapad Sodhi",
+  "gender": "Female",
+  "dob": "1979-08-04",
+  "aadhaar_number": "9999 ABCD 336",
+  "address": "65/676, Buch Marg, Karnal-286823",
+  "is_tampered": true,
+  "tamper_types": [
+    "invalid_aadhaar_format: Aadhaar contains alphabets and incorrect length"
+  ]
+}

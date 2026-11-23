@@ -1,0 +1,34 @@
+{
+  "document_id": "train_invoice_0098",
+  "document_type": "invoice",
+  "vendor_name": "Vortex Tech Solutions Pvt Ltd",
+  "vendor_gstin": "INVALID#GST#999",
+  "vendor_category": "IT & Cloud Services",
+  "client_name": "Lanka-Nigam",
+  "client_gstin": "07UOTWF9615I8C6",
+  "invoice_number": "INV-2025-2731",
+  "invoice_date": "2025-10-25",
+  "due_date": "2025-11-24",
+  "line_items": [
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 5,
+      "unit_price": 6200.0,
+      "total": 31000.0
+    },
+    {
+      "description": "Network Security Audit & Patching",
+      "quantity": 3,
+      "unit_price": 18000.0,
+      "total": 54000.0
+    }
+  ],
+  "subtotal": 85000.0,
+  "tax_amount": 15300.0,
+  "tax_rate": "18%",
+  "grand_total": 100300.0,
+  "is_tampered": true,
+  "tamper_types": [
+    "invalid_gstin: vendor GSTIN violates 15-character standard pattern"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "document_id": "train_bank_statement_0053",
+  "document_type": "bank_statement",
+  "bank_name": "Apex National Bank",
+  "branch": "Connaught Place, New Delhi",
+  "ifsc": "APEX0485397",
+  "account_holder": "Saanvi Thaman",
+  "account_number": "52694704901",
+  "period_start": "2025-10-01",
+  "period_end": "2025-10-30",
+  "opening_balance": 52391.08,
+  "closing_balance": 26511.91,
+  "total_deposits": 46146.47,
+  "total_withdrawals": 72025.64,
+  "transactions": [
+    {
+      "date": "03/10/2025",
+      "raw_date": "2025-10-03",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN91300905",
+      "debit": 0.0,
+      "credit": 16196.76,
+      "balance": 68587.84
+    },
+    {
+      "date": "2025-10-05",
+      "raw_date": "2025-10-05",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN99133246",
+      "debit": 26628.59,
+      "credit": 0.0,
+      "balance": 41959.25
+    },
+    {
+      "date": "06-Oct-2025",
+      "raw_date": "2025-10-06",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN69961498",
+      "debit": 3324.53,
+      "credit": 0.0,
+      "balance": 38634.72
+    },
+    {
+      "date": "08-Oct-2025",
+      "raw_date": "2025-10-08",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN83504237",
+      "debit": 4371.2,
+      "credit": 0.0,
+      "balance": 34263.52
+    },
+    {
+      "date": "09/10/2025",
+      "raw_date": "2025-10-09",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN79839059",
+      "debit": 6176.53,
+      "credit": 0.0,
+      "balance": 28086.99
+    },
+    {
+      "date": "10/10/2025",
+      "raw_date": "2025-10-10",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN78501420",
+      "debit": 17364.56,
+      "credit": 0.0,
+      "balance": 10722.43
+    },
+    {
+      "date": "2025-10-11",
+      "raw_date": "2025-10-11",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN85686878",
+      "debit": 0.0,
+      "credit": 14832.15,
+      "balance": 25554.58
+    },
+    {
+      "date": "13-Oct-2025",
+      "raw_date": "2025-10-13",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN10404729",
+      "debit": 14160.23,
+      "credit": 0.0,
+      "balance": 11394.35
+    },
+    {
+      "date": "14-Oct-2025",
+      "raw_date": "2025-10-14",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN18557710",
+      "debit": 0.0,
+      "credit": 15117.56,
+      "balance": 26511.91
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

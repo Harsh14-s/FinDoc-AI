@@ -1,0 +1,118 @@
+{
+  "document_id": "train_bank_statement_0210",
+  "document_type": "bank_statement",
+  "bank_name": "Metro Alliance Bank",
+  "branch": "Sector 62, Noida",
+  "ifsc": "METR0398477",
+  "account_holder": "Geetika Merchant",
+  "account_number": "11601297604",
+  "period_start": "2025-06-01",
+  "period_end": "2025-07-01",
+  "opening_balance": 63510.67,
+  "closing_balance": 199537.13,
+  "total_deposits": 189362.7,
+  "total_withdrawals": 53336.24,
+  "transactions": [
+    {
+      "date": "02/06/2025",
+      "raw_date": "2025-06-02",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN65782199",
+      "debit": 15825.6,
+      "credit": 0.0,
+      "balance": 47685.07
+    },
+    {
+      "date": "04-Jun-2025",
+      "raw_date": "2025-06-04",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN66885794",
+      "debit": 0.0,
+      "credit": 28295.71,
+      "balance": 75980.78
+    },
+    {
+      "date": "2025-06-06",
+      "raw_date": "2025-06-06",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN90253572",
+      "debit": 0.0,
+      "credit": 29325.15,
+      "balance": 105305.93
+    },
+    {
+      "date": "07/06/2025",
+      "raw_date": "2025-06-07",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN80504712",
+      "debit": 0.0,
+      "credit": 34599.19,
+      "balance": 139905.12
+    },
+    {
+      "date": "08-Jun-2025",
+      "raw_date": "2025-06-08",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN64956876",
+      "debit": 3551.47,
+      "credit": 0.0,
+      "balance": 136353.65
+    },
+    {
+      "date": "2025-06-10",
+      "raw_date": "2025-06-10",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN86224438",
+      "debit": 0.0,
+      "credit": 16443.14,
+      "balance": 152796.79
+    },
+    {
+      "date": "11-Jun-2025",
+      "raw_date": "2025-06-11",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN48851088",
+      "debit": 0.0,
+      "credit": 29213.79,
+      "balance": 182010.58
+    },
+    {
+      "date": "13-Jun-2025",
+      "raw_date": "2025-06-13",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN50532800",
+      "debit": 0.0,
+      "credit": 28886.57,
+      "balance": 210897.15
+    },
+    {
+      "date": "2025-06-15",
+      "raw_date": "2025-06-15",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN13602405",
+      "debit": 16489.09,
+      "credit": 0.0,
+      "balance": 194408.06
+    },
+    {
+      "date": "16/06/2025",
+      "raw_date": "2025-06-16",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN95437748",
+      "debit": 0.0,
+      "credit": 22599.15,
+      "balance": 217007.21
+    },
+    {
+      "date": "2025-06-17",
+      "raw_date": "2025-06-17",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN96541691",
+      "debit": 17470.08,
+      "credit": 0.0,
+      "balance": 199537.13
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

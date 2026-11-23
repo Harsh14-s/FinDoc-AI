@@ -1,0 +1,127 @@
+{
+  "document_id": "train_bank_statement_0132",
+  "document_type": "bank_statement",
+  "bank_name": "Metro Alliance Bank",
+  "branch": "Sector 62, Noida",
+  "ifsc": "METR0148693",
+  "account_holder": "Faras Munshi",
+  "account_number": "74071900960",
+  "period_start": "2025-01-01",
+  "period_end": "2025-01-31",
+  "opening_balance": 37903.13,
+  "closing_balance": 38995.07,
+  "total_deposits": 80425.14,
+  "total_withdrawals": 79333.2,
+  "transactions": [
+    {
+      "date": "03-Jan-2025",
+      "raw_date": "2025-01-03",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN60554391",
+      "debit": 20170.53,
+      "credit": 0.0,
+      "balance": 17732.6
+    },
+    {
+      "date": "05-Jan-2025",
+      "raw_date": "2025-01-05",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN20447168",
+      "debit": 0.0,
+      "credit": 20774.92,
+      "balance": 38507.52
+    },
+    {
+      "date": "07/01/2025",
+      "raw_date": "2025-01-07",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN64471218",
+      "debit": 8190.02,
+      "credit": 0.0,
+      "balance": 30317.5
+    },
+    {
+      "date": "09-Jan-2025",
+      "raw_date": "2025-01-09",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN10885526",
+      "debit": 31107.43,
+      "credit": 0.0,
+      "balance": -789.93
+    },
+    {
+      "date": "10/01/2025",
+      "raw_date": "2025-01-10",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN96366021",
+      "debit": 0.0,
+      "credit": 3159.54,
+      "balance": 2369.61
+    },
+    {
+      "date": "11-Jan-2025",
+      "raw_date": "2025-01-11",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN58616740",
+      "debit": 0.0,
+      "credit": 6948.25,
+      "balance": 9317.86
+    },
+    {
+      "date": "12/01/2025",
+      "raw_date": "2025-01-12",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN25212062",
+      "debit": 11892.75,
+      "credit": 0.0,
+      "balance": -2574.89
+    },
+    {
+      "date": "2025-01-14",
+      "raw_date": "2025-01-14",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN65149958",
+      "debit": 0.0,
+      "credit": 6063.0,
+      "balance": 3488.11
+    },
+    {
+      "date": "2025-01-15",
+      "raw_date": "2025-01-15",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN89503557",
+      "debit": 0.0,
+      "credit": 4912.04,
+      "balance": 8400.15
+    },
+    {
+      "date": "2025-01-16",
+      "raw_date": "2025-01-16",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN17504382",
+      "debit": 0.0,
+      "credit": 20243.29,
+      "balance": 28643.44
+    },
+    {
+      "date": "18-Jan-2025",
+      "raw_date": "2025-01-18",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN64419425",
+      "debit": 0.0,
+      "credit": 18324.1,
+      "balance": 46967.54
+    },
+    {
+      "date": "19/01/2025",
+      "raw_date": "2025-01-19",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN91406527",
+      "debit": 7972.47,
+      "credit": 0.0,
+      "balance": 38995.07
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

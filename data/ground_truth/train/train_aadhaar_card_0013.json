@@ -1,0 +1,11 @@
+{
+  "document_id": "train_aadhaar_card_0013",
+  "document_type": "aadhaar_card",
+  "full_name": "Kashvi Edwin",
+  "gender": "Male",
+  "dob": "1986-11-27",
+  "aadhaar_number": "5766 3506 8135",
+  "address": "H.No. 43, Khosla Nagar, Guwahati 182278",
+  "is_tampered": false,
+  "tamper_types": []
+}

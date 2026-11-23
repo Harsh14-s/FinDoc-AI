@@ -1,0 +1,109 @@
+{
+  "document_id": "train_bank_statement_0025",
+  "document_type": "bank_statement",
+  "bank_name": "Metro Alliance Bank",
+  "branch": "Sector 62, Noida",
+  "ifsc": "METR0482584",
+  "account_holder": "Chandresh Sood",
+  "account_number": "87452710892",
+  "period_start": "2025-03-01",
+  "period_end": "2025-03-29",
+  "opening_balance": 138703.48,
+  "closing_balance": 123914.32,
+  "total_deposits": 73222.21,
+  "total_withdrawals": 88011.37,
+  "transactions": [
+    {
+      "date": "03/03/2025",
+      "raw_date": "2025-03-03",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN82398083",
+      "debit": 0.0,
+      "credit": 7427.42,
+      "balance": 146130.9
+    },
+    {
+      "date": "05/03/2025",
+      "raw_date": "2025-03-05",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN74672520",
+      "debit": 0.0,
+      "credit": 9365.47,
+      "balance": 155496.37
+    },
+    {
+      "date": "07-Mar-2025",
+      "raw_date": "2025-03-07",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN40281491",
+      "debit": 3097.83,
+      "credit": 0.0,
+      "balance": 152398.54
+    },
+    {
+      "date": "09/03/2025",
+      "raw_date": "2025-03-09",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN11868130",
+      "debit": 27778.53,
+      "credit": 0.0,
+      "balance": 124620.01
+    },
+    {
+      "date": "10-Mar-2025",
+      "raw_date": "2025-03-10",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN45186708",
+      "debit": 26340.9,
+      "credit": 0.0,
+      "balance": 98279.11
+    },
+    {
+      "date": "12/03/2025",
+      "raw_date": "2025-03-12",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN41383044",
+      "debit": 0.0,
+      "credit": 4237.94,
+      "balance": 102517.05
+    },
+    {
+      "date": "2025-03-13",
+      "raw_date": "2025-03-13",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN91883846",
+      "debit": 19868.55,
+      "credit": 0.0,
+      "balance": 82648.5
+    },
+    {
+      "date": "2025-03-14",
+      "raw_date": "2025-03-14",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN64800542",
+      "debit": 10925.56,
+      "credit": 0.0,
+      "balance": 71722.94
+    },
+    {
+      "date": "15/03/2025",
+      "raw_date": "2025-03-15",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN50851122",
+      "debit": 0.0,
+      "credit": 33146.02,
+      "balance": 104868.96
+    },
+    {
+      "date": "16/03/2025",
+      "raw_date": "2025-03-16",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN62163160",
+      "debit": 0.0,
+      "credit": 19045.36,
+      "balance": 123914.32
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

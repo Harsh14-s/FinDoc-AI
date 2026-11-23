@@ -1,0 +1,38 @@
+{
+  "document_id": "test_invoice_0068",
+  "document_type": "invoice",
+  "vendor_name": "Vortex Tech Solutions Pvt Ltd",
+  "vendor_gstin": "07AAAAA1234A1Z5",
+  "vendor_category": "IT & Cloud Services",
+  "client_name": "Mane, Bala and Mitra",
+  "client_gstin": "07SPDYY3898P3F6",
+  "invoice_number": "INV-2025-9293",
+  "invoice_date": "2025-05-12",
+  "due_date": "2025-06-11",
+  "line_items": [
+    {
+      "description": "Network Security Audit & Patching",
+      "quantity": 2,
+      "unit_price": 18000.0,
+      "total": 36000.0
+    },
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 3,
+      "unit_price": 7500.0,
+      "total": 22500.0
+    },
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 1,
+      "unit_price": 4500.0,
+      "total": 4500.0
+    }
+  ],
+  "subtotal": 63000.0,
+  "tax_amount": 11340.0,
+  "tax_rate": "18%",
+  "grand_total": 74340.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

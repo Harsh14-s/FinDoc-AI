@@ -1,0 +1,44 @@
+{
+  "document_id": "train_invoice_0072",
+  "document_type": "invoice",
+  "vendor_name": "BlueSky Office Supplies Pvt Ltd",
+  "vendor_gstin": "09DDDDD3456D1Z1",
+  "vendor_category": "Office Equipment",
+  "client_name": "Setty-Madan",
+  "client_gstin": "07HVIWS4431L3M5",
+  "invoice_number": "INV-2025-7432",
+  "invoice_date": "2025-10-04",
+  "due_date": "2025-11-03",
+  "line_items": [
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 2,
+      "unit_price": 7500.0,
+      "total": 15000.0
+    },
+    {
+      "description": "Network Security Audit & Patching",
+      "quantity": 3,
+      "unit_price": 18000.0,
+      "total": 54000.0
+    },
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 5,
+      "unit_price": 8500.0,
+      "total": 42500.0
+    },
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 5,
+      "unit_price": 6200.0,
+      "total": 31000.0
+    }
+  ],
+  "subtotal": 142500.0,
+  "tax_amount": 25650.0,
+  "tax_rate": "18%",
+  "grand_total": 168150.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

@@ -1,0 +1,100 @@
+{
+  "document_id": "test_bank_statement_0056",
+  "document_type": "bank_statement",
+  "bank_name": "Metro Alliance Bank",
+  "branch": "Sector 62, Noida",
+  "ifsc": "METR0492850",
+  "account_holder": "Shaurya Panchal",
+  "account_number": "32207705031",
+  "period_start": "2025-03-01",
+  "period_end": "2025-03-30",
+  "opening_balance": 49752.57,
+  "closing_balance": 104525.9,
+  "total_deposits": 108882.66,
+  "total_withdrawals": 54109.33,
+  "transactions": [
+    {
+      "date": "2025-03-02",
+      "raw_date": "2025-03-02",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN36969824",
+      "debit": 7833.78,
+      "credit": 0.0,
+      "balance": 41918.79
+    },
+    {
+      "date": "03/03/2025",
+      "raw_date": "2025-03-03",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN64867187",
+      "debit": 0.0,
+      "credit": 31628.43,
+      "balance": 73547.22
+    },
+    {
+      "date": "04/03/2025",
+      "raw_date": "2025-03-04",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN21503407",
+      "debit": 0.0,
+      "credit": 3253.44,
+      "balance": 76800.66
+    },
+    {
+      "date": "05/03/2025",
+      "raw_date": "2025-03-05",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN41511655",
+      "debit": 0.0,
+      "credit": 1523.5,
+      "balance": 78324.16
+    },
+    {
+      "date": "07-Mar-2025",
+      "raw_date": "2025-03-07",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN10969945",
+      "debit": 0.0,
+      "credit": 9679.79,
+      "balance": 88003.95
+    },
+    {
+      "date": "08-Mar-2025",
+      "raw_date": "2025-03-08",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN60421010",
+      "debit": 0.0,
+      "credit": 27816.64,
+      "balance": 115820.59
+    },
+    {
+      "date": "10/03/2025",
+      "raw_date": "2025-03-10",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN67640289",
+      "debit": 12127.53,
+      "credit": 0.0,
+      "balance": 103693.06
+    },
+    {
+      "date": "12/03/2025",
+      "raw_date": "2025-03-12",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN42158168",
+      "debit": 0.0,
+      "credit": 34980.86,
+      "balance": 138673.92
+    },
+    {
+      "date": "2025-03-14",
+      "raw_date": "2025-03-14",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN54326109",
+      "debit": 34148.02,
+      "credit": 0.0,
+      "balance": 104525.9
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

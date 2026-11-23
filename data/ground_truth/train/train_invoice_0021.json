@@ -1,0 +1,32 @@
+{
+  "document_id": "train_invoice_0021",
+  "document_type": "invoice",
+  "vendor_name": "Pinnacle Advisory & Consulting LLP",
+  "vendor_gstin": "29CCCCC9012C1Z8",
+  "vendor_category": "Professional Services",
+  "client_name": "Shere-Krish",
+  "client_gstin": "07AFWPK1781A0F8",
+  "invoice_number": "INV-2025-8995",
+  "invoice_date": "2025-09-02",
+  "due_date": "2025-10-02",
+  "line_items": [
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 3,
+      "unit_price": 8500.0,
+      "total": 25500.0
+    },
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 2,
+      "unit_price": 7500.0,
+      "total": 15000.0
+    }
+  ],
+  "subtotal": 40500.0,
+  "tax_amount": 7290.0,
+  "tax_rate": "18%",
+  "grand_total": 47790.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

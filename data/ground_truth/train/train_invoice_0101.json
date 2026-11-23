@@ -1,0 +1,50 @@
+{
+  "document_id": "train_invoice_0101",
+  "document_type": "invoice",
+  "vendor_name": "Vortex Tech Solutions Pvt Ltd",
+  "vendor_gstin": "07AAAAA1234A1Z5",
+  "vendor_category": "IT & Cloud Services",
+  "client_name": "Sankar-Dhingra",
+  "client_gstin": "07LFNYN3869R2P2",
+  "invoice_number": "INV-2025-1501",
+  "invoice_date": "2025-04-12",
+  "due_date": "2025-05-12",
+  "line_items": [
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 3,
+      "unit_price": 3500.0,
+      "total": 10500.0
+    },
+    {
+      "description": "Software License Subscription",
+      "quantity": 2,
+      "unit_price": 12000.0,
+      "total": 24000.0
+    },
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 3,
+      "unit_price": 8500.0,
+      "total": 25500.0
+    },
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 1,
+      "unit_price": 6200.0,
+      "total": 6200.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 3,
+      "unit_price": 25000.0,
+      "total": 75000.0
+    }
+  ],
+  "subtotal": 141200.0,
+  "tax_amount": 25416.0,
+  "tax_rate": "18%",
+  "grand_total": 166616.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

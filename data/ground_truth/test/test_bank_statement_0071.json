@@ -1,0 +1,111 @@
+{
+  "document_id": "test_bank_statement_0071",
+  "document_type": "bank_statement",
+  "bank_name": "State Mercantile Commercial Bank",
+  "branch": "Bandra Kurla Complex, Mumbai",
+  "ifsc": "SMCB0723501",
+  "account_holder": "Mitali Toor",
+  "account_number": "85298001425",
+  "period_start": "2025-07-01",
+  "period_end": "2025-08-01",
+  "opening_balance": 99038.77,
+  "closing_balance": 82656.32,
+  "total_deposits": 98760.48,
+  "total_withdrawals": 102642.93,
+  "transactions": [
+    {
+      "date": "02/07/2025",
+      "raw_date": "2025-07-02",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN29148862",
+      "debit": 23185.92,
+      "credit": 0.0,
+      "balance": 75852.85
+    },
+    {
+      "date": "04/07/2025",
+      "raw_date": "2025-07-04",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN95791097",
+      "debit": 0.0,
+      "credit": 32186.24,
+      "balance": 108039.09
+    },
+    {
+      "date": "05/07/2025",
+      "raw_date": "2025-07-05",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN68916214",
+      "debit": 16293.64,
+      "credit": 0.0,
+      "balance": 91745.45
+    },
+    {
+      "date": "07-Jul-2025",
+      "raw_date": "2025-07-07",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN79873032",
+      "debit": 0.0,
+      "credit": 33365.26,
+      "balance": 125110.71
+    },
+    {
+      "date": "08/07/2025",
+      "raw_date": "2025-07-08",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN51025192",
+      "debit": 3499.51,
+      "credit": 0.0,
+      "balance": 121611.2
+    },
+    {
+      "date": "2025-07-10",
+      "raw_date": "2025-07-10",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN42217185",
+      "debit": 3145.92,
+      "credit": 0.0,
+      "balance": 118465.28
+    },
+    {
+      "date": "11/07/2025",
+      "raw_date": "2025-07-11",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN84378065",
+      "debit": 0.0,
+      "credit": 26147.63,
+      "balance": 144612.91
+    },
+    {
+      "date": "12/07/2025",
+      "raw_date": "2025-07-12",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN28311107",
+      "debit": 32669.23,
+      "credit": 0.0,
+      "balance": 111943.68
+    },
+    {
+      "date": "14-Jul-2025",
+      "raw_date": "2025-07-14",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN81458772",
+      "debit": 23848.71,
+      "credit": 0.0,
+      "balance": 88094.97
+    },
+    {
+      "date": "15-Jul-2025",
+      "raw_date": "2025-07-15",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN10978481",
+      "debit": 0.0,
+      "credit": 7061.35,
+      "balance": 95156.32
+    }
+  ],
+  "is_tampered": true,
+  "tamper_types": [
+    "balance_mismatch: closing balance altered"
+  ]
+}

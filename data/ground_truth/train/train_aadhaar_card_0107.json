@@ -1,0 +1,11 @@
+{
+  "document_id": "train_aadhaar_card_0107",
+  "document_type": "aadhaar_card",
+  "full_name": "Meghana Maharaj",
+  "gender": "Male",
+  "dob": "2001-02-17",
+  "aadhaar_number": "7888 2928 5631",
+  "address": "53/39, Devan Road, Thane 709521",
+  "is_tampered": false,
+  "tamper_types": []
+}

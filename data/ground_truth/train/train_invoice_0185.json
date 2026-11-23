@@ -1,0 +1,50 @@
+{
+  "document_id": "train_invoice_0185",
+  "document_type": "invoice",
+  "vendor_name": "Vortex Tech Solutions Pvt Ltd",
+  "vendor_gstin": "07AAAAA1234A1Z5",
+  "vendor_category": "IT & Cloud Services",
+  "client_name": "Khurana-Shukla",
+  "client_gstin": "07DSYNA1473P2K1",
+  "invoice_number": "INV-2025-1139",
+  "invoice_date": "2025-02-01",
+  "due_date": "2025-03-03",
+  "line_items": [
+    {
+      "description": "Software License Subscription",
+      "quantity": 2,
+      "unit_price": 12000.0,
+      "total": 24000.0
+    },
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 3,
+      "unit_price": 6200.0,
+      "total": 18600.0
+    },
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 3,
+      "unit_price": 4500.0,
+      "total": 13500.0
+    },
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 2,
+      "unit_price": 8500.0,
+      "total": 17000.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 1,
+      "unit_price": 25000.0,
+      "total": 25000.0
+    }
+  ],
+  "subtotal": 98100.0,
+  "tax_amount": 17658.0,
+  "tax_rate": "18%",
+  "grand_total": 115758.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

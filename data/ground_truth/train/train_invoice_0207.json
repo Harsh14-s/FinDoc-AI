@@ -1,0 +1,50 @@
+{
+  "document_id": "train_invoice_0207",
+  "document_type": "invoice",
+  "vendor_name": "Apex Logistics & Supply Chain Ltd",
+  "vendor_gstin": "27BBBBB5678B1Z2",
+  "vendor_category": "Freight & Warehousing",
+  "client_name": "Tandon-Grewal",
+  "client_gstin": "07GVSDP4004I9H9",
+  "invoice_number": "INV-2025-2915",
+  "invoice_date": "2025-05-01",
+  "due_date": "2025-05-31",
+  "line_items": [
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 1,
+      "unit_price": 8500.0,
+      "total": 8500.0
+    },
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 5,
+      "unit_price": 3500.0,
+      "total": 17500.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 2,
+      "unit_price": 25000.0,
+      "total": 50000.0
+    },
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 5,
+      "unit_price": 4500.0,
+      "total": 22500.0
+    },
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 5,
+      "unit_price": 7500.0,
+      "total": 37500.0
+    }
+  ],
+  "subtotal": 136000.0,
+  "tax_amount": 24480.0,
+  "tax_rate": "18%",
+  "grand_total": 160480.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

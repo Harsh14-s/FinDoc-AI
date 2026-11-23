@@ -1,0 +1,32 @@
+{
+  "document_id": "train_invoice_0077",
+  "document_type": "invoice",
+  "vendor_name": "BlueSky Office Supplies Pvt Ltd",
+  "vendor_gstin": "09DDDDD3456D1Z1",
+  "vendor_category": "Office Equipment",
+  "client_name": "Modi, Chada and Kothari",
+  "client_gstin": "07OXHYC1869C9T9",
+  "invoice_number": "INV-2025-8997",
+  "invoice_date": "2025-06-19",
+  "due_date": "2025-07-19",
+  "line_items": [
+    {
+      "description": "Software License Subscription",
+      "quantity": 4,
+      "unit_price": 12000.0,
+      "total": 48000.0
+    },
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 3,
+      "unit_price": 7500.0,
+      "total": 22500.0
+    }
+  ],
+  "subtotal": 70500.0,
+  "tax_amount": 12690.0,
+  "tax_rate": "18%",
+  "grand_total": 83190.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

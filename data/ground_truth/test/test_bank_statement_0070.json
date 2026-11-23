@@ -1,0 +1,136 @@
+{
+  "document_id": "test_bank_statement_0070",
+  "document_type": "bank_statement",
+  "bank_name": "Metro Alliance Bank",
+  "branch": "Sector 62, Noida",
+  "ifsc": "METR0648055",
+  "account_holder": "Tanveer Baral",
+  "account_number": "55935111141",
+  "period_start": "2025-06-01",
+  "period_end": "2025-06-30",
+  "opening_balance": 110991.29,
+  "closing_balance": 120398.52,
+  "total_deposits": 84054.79,
+  "total_withdrawals": 74647.56,
+  "transactions": [
+    {
+      "date": "2025-06-02",
+      "raw_date": "2025-06-02",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN38885391",
+      "debit": 0.0,
+      "credit": 5387.52,
+      "balance": 116378.81
+    },
+    {
+      "date": "03/06/2025",
+      "raw_date": "2025-06-03",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN93525402",
+      "debit": 4932.98,
+      "credit": 0.0,
+      "balance": 111445.83
+    },
+    {
+      "date": "04/06/2025",
+      "raw_date": "2025-06-04",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN31920355",
+      "debit": 0.0,
+      "credit": 13671.49,
+      "balance": 125117.32
+    },
+    {
+      "date": "06-Jun-2025",
+      "raw_date": "2025-06-06",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN29225877",
+      "debit": 23840.14,
+      "credit": 0.0,
+      "balance": 101277.18
+    },
+    {
+      "date": "07-Jun-2025",
+      "raw_date": "2025-06-07",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN94975906",
+      "debit": 9794.29,
+      "credit": 0.0,
+      "balance": 91482.89
+    },
+    {
+      "date": "08-Jun-2025",
+      "raw_date": "2025-06-08",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN96942366",
+      "debit": 0.0,
+      "credit": 19945.65,
+      "balance": 111428.54
+    },
+    {
+      "date": "09/06/2025",
+      "raw_date": "2025-06-09",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN68200448",
+      "debit": 11414.43,
+      "credit": 0.0,
+      "balance": 100014.11
+    },
+    {
+      "date": "2025-06-10",
+      "raw_date": "2025-06-10",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN81332718",
+      "debit": 0.0,
+      "credit": 9819.32,
+      "balance": 109833.43
+    },
+    {
+      "date": "12/06/2025",
+      "raw_date": "2025-06-12",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN54763940",
+      "debit": 0.0,
+      "credit": 3569.61,
+      "balance": 113403.04
+    },
+    {
+      "date": "13/06/2025",
+      "raw_date": "2025-06-13",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN39826611",
+      "debit": 0.0,
+      "credit": 3879.17,
+      "balance": 117282.21
+    },
+    {
+      "date": "14-Jun-2025",
+      "raw_date": "2025-06-14",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN51144384",
+      "debit": 0.0,
+      "credit": 25627.3,
+      "balance": 142909.51
+    },
+    {
+      "date": "16-Jun-2025",
+      "raw_date": "2025-06-16",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN47848959",
+      "debit": 24665.72,
+      "credit": 0.0,
+      "balance": 118243.79
+    },
+    {
+      "date": "18/06/2025",
+      "raw_date": "2025-06-18",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN52680752",
+      "debit": 0.0,
+      "credit": 2154.73,
+      "balance": 120398.52
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

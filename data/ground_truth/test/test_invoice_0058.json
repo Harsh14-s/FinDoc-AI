@@ -1,0 +1,38 @@
+{
+  "document_id": "test_invoice_0058",
+  "document_type": "invoice",
+  "vendor_name": "BlueSky Office Supplies Pvt Ltd",
+  "vendor_gstin": "09DDDDD3456D1Z1",
+  "vendor_category": "Office Equipment",
+  "client_name": "Loke-Varkey",
+  "client_gstin": "07SIPJT1260U4P2",
+  "invoice_number": "INV-2025-8786",
+  "invoice_date": "2025-09-14",
+  "due_date": "2025-10-14",
+  "line_items": [
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 1,
+      "unit_price": 4500.0,
+      "total": 4500.0
+    },
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 3,
+      "unit_price": 7500.0,
+      "total": 22500.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 1,
+      "unit_price": 25000.0,
+      "total": 25000.0
+    }
+  ],
+  "subtotal": 52000.0,
+  "tax_amount": 9360.0,
+  "tax_rate": "18%",
+  "grand_total": 61360.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

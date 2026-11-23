@@ -1,0 +1,713 @@
+BENNETT UNIVERSITY
+
+School of Computer Science Engineering and Technology
+
+CAPSTONE PROJECT – EVALUATION 1
+
+FinDocAI
+
+Intelligent Financial Document Extraction, Validation and Risk Insights
+
+CSET400C – Capstone ProjectMilestone-1: Project Proposal, Requirements & Feasibility
+
+Submitted by
+
+Harsh Shukla (E23CSEU0003)
+
+Akshita Singh (E23CSEU0030)
+
+Group ID
+
+G382
+
+Academic Session
+
+2026–27
+
+Date
+
+14 October 2026
+
+Table of Contents
+
+FinDocAI: Intelligent Financial Document Extraction, Validation and Risk Insights
+
+1. Problem Definition and Motivation
+
+1.1 Problem Statement
+
+Financial institutions and businesses handle large volumes of financial documents, including bank statements, income statements, balance sheets, invoices, and KYC documents. Extracting and analyzing information from these documents manually is time-consuming, error-prone, and difficult to scale.
+
+Documents often contain unstructured data in different layouts and formats. This makes it challenging to standardize information, verify calculations, identify inconsistencies, and detect unusual transactions that may require further investigation.
+
+Therefore, there is a need for an intelligent financial document processing system that can extract relevant information from documents, convert it into a structured format, validate the extracted data, and generate useful insights to support financial analysis and preliminary risk assessment.
+
+1.2 Motivation
+
+The motivation behind this project is to reduce the effort required for manual financial document processing and improve the reliability and accessibility of financial information.
+
+The proposed system aims to:
+
+Automate repetitive data extraction tasks.
+
+Reduce manual data-entry errors.
+
+Validate financial information using predefined rules.
+
+Highlight inconsistencies and potentially unusual transactions.
+
+Present extracted information in a clear, structured format.
+
+Help analysts make faster, better-informed decisions.
+
+1.3 Aim
+
+To design and develop a centralized system that processes financial documents, extracts structured information, validates the extracted data, and generates preliminary financial insights and risk indicators.
+
+1.4 Objectives
+
+Accept financial documents in formats such as PDF and scanned images.
+
+Extract relevant financial fields using document parsing and OCR.
+
+Convert extracted information into structured tables or JSON.
+
+Validate data using predefined financial rules and consistency checks.
+
+Flag missing fields, calculation mismatches, and potentially unusual transactions.
+
+Provide a dashboard or report for reviewing extracted data and flagged items.
+
+Evaluate the system using extraction accuracy, validation performance, processing time, and error rates.
+
+2. Sustainable Development Goals (SDG) Alignment
+
+The project can be connected to the United Nations Sustainable Development Goals.
+
+SDG Goal
+
+Project Contribution
+
+SDG 9: Industry, Innovation and Infrastructure
+
+Encourages digital transformation and improved technological infrastructure for financial document processing.
+
+SDG 8: Decent Work and Economic Growth
+
+May improve operational productivity and support more efficient financial analysis and business processes.
+
+Primary SDG: SDG 9. The system uses digital technologies to improve the processing of financial information.
+
+Secondary SDG: SDG 8. By reducing repetitive manual work, the system may help organizations use their resources more efficiently.
+
+Note: These are indirect contributions. The project does not independently establish that it improves economic growth or financial inclusion.
+
+3. Background and Context
+
+3.1 Existing Process
+
+A typical manual financial document workflow involves:
+
+Receiving financial documents.
+
+Opening each document and locating relevant information.
+
+Manually entering figures into spreadsheets or databases.
+
+Checking totals, balances, and required fields.
+
+Identifying inconsistencies or unusual values.
+
+Preparing reports for financial review.
+
+This workflow can become inefficient when organizations process large numbers of documents with different layouts and data formats.
+
+3.2 Why Automation Is Needed
+
+Automation can make the workflow more consistent and easier to scale. However, simply extracting text is not sufficient. A useful system must also preserve the meaning of extracted fields, validate their values, and allow users to review uncertain results.
+
+For example, extracting a bank statement's transaction amount without correctly identifying its debit or credit column may produce misleading information. Therefore, extraction must be followed by validation and human review where necessary.
+
+4. Literature Review and Existing Solutions
+
+Several commercial tools and research approaches address parts of the financial document processing problem.
+
+4.1 Existing Tools
+
+Tool
+
+Description
+
+Amazon Textract
+
+Extracts text, tables, forms, and other structured information from documents. It can support the document extraction stage, but application-specific financial validation and risk rules still need to be designed.
+
+Google Cloud Document AI
+
+Provides document-processing capabilities, including OCR and specialized document processing. Integration, configuration, and validation are needed to meet a particular project's requirements.
+
+Azure AI Document Intelligence
+
+Supports text, layout, tables, and document-field extraction. Financial consistency checks and customized risk indicators remain application-level responsibilities.
+
+Open-source OCR and parsing tools
+
+Tools such as Tesseract, PyMuPDF, and pdfplumber can be used to build a more customizable processing pipeline. Results may vary with scan quality, document layout, and extraction method.
+
+4.2 Research Direction
+
+Document-understanding research, including the LayoutLM family of models, explores combining text with layout information to understand complex documents more effectively. This is relevant to financial documents because field meaning often depends on where information appears on a page.
+
+The NIST AI Risk Management Framework also provides useful guidance for thinking about reliability, risk, transparency, and human oversight in AI-enabled systems.
+
+4.3 Comparison of Existing Approaches
+
+Approach
+
+Advantages
+
+Limitations for this Project
+
+Manual processing
+
+Human judgment; adaptable to different documents
+
+Slow, repetitive, and prone to entry errors
+
+Rule-based parsing
+
+Transparent and easy to validate for known formats
+
+Sensitive to layout changes and inconsistent formatting
+
+OCR-based extraction
+
+Can process scanned documents
+
+OCR errors can affect downstream calculations
+
+Cloud document AI
+
+Advanced extraction capabilities and managed infrastructure
+
+May involve cost, configuration, data privacy, and vendor dependencies
+
+Proposed FinDocAI
+
+Integrates extraction, validation, flags, and review in one workflow
+
+Accuracy and usefulness must be demonstrated through testing
+
+4.4 Research Gap
+
+The project focuses on the integration gap between extracting data from financial documents and turning that data into information that can be reviewed and acted upon.
+
+The proposed system aims to bring together:
+
+Document ingestion and extraction.
+
+Standardized structured output.
+
+Financial consistency checks.
+
+Preliminary anomaly indicators.
+
+Human review and correction.
+
+A consolidated view of results.
+
+Important: This is the project's proposed gap, not a claim that existing commercial products lack all these capabilities. A stronger academic claim would require a more comprehensive literature review and direct comparison against selected tools.
+
+5. Stakeholder and Requirements Analysis
+
+5.1 Stakeholders
+
+Stakeholder
+
+Role or Requirement
+
+Financial analysts
+
+Review extracted figures and identify discrepancies
+
+Accountants
+
+Verify financial records and calculations
+
+Risk analysts
+
+Investigate flagged transactions or inconsistencies
+
+Business administrators
+
+Monitor document processing and reporting
+
+System administrators
+
+Manage access, storage, and system reliability
+
+Customers or document owners
+
+Expect confidential and accurate handling of their information
+
+5.2 Functional Requirements
+
+The system should:
+
+Upload and accept supported financial documents.
+
+Extract text, tables, and relevant financial fields.
+
+Normalize extracted information into a consistent schema.
+
+Validate required fields and numeric values.
+
+Check predefined relationships, such as arithmetic consistency where applicable.
+
+Flag unusual values using explainable, predefined rules.
+
+Display extraction results and validation warnings.
+
+Allow users to review and correct extracted fields.
+
+Export validated information and processing results.
+
+Maintain processing status and error information.
+
+5.3 Non-Functional Requirements
+
+Accuracy: Extraction and validation should be evaluated against verified reference data.
+
+Performance: Documents should be processed within a practical time.
+
+Security: Financial documents must be protected from unauthorized access.
+
+Privacy: Sensitive information should be minimized, protected, and retained only as necessary.
+
+Usability: Results and warnings should be easy to understand.
+
+Reliability: Invalid files and processing failures should be handled gracefully.
+
+Maintainability: Rules and supported document types should be easy to update.
+
+Explainability: Each warning should state why the item was flagged.
+
+6. Proposed Solution
+
+6.1 Overview
+
+FinDocAI is proposed as a document-processing application that converts financial documents into structured information and highlights items requiring further review.
+
+The system will not automatically make final lending, fraud, or credit decisions. It will provide preliminary information and indicators for human assessment.
+
+6.2 Proposed Architecture
+
+1
+
+Document Upload
+
+PDFs, scanned images, supported financial documents
+
+2
+
+Text and Table Extraction
+
+PDF parsing or OCR for scanned documents
+
+3
+
+Data Structuring and Normalization
+
+Standardized fields, dates, currencies, and transactions
+
+4
+
+Validation and Rule-Based Flagging
+
+Missing fields, calculation checks, and unusual-value indicators
+
+5
+
+Dashboard and Export
+
+Structured results, warnings, corrections, and downloadable reports
+
+6.3 Processing Workflow
+
+Step 1:	Upload. The user uploads a supported financial document.
+
+Step 2:	Identify the document. The system identifies the file type and selects the appropriate parsing or OCR method.
+
+Step 3:	Extract information. Relevant fields and tables are extracted from the document.
+
+Step 4:	Standardize. Values are converted into a common format, such as standardized dates and numeric amounts.
+
+Step 5:	Validate. The system checks required fields, data types, arithmetic relationships, and other predefined rules.
+
+Step 6:	Flag. Potentially unusual transactions or inconsistencies are highlighted with reasons.
+
+Step 7:	Review and export. Users review flagged records, correct errors where necessary, and export the results.
+
+6.4 Example Use Case
+
+Suppose a bank statement contains a transaction table with dates, descriptions, debits, credits, and balances.
+
+FinDocAI would attempt to extract these fields and convert them into structured records. It could then check whether the fields are present, whether the amounts are numeric, and whether the running balance agrees with the previous balance and transaction amounts under the applicable statement conventions.
+
+If a discrepancy is found, the system would flag it for review rather than automatically concluding that fraud has occurred.
+
+7. Technology and Tool Selection
+
+The following stack is a feasible starting point for a student project. The final selection can change after implementation planning.
+
+Component
+
+Proposed Technology
+
+Purpose
+
+Programming language
+
+Python
+
+Main processing logic
+
+PDF extraction
+
+PyMuPDF or pdfplumber
+
+Extract text and tables from digital PDFs
+
+OCR
+
+Tesseract OCR or a managed OCR service
+
+Extract text from scanned documents
+
+Data processing
+
+pandas
+
+Clean, transform, and validate tabular data
+
+Backend
+
+Python functions or FastAPI
+
+Organize processing and expose application endpoints
+
+User interface
+
+Streamlit
+
+Build an upload and results dashboard
+
+Storage
+
+SQLite initially
+
+Store metadata and processing results for a prototype
+
+Testing
+
+pytest
+
+Test extraction and validation logic
+
+Version control
+
+Git and GitHub
+
+Track code changes and collaborate
+
+Selection rationale: Python has a practical ecosystem for document parsing, data processing, and rapid prototyping. Streamlit can help deliver a working demonstration without requiring a complex frontend.
+
+The choice between local OCR and cloud services should consider cost, accuracy, document complexity, and data privacy.
+
+8. Feasibility Analysis
+
+8.1 Technical Feasibility
+
+The project is technically feasible as a prototype because PDF extraction, OCR, tabular data processing, validation, and dashboard development can be implemented using available tools.
+
+The main technical challenges are inconsistent layouts, low-quality scans, table interpretation, and ambiguous financial fields.
+
+8.2 Economic Feasibility
+
+An initial prototype can be developed using open-source software and local storage, minimizing software costs. Hardware, hosting, cloud OCR usage, and ongoing maintenance may introduce additional expenses.
+
+Actual costs should be estimated once the document volume and deployment method are known.
+
+8.3 Operational Feasibility
+
+The system can be designed for financial analysts or accountants who need to review extracted information. A straightforward interface and understandable warning messages will be important for adoption.
+
+8.4 Legal and Ethical Feasibility
+
+Financial documents can contain personal and confidential information. The system should use appropriate access controls, secure storage, limited data retention, and authorized test documents.
+
+Risk indicators must not be presented as definitive evidence of fraud or misconduct. Human review should remain part of the process.
+
+8.5 Feasibility Conclusion
+
+A limited prototype that supports a defined set of financial document types is feasible for a student capstone. Supporting every financial document format and guaranteeing perfect extraction accuracy would be outside the realistic initial scope.
+
+9. Scope and Limitations
+
+9.1 Project Scope
+
+The initial prototype will aim to support:
+
+PDF and scanned-image inputs.
+
+A selected set of bank statement and financial document formats.
+
+Extraction of agreed-upon financial fields.
+
+Structured data output.
+
+Predefined validation rules.
+
+Explainable warning flags.
+
+A simple dashboard and export facility.
+
+9.2 Out of Scope
+
+The initial version will not attempt to:
+
+Replace a complete banking or accounting system.
+
+Make autonomous credit approval or rejection decisions.
+
+Prove that a transaction is fraudulent based solely on a flag.
+
+Support every document layout or language.
+
+Guarantee perfect extraction from poor-quality scans.
+
+Provide a legally binding financial or audit opinion.
+
+9.3 Limitations
+
+The system's output depends on document quality, layout consistency, OCR performance, and the quality of validation rules. An unusual transaction may be legitimate, while a rule-based system may fail to identify a genuinely suspicious transaction.
+
+These limitations make confidence indicators, reviewable evidence, and human oversight important.
+
+10. Risk Analysis and Mitigation
+
+Risk
+
+Impact
+
+Proposed Mitigation
+
+Incorrect OCR output
+
+Incorrect financial figures
+
+Validate formats and totals; allow human correction
+
+Inconsistent layouts
+
+Missing or misplaced fields
+
+Begin with selected document types and test different layouts
+
+False-positive flags
+
+Legitimate transactions require unnecessary review
+
+Explain each rule and tune thresholds using test data
+
+False-negative flags
+
+Some issues may not be identified
+
+State the limits of the checks and evaluate against labelled examples
+
+Sensitive data exposure
+
+Privacy and security concerns
+
+Use authorized data, access controls, and secure storage
+
+Limited training or test data
+
+Weak evaluation
+
+Prepare a small, documented test set with verified reference values
+
+Processing failures
+
+Incomplete results
+
+Add error handling, status reporting, and logging without exposing sensitive data
+
+Scope expansion
+
+Project delays
+
+Prioritize a working end-to-end prototype before adding advanced features
+
+11. Methodology and Implementation Plan
+
+The project can follow an iterative development methodology.
+
+Requirement analysis: Finalize supported document types, fields, rules, users, and expected outputs.
+
+Dataset preparation: Collect authorized sample documents or create synthetic examples with known values.
+
+Document extraction: Implement PDF parsing and OCR fallback for scanned documents.
+
+Data standardization: Convert extracted information into a consistent schema.
+
+Validation engine: Implement missing-field checks, type checks, arithmetic consistency rules, and configurable flags.
+
+Dashboard development: Display extracted fields, validation outcomes, and warnings.
+
+Testing and evaluation: Compare output against verified reference values, record failures, and improve the pipeline.
+
+Documentation and demonstration: Document limitations, results, architecture, and future improvements.
+
+Suggested Development Phases
+
+Phase
+
+Main Activities
+
+Phase 1
+
+Requirements, literature review, and dataset planning
+
+Phase 2
+
+PDF/OCR extraction and structured output
+
+Phase 3
+
+Validation rules and warning generation
+
+Phase 4
+
+Dashboard, export, and error handling
+
+Phase 5
+
+Testing, evaluation, documentation, and presentation
+
+The exact duration can be assigned once your capstone deadline and team availability are confirmed.
+
+12. Evaluation Plan and Expected Outcomes
+
+12.1 Evaluation Metrics
+
+The project should be evaluated using measurable criteria rather than claiming success without testing.
+
+Metric
+
+What It Measures
+
+Field-level extraction accuracy
+
+Percentage of extracted fields matching verified reference values
+
+Document processing success rate
+
+Percentage of supported documents processed successfully
+
+Validation accuracy
+
+Whether implemented checks correctly identify known inconsistencies
+
+Precision and recall of flags
+
+How effectively flagged cases match labelled test cases, where suitable labels exist
+
+Processing time
+
+Time required to process a document
+
+Failure rate
+
+Frequency of failed or incomplete processing
+
+Reviewability
+
+Whether users can understand and verify extracted values and warnings
+
+For field-level accuracy, a possible calculation is:
+
+Accuracy (%) = (Correctly extracted fields ÷ Total reference fields) × 100
+
+Precision and recall are appropriate only when reliable labels exist for the cases being flagged.
+
+12.2 Expected Outcomes
+
+The expected deliverables are:
+
+A prototype for uploading supported financial documents.
+
+A structured representation of extracted financial information.
+
+A validation engine with documented rules.
+
+A dashboard for reviewing results and warnings.
+
+An exportable report.
+
+A test dataset and evaluation summary.
+
+Technical documentation and a demonstration.
+
+Note: These are expected outcomes, not completed results. Actual accuracy and processing time must be measured during implementation.
+
+13. Future Enhancements
+
+Possible extensions include:
+
+Support for additional financial document types.
+
+More advanced document-layout understanding.
+
+Confidence scores for extracted fields.
+
+Cross-document reconciliation between bank statements, invoices, and financial statements.
+
+Configurable anomaly detection based on statistical methods.
+
+Role-based access control and audit trails.
+
+Integration with accounting or enterprise systems.
+
+Human feedback to improve extraction and validation rules.
+
+Advanced machine learning should be introduced only if the initial rule-based prototype and available data justify it.
+
+14. Conclusion
+
+FinDocAI proposes an integrated approach to financial document processing by combining document extraction, data standardization, validation, and preliminary risk indicators in a single workflow.
+
+The main contribution is the proposed connection between extracting information and making it reviewable and useful for financial analysis. By focusing on a defined set of document types, measurable evaluation criteria, data privacy, and human oversight, the project can deliver a feasible student prototype while identifying opportunities for future improvement.
+
+The system is intended to support financial professionals rather than replace their judgment.
+
+15. References
+
+Use these as the starting references for the literature review and technology selection.
+
+United Nations. The 17 Sustainable Development Goals. https://www.un.org/sustainabledevelopment/development-goals/
+
+United Nations. Goal 8: Decent Work and Economic Growth. https://sdgs.un.org/goals/goal8
+
+United Nations. Goal 9: Industry, Innovation and Infrastructure. https://sdgs.un.org/goals/goal9
+
+National Institute of Standards and Technology. Artificial Intelligence Risk Management Framework (AI RMF 1.0). https://doi.org/10.6028/NIST.AI.100-1
+
+Amazon Web Services. Amazon Textract Documentation. https://docs.aws.amazon.com/textract/
+
+Google Cloud. Document AI Documentation. https://cloud.google.com/document-ai/docs
+
+Microsoft. Azure AI Document Intelligence Documentation. https://learn.microsoft.com/azure/ai-services/document-intelligence/
+
+Huang, Y. et al. LayoutLMv3: Pre-training for Document AI with Unified Text and Image Masking. ACM Multimedia, 2022. https://doi.org/10.1145/3503161.3548112

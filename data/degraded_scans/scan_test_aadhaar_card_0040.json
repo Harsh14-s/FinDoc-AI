@@ -1,0 +1,13 @@
+{
+  "document_id": "test_aadhaar_card_0040",
+  "document_type": "aadhaar_card",
+  "full_name": "Hemani Bakshi",
+  "gender": "Female",
+  "dob": "1994-06-14",
+  "aadhaar_number": "9999 ABCD 476",
+  "address": "H.No. 254, Shah Path, Saharsa-571775",
+  "is_tampered": true,
+  "tamper_types": [
+    "invalid_aadhaar_format: Aadhaar contains alphabets and incorrect length"
+  ]
+}

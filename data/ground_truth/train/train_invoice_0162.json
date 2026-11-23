@@ -1,0 +1,46 @@
+{
+  "document_id": "train_invoice_0162",
+  "document_type": "invoice",
+  "vendor_name": "Apex Logistics & Supply Chain Ltd",
+  "vendor_gstin": "INVALID#GST#999",
+  "vendor_category": "Freight & Warehousing",
+  "client_name": "Babu-Parikh",
+  "client_gstin": "07ICWIV1531P9L5",
+  "invoice_number": "INV-2025-8450",
+  "invoice_date": "2025-02-09",
+  "due_date": "2025-03-11",
+  "line_items": [
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 1,
+      "unit_price": 25000.0,
+      "total": 25000.0
+    },
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 1,
+      "unit_price": 7500.0,
+      "total": 7500.0
+    },
+    {
+      "description": "Network Security Audit & Patching",
+      "quantity": 4,
+      "unit_price": 18000.0,
+      "total": 72000.0
+    },
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 3,
+      "unit_price": 4500.0,
+      "total": 13500.0
+    }
+  ],
+  "subtotal": 118000.0,
+  "tax_amount": 21240.0,
+  "tax_rate": "18%",
+  "grand_total": 139240.0,
+  "is_tampered": true,
+  "tamper_types": [
+    "invalid_gstin: vendor GSTIN violates 15-character standard pattern"
+  ]
+}

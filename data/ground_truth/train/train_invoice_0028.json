@@ -1,0 +1,46 @@
+{
+  "document_id": "train_invoice_0028",
+  "document_type": "invoice",
+  "vendor_name": "BlueSky Office Supplies Pvt Ltd",
+  "vendor_gstin": "INVALID#GST#999",
+  "vendor_category": "Office Equipment",
+  "client_name": "Chaudhry-Borah",
+  "client_gstin": "07EPXSK8384C2I5",
+  "invoice_number": "INV-2025-4869",
+  "invoice_date": "2025-06-04",
+  "due_date": "2025-07-04",
+  "line_items": [
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 2,
+      "unit_price": 7500.0,
+      "total": 15000.0
+    },
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 1,
+      "unit_price": 4500.0,
+      "total": 4500.0
+    },
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 4,
+      "unit_price": 8500.0,
+      "total": 34000.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 1,
+      "unit_price": 25000.0,
+      "total": 25000.0
+    }
+  ],
+  "subtotal": 78500.0,
+  "tax_amount": 14130.0,
+  "tax_rate": "18%",
+  "grand_total": 92630.0,
+  "is_tampered": true,
+  "tamper_types": [
+    "invalid_gstin: vendor GSTIN violates 15-character standard pattern"
+  ]
+}

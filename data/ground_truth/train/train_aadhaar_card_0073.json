@@ -1,0 +1,11 @@
+{
+  "document_id": "train_aadhaar_card_0073",
+  "document_type": "aadhaar_card",
+  "full_name": "Veda Malhotra",
+  "gender": "Female",
+  "dob": "1977-11-05",
+  "aadhaar_number": "4565 2931 4908",
+  "address": "H.No. 24, Walla Nagar, Panipat 084271",
+  "is_tampered": false,
+  "tamper_types": []
+}

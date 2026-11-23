@@ -1,0 +1,11 @@
+{
+  "document_id": "test_aadhaar_card_0087",
+  "document_type": "aadhaar_card",
+  "full_name": "Wazir Saini",
+  "gender": "Female",
+  "dob": "1976-10-26",
+  "aadhaar_number": "5963 1748 1787",
+  "address": "H.No. 386, Shanker Path, Amaravati 826199",
+  "is_tampered": false,
+  "tamper_types": []
+}

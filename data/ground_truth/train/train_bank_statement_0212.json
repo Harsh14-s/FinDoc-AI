@@ -1,0 +1,109 @@
+{
+  "document_id": "train_bank_statement_0212",
+  "document_type": "bank_statement",
+  "bank_name": "Beacon Cooperative Urban Bank",
+  "branch": "MG Road, Bengaluru",
+  "ifsc": "BCOB0333159",
+  "account_holder": "Yutika Narang",
+  "account_number": "26383471051",
+  "period_start": "2025-03-01",
+  "period_end": "2025-03-30",
+  "opening_balance": 111005.89,
+  "closing_balance": 55954.07,
+  "total_deposits": 36076.52,
+  "total_withdrawals": 91128.34,
+  "transactions": [
+    {
+      "date": "2025-03-02",
+      "raw_date": "2025-03-02",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN24995099",
+      "debit": 0.0,
+      "credit": 3211.87,
+      "balance": 114217.76
+    },
+    {
+      "date": "2025-03-03",
+      "raw_date": "2025-03-03",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN24471004",
+      "debit": 1966.83,
+      "credit": 0.0,
+      "balance": 112250.93
+    },
+    {
+      "date": "04/03/2025",
+      "raw_date": "2025-03-04",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN18891570",
+      "debit": 0.0,
+      "credit": 9228.93,
+      "balance": 121479.86
+    },
+    {
+      "date": "05-Mar-2025",
+      "raw_date": "2025-03-05",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN37568480",
+      "debit": 32243.38,
+      "credit": 0.0,
+      "balance": 89236.48
+    },
+    {
+      "date": "2025-03-06",
+      "raw_date": "2025-03-06",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN13927092",
+      "debit": 0.0,
+      "credit": 23635.72,
+      "balance": 112872.2
+    },
+    {
+      "date": "07-Mar-2025",
+      "raw_date": "2025-03-07",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN31549640",
+      "debit": 12500.36,
+      "credit": 0.0,
+      "balance": 100371.84
+    },
+    {
+      "date": "2025-03-08",
+      "raw_date": "2025-03-08",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN87595788",
+      "debit": 3919.15,
+      "credit": 0.0,
+      "balance": 96452.69
+    },
+    {
+      "date": "2025-03-09",
+      "raw_date": "2025-03-09",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN82091897",
+      "debit": 6426.18,
+      "credit": 0.0,
+      "balance": 90026.51
+    },
+    {
+      "date": "10/03/2025",
+      "raw_date": "2025-03-10",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN73715236",
+      "debit": 29869.74,
+      "credit": 0.0,
+      "balance": 60156.77
+    },
+    {
+      "date": "11/03/2025",
+      "raw_date": "2025-03-11",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN57623448",
+      "debit": 4202.7,
+      "credit": 0.0,
+      "balance": 55954.07
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

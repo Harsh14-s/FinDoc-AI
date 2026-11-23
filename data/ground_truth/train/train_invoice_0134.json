@@ -1,0 +1,40 @@
+{
+  "document_id": "train_invoice_0134",
+  "document_type": "invoice",
+  "vendor_name": "Vortex Tech Solutions Pvt Ltd",
+  "vendor_gstin": "INVALID#GST#999",
+  "vendor_category": "IT & Cloud Services",
+  "client_name": "Kohli Group",
+  "client_gstin": "07VVOVX9681K6E4",
+  "invoice_number": "INV-2025-4766",
+  "invoice_date": "2025-07-13",
+  "due_date": "2025-08-12",
+  "line_items": [
+    {
+      "description": "Software License Subscription",
+      "quantity": 5,
+      "unit_price": 12000.0,
+      "total": 60000.0
+    },
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 5,
+      "unit_price": 4500.0,
+      "total": 22500.0
+    },
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 4,
+      "unit_price": 3500.0,
+      "total": 14000.0
+    }
+  ],
+  "subtotal": 96500.0,
+  "tax_amount": 17370.0,
+  "tax_rate": "18%",
+  "grand_total": 113870.0,
+  "is_tampered": true,
+  "tamper_types": [
+    "invalid_gstin: vendor GSTIN violates 15-character standard pattern"
+  ]
+}

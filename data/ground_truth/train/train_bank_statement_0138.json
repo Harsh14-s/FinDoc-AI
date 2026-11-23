@@ -1,0 +1,100 @@
+{
+  "document_id": "train_bank_statement_0138",
+  "document_type": "bank_statement",
+  "bank_name": "Metro Alliance Bank",
+  "branch": "Sector 62, Noida",
+  "ifsc": "METR0170835",
+  "account_holder": "Ekantika Mutti",
+  "account_number": "44859106926",
+  "period_start": "2025-07-01",
+  "period_end": "2025-07-30",
+  "opening_balance": 109614.12,
+  "closing_balance": 92343.36,
+  "total_deposits": 69087.57,
+  "total_withdrawals": 86358.33,
+  "transactions": [
+    {
+      "date": "03-Jul-2025",
+      "raw_date": "2025-07-03",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN11305024",
+      "debit": 18319.4,
+      "credit": 0.0,
+      "balance": 91294.72
+    },
+    {
+      "date": "2025-07-05",
+      "raw_date": "2025-07-05",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN55901507",
+      "debit": 0.0,
+      "credit": 14263.11,
+      "balance": 105557.83
+    },
+    {
+      "date": "06/07/2025",
+      "raw_date": "2025-07-06",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN87002404",
+      "debit": 0.0,
+      "credit": 8040.53,
+      "balance": 113598.36
+    },
+    {
+      "date": "07/07/2025",
+      "raw_date": "2025-07-07",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN42488275",
+      "debit": 7388.5,
+      "credit": 0.0,
+      "balance": 106209.86
+    },
+    {
+      "date": "08/07/2025",
+      "raw_date": "2025-07-08",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN93026670",
+      "debit": 0.0,
+      "credit": 9114.49,
+      "balance": 115324.35
+    },
+    {
+      "date": "09/07/2025",
+      "raw_date": "2025-07-09",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN99043272",
+      "debit": 0.0,
+      "credit": 3207.82,
+      "balance": 118532.17
+    },
+    {
+      "date": "10-Jul-2025",
+      "raw_date": "2025-07-10",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN59821155",
+      "debit": 29756.37,
+      "credit": 0.0,
+      "balance": 88775.8
+    },
+    {
+      "date": "12/07/2025",
+      "raw_date": "2025-07-12",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN87110685",
+      "debit": 30894.06,
+      "credit": 0.0,
+      "balance": 57881.74
+    },
+    {
+      "date": "14/07/2025",
+      "raw_date": "2025-07-14",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN78603195",
+      "debit": 0.0,
+      "credit": 34461.62,
+      "balance": 92343.36
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

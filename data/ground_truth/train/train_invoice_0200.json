@@ -1,0 +1,38 @@
+{
+  "document_id": "train_invoice_0200",
+  "document_type": "invoice",
+  "vendor_name": "Vortex Tech Solutions Pvt Ltd",
+  "vendor_gstin": "07AAAAA1234A1Z5",
+  "vendor_category": "IT & Cloud Services",
+  "client_name": "Vora-Puri",
+  "client_gstin": "07WRXUR5278P5Z8",
+  "invoice_number": "INV-2025-4355",
+  "invoice_date": "2025-03-11",
+  "due_date": "2025-04-10",
+  "line_items": [
+    {
+      "description": "Software License Subscription",
+      "quantity": 5,
+      "unit_price": 12000.0,
+      "total": 60000.0
+    },
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 2,
+      "unit_price": 7500.0,
+      "total": 15000.0
+    },
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 2,
+      "unit_price": 8500.0,
+      "total": 17000.0
+    }
+  ],
+  "subtotal": 92000.0,
+  "tax_amount": 16560.0,
+  "tax_rate": "18%",
+  "grand_total": 108560.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

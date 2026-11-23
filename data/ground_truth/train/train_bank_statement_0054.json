@@ -1,0 +1,100 @@
+{
+  "document_id": "train_bank_statement_0054",
+  "document_type": "bank_statement",
+  "bank_name": "Apex National Bank",
+  "branch": "Connaught Place, New Delhi",
+  "ifsc": "APEX0133276",
+  "account_holder": "Sanaya Dutt",
+  "account_number": "78435044943",
+  "period_start": "2025-05-01",
+  "period_end": "2025-06-01",
+  "opening_balance": 47497.67,
+  "closing_balance": 140199.71,
+  "total_deposits": 146493.2,
+  "total_withdrawals": 53791.16,
+  "transactions": [
+    {
+      "date": "03/05/2025",
+      "raw_date": "2025-05-03",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN61335545",
+      "debit": 0.0,
+      "credit": 34753.55,
+      "balance": 82251.22
+    },
+    {
+      "date": "2025-05-05",
+      "raw_date": "2025-05-05",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN82383656",
+      "debit": 0.0,
+      "credit": 33762.98,
+      "balance": 116014.2
+    },
+    {
+      "date": "2025-05-07",
+      "raw_date": "2025-05-07",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN80980044",
+      "debit": 0.0,
+      "credit": 19035.42,
+      "balance": 135049.62
+    },
+    {
+      "date": "08/05/2025",
+      "raw_date": "2025-05-08",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN50045602",
+      "debit": 0.0,
+      "credit": 26588.19,
+      "balance": 161637.81
+    },
+    {
+      "date": "10/05/2025",
+      "raw_date": "2025-05-10",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN71824078",
+      "debit": 8423.41,
+      "credit": 0.0,
+      "balance": 153214.4
+    },
+    {
+      "date": "2025-05-11",
+      "raw_date": "2025-05-11",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN25145751",
+      "debit": 0.0,
+      "credit": 30694.68,
+      "balance": 183909.08
+    },
+    {
+      "date": "2025-05-13",
+      "raw_date": "2025-05-13",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN12099943",
+      "debit": 30989.6,
+      "credit": 0.0,
+      "balance": 152919.48
+    },
+    {
+      "date": "14-May-2025",
+      "raw_date": "2025-05-14",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN90233330",
+      "debit": 0.0,
+      "credit": 1658.38,
+      "balance": 154577.86
+    },
+    {
+      "date": "15-May-2025",
+      "raw_date": "2025-05-15",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN41452485",
+      "debit": 14378.15,
+      "credit": 0.0,
+      "balance": 140199.71
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

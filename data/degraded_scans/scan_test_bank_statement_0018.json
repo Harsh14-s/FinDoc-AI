@@ -1,0 +1,145 @@
+{
+  "document_id": "test_bank_statement_0018",
+  "document_type": "bank_statement",
+  "bank_name": "Apex National Bank",
+  "branch": "Connaught Place, New Delhi",
+  "ifsc": "APEX0560438",
+  "account_holder": "Krishna Soni",
+  "account_number": "39414491938",
+  "period_start": "2025-07-01",
+  "period_end": "2025-07-29",
+  "opening_balance": 55664.51,
+  "closing_balance": 164340.47,
+  "total_deposits": 177771.91,
+  "total_withdrawals": 69095.95,
+  "transactions": [
+    {
+      "date": "2025-07-03",
+      "raw_date": "2025-07-03",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN32986369",
+      "debit": 0.0,
+      "credit": 10393.16,
+      "balance": 66057.67
+    },
+    {
+      "date": "05/07/2025",
+      "raw_date": "2025-07-05",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN65701512",
+      "debit": 0.0,
+      "credit": 25174.39,
+      "balance": 91232.06
+    },
+    {
+      "date": "06/07/2025",
+      "raw_date": "2025-07-06",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN81088456",
+      "debit": 0.0,
+      "credit": 26485.62,
+      "balance": 117717.68
+    },
+    {
+      "date": "07/07/2025",
+      "raw_date": "2025-07-07",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN65486872",
+      "debit": 0.0,
+      "credit": 28161.02,
+      "balance": 145878.7
+    },
+    {
+      "date": "09/07/2025",
+      "raw_date": "2025-07-09",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN13994712",
+      "debit": 12981.22,
+      "credit": 0.0,
+      "balance": 132897.48
+    },
+    {
+      "date": "2025-07-10",
+      "raw_date": "2025-07-10",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN79437366",
+      "debit": 0.0,
+      "credit": 25258.09,
+      "balance": 158155.57
+    },
+    {
+      "date": "11/07/2025",
+      "raw_date": "2025-07-11",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN32055285",
+      "debit": 0.0,
+      "credit": 11360.76,
+      "balance": 169516.33
+    },
+    {
+      "date": "2025-07-12",
+      "raw_date": "2025-07-12",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN96096076",
+      "debit": 23276.08,
+      "credit": 0.0,
+      "balance": 146240.25
+    },
+    {
+      "date": "13/07/2025",
+      "raw_date": "2025-07-13",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN84304333",
+      "debit": 14966.03,
+      "credit": 0.0,
+      "balance": 131274.22
+    },
+    {
+      "date": "15-Jul-2025",
+      "raw_date": "2025-07-15",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN47551535",
+      "debit": 0.0,
+      "credit": 772.63,
+      "balance": 132046.85
+    },
+    {
+      "date": "16-Jul-2025",
+      "raw_date": "2025-07-16",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN83071525",
+      "debit": 7577.11,
+      "credit": 0.0,
+      "balance": 124469.74
+    },
+    {
+      "date": "18/07/2025",
+      "raw_date": "2025-07-18",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN97074691",
+      "debit": 0.0,
+      "credit": 31124.78,
+      "balance": 155594.52
+    },
+    {
+      "date": "19-Jul-2025",
+      "raw_date": "2025-07-19",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN62344046",
+      "debit": 0.0,
+      "credit": 19041.46,
+      "balance": 174635.98
+    },
+    {
+      "date": "20-Jul-2025",
+      "raw_date": "2025-07-20",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN22458031",
+      "debit": 10295.51,
+      "credit": 0.0,
+      "balance": 164340.47
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

@@ -1,0 +1,46 @@
+{
+  "document_id": "train_invoice_0194",
+  "document_type": "invoice",
+  "vendor_name": "Vortex Tech Solutions Pvt Ltd",
+  "vendor_gstin": "07AAAAA1234A1Z5",
+  "vendor_category": "IT & Cloud Services",
+  "client_name": "Nath, Som and Venkataraman",
+  "client_gstin": "07NUKZN7298V2T5",
+  "invoice_number": "INV-2025-4856",
+  "invoice_date": "2025-08-19",
+  "due_date": "2025-09-18",
+  "line_items": [
+    {
+      "description": "Network Security Audit & Patching",
+      "quantity": 2,
+      "unit_price": 18000.0,
+      "total": 36000.0
+    },
+    {
+      "description": "Software License Subscription",
+      "quantity": 1,
+      "unit_price": 12000.0,
+      "total": 12000.0
+    },
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 3,
+      "unit_price": 7500.0,
+      "total": 22500.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 2,
+      "unit_price": 25000.0,
+      "total": 50000.0
+    }
+  ],
+  "subtotal": 120500.0,
+  "tax_amount": 21690.0,
+  "tax_rate": "18%",
+  "grand_total": 144690.0,
+  "is_tampered": true,
+  "tamper_types": [
+    "total_mismatch: grand total does not match subtotal + tax"
+  ]
+}

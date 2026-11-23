@@ -1,0 +1,118 @@
+{
+  "document_id": "train_bank_statement_0096",
+  "document_type": "bank_statement",
+  "bank_name": "Metro Alliance Bank",
+  "branch": "Sector 62, Noida",
+  "ifsc": "METR0534130",
+  "account_holder": "Alexander Dhawan",
+  "account_number": "35637097151",
+  "period_start": "2025-08-01",
+  "period_end": "2025-09-01",
+  "opening_balance": 68903.9,
+  "closing_balance": 1419.55,
+  "total_deposits": 36329.68,
+  "total_withdrawals": 103814.03,
+  "transactions": [
+    {
+      "date": "2025-08-02",
+      "raw_date": "2025-08-02",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN40277201",
+      "debit": 20442.91,
+      "credit": 0.0,
+      "balance": 48460.99
+    },
+    {
+      "date": "04/08/2025",
+      "raw_date": "2025-08-04",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN12694823",
+      "debit": 1652.74,
+      "credit": 0.0,
+      "balance": 46808.25
+    },
+    {
+      "date": "2025-08-06",
+      "raw_date": "2025-08-06",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN60393104",
+      "debit": 0.0,
+      "credit": 6368.63,
+      "balance": 53176.88
+    },
+    {
+      "date": "07-Aug-2025",
+      "raw_date": "2025-08-07",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN55358959",
+      "debit": 34242.43,
+      "credit": 0.0,
+      "balance": 18934.45
+    },
+    {
+      "date": "2025-08-09",
+      "raw_date": "2025-08-09",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN97729428",
+      "debit": 0.0,
+      "credit": 15380.66,
+      "balance": 34315.11
+    },
+    {
+      "date": "2025-08-11",
+      "raw_date": "2025-08-11",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN54438762",
+      "debit": 0.0,
+      "credit": 2347.67,
+      "balance": 36662.78
+    },
+    {
+      "date": "12/08/2025",
+      "raw_date": "2025-08-12",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN82494408",
+      "debit": 25410.31,
+      "credit": 0.0,
+      "balance": 11252.47
+    },
+    {
+      "date": "14-Aug-2025",
+      "raw_date": "2025-08-14",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN86741644",
+      "debit": 0.0,
+      "credit": 2212.42,
+      "balance": 13464.89
+    },
+    {
+      "date": "16/08/2025",
+      "raw_date": "2025-08-16",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN10512117",
+      "debit": 0.0,
+      "credit": 2380.42,
+      "balance": 15845.31
+    },
+    {
+      "date": "2025-08-17",
+      "raw_date": "2025-08-17",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN74468586",
+      "debit": 22065.64,
+      "credit": 0.0,
+      "balance": -6220.33
+    },
+    {
+      "date": "18/08/2025",
+      "raw_date": "2025-08-18",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN95656500",
+      "debit": 0.0,
+      "credit": 7639.88,
+      "balance": 1419.55
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

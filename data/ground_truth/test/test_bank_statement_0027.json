@@ -1,0 +1,147 @@
+{
+  "document_id": "test_bank_statement_0027",
+  "document_type": "bank_statement",
+  "bank_name": "State Mercantile Commercial Bank",
+  "branch": "Bandra Kurla Complex, Mumbai",
+  "ifsc": "SMCB0895262",
+  "account_holder": "Ayushman Mahajan",
+  "account_number": "13191781111",
+  "period_start": "2025-05-01",
+  "period_end": "2025-05-31",
+  "opening_balance": 48938.96,
+  "closing_balance": 35339.39,
+  "total_deposits": 95185.84,
+  "total_withdrawals": 116585.41,
+  "transactions": [
+    {
+      "date": "2025-05-03",
+      "raw_date": "2025-05-03",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN58720925",
+      "debit": 0.0,
+      "credit": 17536.4,
+      "balance": 66475.36
+    },
+    {
+      "date": "2025-05-05",
+      "raw_date": "2025-05-05",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN38063091",
+      "debit": 24890.4,
+      "credit": 0.0,
+      "balance": 41584.96
+    },
+    {
+      "date": "06/05/2025",
+      "raw_date": "2025-05-06",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN77152570",
+      "debit": 0.0,
+      "credit": 10068.49,
+      "balance": 51653.45
+    },
+    {
+      "date": "07-May-2025",
+      "raw_date": "2025-05-07",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN90929605",
+      "debit": 0.0,
+      "credit": 25989.11,
+      "balance": 77642.56
+    },
+    {
+      "date": "08/05/2025",
+      "raw_date": "2025-05-08",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN27103487",
+      "debit": 26236.08,
+      "credit": 0.0,
+      "balance": 51406.48
+    },
+    {
+      "date": "09-May-2025",
+      "raw_date": "2025-05-09",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN13102778",
+      "debit": 9964.32,
+      "credit": 0.0,
+      "balance": 41442.16
+    },
+    {
+      "date": "11-May-2025",
+      "raw_date": "2025-05-11",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN67326334",
+      "debit": 567.45,
+      "credit": 0.0,
+      "balance": 40874.71
+    },
+    {
+      "date": "12/05/2025",
+      "raw_date": "2025-05-12",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN64609958",
+      "debit": 0.0,
+      "credit": 15422.91,
+      "balance": 56297.62
+    },
+    {
+      "date": "13-May-2025",
+      "raw_date": "2025-05-13",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN15833729",
+      "debit": 12970.78,
+      "credit": 0.0,
+      "balance": 43326.84
+    },
+    {
+      "date": "14-May-2025",
+      "raw_date": "2025-05-14",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN66379776",
+      "debit": 0.0,
+      "credit": 10088.69,
+      "balance": 53415.53
+    },
+    {
+      "date": "16/05/2025",
+      "raw_date": "2025-05-16",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN36119862",
+      "debit": 0.0,
+      "credit": 678.0,
+      "balance": 54093.53
+    },
+    {
+      "date": "17-May-2025",
+      "raw_date": "2025-05-17",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN40283277",
+      "debit": 34664.13,
+      "credit": 0.0,
+      "balance": 19429.4
+    },
+    {
+      "date": "19/05/2025",
+      "raw_date": "2025-05-19",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN54187782",
+      "debit": 7292.25,
+      "credit": 0.0,
+      "balance": 12137.15
+    },
+    {
+      "date": "20-May-2025",
+      "raw_date": "2025-05-20",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN13224383",
+      "debit": 0.0,
+      "credit": 15402.24,
+      "balance": 27539.39
+    }
+  ],
+  "is_tampered": true,
+  "tamper_types": [
+    "balance_mismatch: closing balance altered"
+  ]
+}

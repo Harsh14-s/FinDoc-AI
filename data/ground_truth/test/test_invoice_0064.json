@@ -1,0 +1,38 @@
+{
+  "document_id": "test_invoice_0064",
+  "document_type": "invoice",
+  "vendor_name": "BlueSky Office Supplies Pvt Ltd",
+  "vendor_gstin": "09DDDDD3456D1Z1",
+  "vendor_category": "Office Equipment",
+  "client_name": "Bobal-Karnik",
+  "client_gstin": "07TIYXW6111I5P5",
+  "invoice_number": "INV-2025-7420",
+  "invoice_date": "2025-05-27",
+  "due_date": "2025-06-26",
+  "line_items": [
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 3,
+      "unit_price": 4500.0,
+      "total": 13500.0
+    },
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 4,
+      "unit_price": 6200.0,
+      "total": 24800.0
+    },
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 4,
+      "unit_price": 8500.0,
+      "total": 34000.0
+    }
+  ],
+  "subtotal": 72300.0,
+  "tax_amount": 13014.0,
+  "tax_rate": "18%",
+  "grand_total": 85314.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

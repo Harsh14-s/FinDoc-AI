@@ -1,0 +1,111 @@
+{
+  "document_id": "train_bank_statement_0105",
+  "document_type": "bank_statement",
+  "bank_name": "State Mercantile Commercial Bank",
+  "branch": "Bandra Kurla Complex, Mumbai",
+  "ifsc": "SMCB0869238",
+  "account_holder": "Leena Subramanian",
+  "account_number": "95917057637",
+  "period_start": "2025-04-01",
+  "period_end": "2025-04-30",
+  "opening_balance": 111690.59,
+  "closing_balance": 135710.32,
+  "total_deposits": 86255.11,
+  "total_withdrawals": 70035.38,
+  "transactions": [
+    {
+      "date": "03-Apr-2025",
+      "raw_date": "2025-04-03",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN77556678",
+      "debit": 0.0,
+      "credit": 4043.43,
+      "balance": 115734.02
+    },
+    {
+      "date": "05/04/2025",
+      "raw_date": "2025-04-05",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN16136213",
+      "debit": 0.0,
+      "credit": 2752.4,
+      "balance": 118486.42
+    },
+    {
+      "date": "07/04/2025",
+      "raw_date": "2025-04-07",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN55343466",
+      "debit": 21074.76,
+      "credit": 0.0,
+      "balance": 97411.66
+    },
+    {
+      "date": "08/04/2025",
+      "raw_date": "2025-04-08",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN75790669",
+      "debit": 0.0,
+      "credit": 34866.79,
+      "balance": 132278.45
+    },
+    {
+      "date": "2025-04-09",
+      "raw_date": "2025-04-09",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN64142310",
+      "debit": 0.0,
+      "credit": 33208.91,
+      "balance": 165487.36
+    },
+    {
+      "date": "10-Apr-2025",
+      "raw_date": "2025-04-10",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN12941149",
+      "debit": 5026.6,
+      "credit": 0.0,
+      "balance": 160460.76
+    },
+    {
+      "date": "11/04/2025",
+      "raw_date": "2025-04-11",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN15014834",
+      "debit": 22943.64,
+      "credit": 0.0,
+      "balance": 137517.12
+    },
+    {
+      "date": "13-Apr-2025",
+      "raw_date": "2025-04-13",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN16437132",
+      "debit": 20990.38,
+      "credit": 0.0,
+      "balance": 116526.74
+    },
+    {
+      "date": "14/04/2025",
+      "raw_date": "2025-04-14",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN25541047",
+      "debit": 0.0,
+      "credit": 2164.11,
+      "balance": 118690.85
+    },
+    {
+      "date": "2025-04-16",
+      "raw_date": "2025-04-16",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN30552371",
+      "debit": 0.0,
+      "credit": 9219.47,
+      "balance": 127910.32
+    }
+  ],
+  "is_tampered": true,
+  "tamper_types": [
+    "balance_mismatch: closing balance altered"
+  ]
+}

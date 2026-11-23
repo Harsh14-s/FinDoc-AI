@@ -1,0 +1,40 @@
+{
+  "document_id": "train_invoice_0205",
+  "document_type": "invoice",
+  "vendor_name": "BlueSky Office Supplies Pvt Ltd",
+  "vendor_gstin": "INVALID#GST#999",
+  "vendor_category": "Office Equipment",
+  "client_name": "Kara, Kaul and Ben",
+  "client_gstin": "07AJKAP1657E1E2",
+  "invoice_number": "INV-2025-3382",
+  "invoice_date": "2025-08-11",
+  "due_date": "2025-09-10",
+  "line_items": [
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 5,
+      "unit_price": 4500.0,
+      "total": 22500.0
+    },
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 3,
+      "unit_price": 7500.0,
+      "total": 22500.0
+    },
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 3,
+      "unit_price": 6200.0,
+      "total": 18600.0
+    }
+  ],
+  "subtotal": 63600.0,
+  "tax_amount": 11448.0,
+  "tax_rate": "18%",
+  "grand_total": 75048.0,
+  "is_tampered": true,
+  "tamper_types": [
+    "invalid_gstin: vendor GSTIN violates 15-character standard pattern"
+  ]
+}

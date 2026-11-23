@@ -1,0 +1,32 @@
+{
+  "document_id": "train_invoice_0081",
+  "document_type": "invoice",
+  "vendor_name": "Apex Logistics & Supply Chain Ltd",
+  "vendor_gstin": "27BBBBB5678B1Z2",
+  "vendor_category": "Freight & Warehousing",
+  "client_name": "Contractor-Kar",
+  "client_gstin": "07YTMVK2421S0C2",
+  "invoice_number": "INV-2025-7419",
+  "invoice_date": "2025-05-21",
+  "due_date": "2025-06-20",
+  "line_items": [
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 4,
+      "unit_price": 8500.0,
+      "total": 34000.0
+    },
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 1,
+      "unit_price": 3500.0,
+      "total": 3500.0
+    }
+  ],
+  "subtotal": 37500.0,
+  "tax_amount": 6750.0,
+  "tax_rate": "18%",
+  "grand_total": 44250.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

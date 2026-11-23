@@ -1,0 +1,40 @@
+{
+  "document_id": "train_invoice_0004",
+  "document_type": "invoice",
+  "vendor_name": "Apex Logistics & Supply Chain Ltd",
+  "vendor_gstin": "27BBBBB5678B1Z2",
+  "vendor_category": "Freight & Warehousing",
+  "client_name": "Mall, Ahuja and Dutta",
+  "client_gstin": "07GFYGW6542W3M5",
+  "invoice_number": "INV-2025-4879",
+  "invoice_date": "2025-03-26",
+  "due_date": "2025-04-25",
+  "line_items": [
+    {
+      "description": "Network Security Audit & Patching",
+      "quantity": 3,
+      "unit_price": 18000.0,
+      "total": 54000.0
+    },
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 4,
+      "unit_price": 4500.0,
+      "total": 18000.0
+    },
+    {
+      "description": "Software License Subscription",
+      "quantity": 2,
+      "unit_price": 12000.0,
+      "total": 24000.0
+    }
+  ],
+  "subtotal": 96000.0,
+  "tax_amount": 17280.0,
+  "tax_rate": "18%",
+  "grand_total": 111480.0,
+  "is_tampered": true,
+  "tamper_types": [
+    "total_mismatch: grand total does not match subtotal + tax"
+  ]
+}

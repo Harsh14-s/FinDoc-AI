@@ -1,0 +1,32 @@
+{
+  "document_id": "train_invoice_0199",
+  "document_type": "invoice",
+  "vendor_name": "Vortex Tech Solutions Pvt Ltd",
+  "vendor_gstin": "07AAAAA1234A1Z5",
+  "vendor_category": "IT & Cloud Services",
+  "client_name": "Sachar Ltd",
+  "client_gstin": "07TIHNJ3689U7Q0",
+  "invoice_number": "INV-2025-7275",
+  "invoice_date": "2025-06-15",
+  "due_date": "2025-07-15",
+  "line_items": [
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 2,
+      "unit_price": 7500.0,
+      "total": 15000.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 5,
+      "unit_price": 25000.0,
+      "total": 125000.0
+    }
+  ],
+  "subtotal": 140000.0,
+  "tax_amount": 25200.0,
+  "tax_rate": "18%",
+  "grand_total": 165200.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

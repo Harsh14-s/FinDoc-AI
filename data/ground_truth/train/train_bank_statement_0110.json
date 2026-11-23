@@ -1,0 +1,136 @@
+{
+  "document_id": "train_bank_statement_0110",
+  "document_type": "bank_statement",
+  "bank_name": "State Mercantile Commercial Bank",
+  "branch": "Bandra Kurla Complex, Mumbai",
+  "ifsc": "SMCB0804258",
+  "account_holder": "Timothy Bhatnagar",
+  "account_number": "10011759631",
+  "period_start": "2025-02-01",
+  "period_end": "2025-03-01",
+  "opening_balance": 129404.02,
+  "closing_balance": 197731.72,
+  "total_deposits": 163956.9,
+  "total_withdrawals": 95629.2,
+  "transactions": [
+    {
+      "date": "2025-02-03",
+      "raw_date": "2025-02-03",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN78679929",
+      "debit": 0.0,
+      "credit": 33255.89,
+      "balance": 162659.91
+    },
+    {
+      "date": "04/02/2025",
+      "raw_date": "2025-02-04",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN49731424",
+      "debit": 16257.92,
+      "credit": 0.0,
+      "balance": 146401.99
+    },
+    {
+      "date": "2025-02-06",
+      "raw_date": "2025-02-06",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN33448079",
+      "debit": 0.0,
+      "credit": 3943.41,
+      "balance": 150345.4
+    },
+    {
+      "date": "08/02/2025",
+      "raw_date": "2025-02-08",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN51970837",
+      "debit": 0.0,
+      "credit": 28155.07,
+      "balance": 178500.47
+    },
+    {
+      "date": "2025-02-09",
+      "raw_date": "2025-02-09",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN11298197",
+      "debit": 31215.07,
+      "credit": 0.0,
+      "balance": 147285.4
+    },
+    {
+      "date": "10-Feb-2025",
+      "raw_date": "2025-02-10",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN68749047",
+      "debit": 0.0,
+      "credit": 12834.7,
+      "balance": 160120.1
+    },
+    {
+      "date": "12/02/2025",
+      "raw_date": "2025-02-12",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN25278272",
+      "debit": 12323.93,
+      "credit": 0.0,
+      "balance": 147796.17
+    },
+    {
+      "date": "14/02/2025",
+      "raw_date": "2025-02-14",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN74188958",
+      "debit": 0.0,
+      "credit": 13807.18,
+      "balance": 161603.35
+    },
+    {
+      "date": "2025-02-15",
+      "raw_date": "2025-02-15",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN31393688",
+      "debit": 0.0,
+      "credit": 25561.18,
+      "balance": 187164.53
+    },
+    {
+      "date": "2025-02-17",
+      "raw_date": "2025-02-17",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN68809216",
+      "debit": 20128.55,
+      "credit": 0.0,
+      "balance": 167035.98
+    },
+    {
+      "date": "19/02/2025",
+      "raw_date": "2025-02-19",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN27536261",
+      "debit": 0.0,
+      "credit": 21591.87,
+      "balance": 188627.85
+    },
+    {
+      "date": "21/02/2025",
+      "raw_date": "2025-02-21",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN18500820",
+      "debit": 15703.73,
+      "credit": 0.0,
+      "balance": 172924.12
+    },
+    {
+      "date": "23-Feb-2025",
+      "raw_date": "2025-02-23",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN80439867",
+      "debit": 0.0,
+      "credit": 24807.6,
+      "balance": 197731.72
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

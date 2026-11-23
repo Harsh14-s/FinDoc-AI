@@ -1,0 +1,118 @@
+{
+  "document_id": "test_bank_statement_0091",
+  "document_type": "bank_statement",
+  "bank_name": "State Mercantile Commercial Bank",
+  "branch": "Bandra Kurla Complex, Mumbai",
+  "ifsc": "SMCB0970893",
+  "account_holder": "Falan Jain",
+  "account_number": "32589153846",
+  "period_start": "2025-01-01",
+  "period_end": "2025-01-29",
+  "opening_balance": 136869.57,
+  "closing_balance": 139854.59,
+  "total_deposits": 69019.25,
+  "total_withdrawals": 66034.23,
+  "transactions": [
+    {
+      "date": "03/01/2025",
+      "raw_date": "2025-01-03",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN66250794",
+      "debit": 0.0,
+      "credit": 12550.03,
+      "balance": 149419.6
+    },
+    {
+      "date": "05/01/2025",
+      "raw_date": "2025-01-05",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN68624154",
+      "debit": 6043.78,
+      "credit": 0.0,
+      "balance": 143375.82
+    },
+    {
+      "date": "2025-01-07",
+      "raw_date": "2025-01-07",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN90145249",
+      "debit": 0.0,
+      "credit": 19851.34,
+      "balance": 163227.16
+    },
+    {
+      "date": "2025-01-08",
+      "raw_date": "2025-01-08",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN52481963",
+      "debit": 11668.77,
+      "credit": 0.0,
+      "balance": 151558.39
+    },
+    {
+      "date": "2025-01-09",
+      "raw_date": "2025-01-09",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN52467541",
+      "debit": 17730.88,
+      "credit": 0.0,
+      "balance": 133827.51
+    },
+    {
+      "date": "2025-01-11",
+      "raw_date": "2025-01-11",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN70473000",
+      "debit": 626.85,
+      "credit": 0.0,
+      "balance": 133200.66
+    },
+    {
+      "date": "13/01/2025",
+      "raw_date": "2025-01-13",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN35186888",
+      "debit": 0.0,
+      "credit": 8042.49,
+      "balance": 141243.15
+    },
+    {
+      "date": "14-Jan-2025",
+      "raw_date": "2025-01-14",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN35656926",
+      "debit": 12508.95,
+      "credit": 0.0,
+      "balance": 128734.2
+    },
+    {
+      "date": "15/01/2025",
+      "raw_date": "2025-01-15",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN12173155",
+      "debit": 0.0,
+      "credit": 28575.39,
+      "balance": 157309.59
+    },
+    {
+      "date": "17-Jan-2025",
+      "raw_date": "2025-01-17",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN76992183",
+      "debit": 4803.71,
+      "credit": 0.0,
+      "balance": 152505.88
+    },
+    {
+      "date": "19/01/2025",
+      "raw_date": "2025-01-19",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN82808690",
+      "debit": 12651.29,
+      "credit": 0.0,
+      "balance": 139854.59
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

@@ -1,0 +1,12 @@
+{
+  "document_id": "train_pan_card_0090",
+  "document_type": "pan_card",
+  "full_name": "Wishi Manne",
+  "father_name": "Sarthak Subramanian",
+  "dob": "1994-10-08",
+  "pan_number": "INVALID63",
+  "is_tampered": true,
+  "tamper_types": [
+    "invalid_pan_format: PAN violates 10-char alphanumeric regex"
+  ]
+}

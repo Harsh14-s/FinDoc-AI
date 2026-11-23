@@ -1,0 +1,109 @@
+{
+  "document_id": "test_bank_statement_0081",
+  "document_type": "bank_statement",
+  "bank_name": "Apex National Bank",
+  "branch": "Connaught Place, New Delhi",
+  "ifsc": "APEX0406019",
+  "account_holder": "Gabriel Shan",
+  "account_number": "42356418711",
+  "period_start": "2025-01-01",
+  "period_end": "2025-01-30",
+  "opening_balance": 142755.75,
+  "closing_balance": 177519.3,
+  "total_deposits": 86447.38,
+  "total_withdrawals": 51683.83,
+  "transactions": [
+    {
+      "date": "2025-01-02",
+      "raw_date": "2025-01-02",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN43421297",
+      "debit": 2277.44,
+      "credit": 0.0,
+      "balance": 140478.31
+    },
+    {
+      "date": "03-Jan-2025",
+      "raw_date": "2025-01-03",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN94917258",
+      "debit": 0.0,
+      "credit": 22878.27,
+      "balance": 163356.58
+    },
+    {
+      "date": "05/01/2025",
+      "raw_date": "2025-01-05",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN83722452",
+      "debit": 0.0,
+      "credit": 3371.99,
+      "balance": 166728.57
+    },
+    {
+      "date": "06-Jan-2025",
+      "raw_date": "2025-01-06",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN17685767",
+      "debit": 10673.89,
+      "credit": 0.0,
+      "balance": 156054.68
+    },
+    {
+      "date": "2025-01-07",
+      "raw_date": "2025-01-07",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN47539330",
+      "debit": 0.0,
+      "credit": 8065.15,
+      "balance": 164119.83
+    },
+    {
+      "date": "2025-01-09",
+      "raw_date": "2025-01-09",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN88283995",
+      "debit": 0.0,
+      "credit": 19039.91,
+      "balance": 183159.74
+    },
+    {
+      "date": "2025-01-11",
+      "raw_date": "2025-01-11",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN83937567",
+      "debit": 22383.54,
+      "credit": 0.0,
+      "balance": 160776.2
+    },
+    {
+      "date": "13/01/2025",
+      "raw_date": "2025-01-13",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN94530413",
+      "debit": 0.0,
+      "credit": 7535.19,
+      "balance": 168311.39
+    },
+    {
+      "date": "2025-01-14",
+      "raw_date": "2025-01-14",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN59478024",
+      "debit": 0.0,
+      "credit": 25556.87,
+      "balance": 193868.26
+    },
+    {
+      "date": "2025-01-16",
+      "raw_date": "2025-01-16",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN33637158",
+      "debit": 16348.96,
+      "credit": 0.0,
+      "balance": 177519.3
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

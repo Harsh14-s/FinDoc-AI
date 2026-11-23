@@ -1,0 +1,127 @@
+{
+  "document_id": "train_bank_statement_0043",
+  "document_type": "bank_statement",
+  "bank_name": "Beacon Cooperative Urban Bank",
+  "branch": "MG Road, Bengaluru",
+  "ifsc": "BCOB0183958",
+  "account_holder": "Januja Sankar",
+  "account_number": "24264494483",
+  "period_start": "2025-06-01",
+  "period_end": "2025-07-01",
+  "opening_balance": 63311.98,
+  "closing_balance": 123952.52,
+  "total_deposits": 128298.26,
+  "total_withdrawals": 67657.72,
+  "transactions": [
+    {
+      "date": "03/06/2025",
+      "raw_date": "2025-06-03",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN57183837",
+      "debit": 0.0,
+      "credit": 24296.89,
+      "balance": 87608.87
+    },
+    {
+      "date": "04/06/2025",
+      "raw_date": "2025-06-04",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN68376726",
+      "debit": 0.0,
+      "credit": 21712.38,
+      "balance": 109321.25
+    },
+    {
+      "date": "05-Jun-2025",
+      "raw_date": "2025-06-05",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN78865239",
+      "debit": 14514.25,
+      "credit": 0.0,
+      "balance": 94807.0
+    },
+    {
+      "date": "06-Jun-2025",
+      "raw_date": "2025-06-06",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN91547054",
+      "debit": 0.0,
+      "credit": 5425.89,
+      "balance": 100232.89
+    },
+    {
+      "date": "08-Jun-2025",
+      "raw_date": "2025-06-08",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN41674763",
+      "debit": 0.0,
+      "credit": 4854.94,
+      "balance": 105087.83
+    },
+    {
+      "date": "2025-06-10",
+      "raw_date": "2025-06-10",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN86134287",
+      "debit": 0.0,
+      "credit": 13708.48,
+      "balance": 118796.31
+    },
+    {
+      "date": "11-Jun-2025",
+      "raw_date": "2025-06-11",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN20319387",
+      "debit": 13334.46,
+      "credit": 0.0,
+      "balance": 105461.85
+    },
+    {
+      "date": "2025-06-12",
+      "raw_date": "2025-06-12",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN47405107",
+      "debit": 11346.3,
+      "credit": 0.0,
+      "balance": 94115.55
+    },
+    {
+      "date": "13-Jun-2025",
+      "raw_date": "2025-06-13",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN76980546",
+      "debit": 0.0,
+      "credit": 25880.78,
+      "balance": 119996.33
+    },
+    {
+      "date": "2025-06-15",
+      "raw_date": "2025-06-15",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN69897763",
+      "debit": 0.0,
+      "credit": 27236.27,
+      "balance": 147232.6
+    },
+    {
+      "date": "17/06/2025",
+      "raw_date": "2025-06-17",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN19939096",
+      "debit": 0.0,
+      "credit": 5182.63,
+      "balance": 152415.23
+    },
+    {
+      "date": "18-Jun-2025",
+      "raw_date": "2025-06-18",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN52894344",
+      "debit": 28462.71,
+      "credit": 0.0,
+      "balance": 123952.52
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

@@ -1,0 +1,11 @@
+{
+  "document_id": "test_aadhaar_card_0069",
+  "document_type": "aadhaar_card",
+  "full_name": "Isaiah Khosla",
+  "gender": "Other",
+  "dob": "1991-05-22",
+  "aadhaar_number": "6375 8289 3291",
+  "address": "H.No. 26, Salvi, Bongaigaon 710910",
+  "is_tampered": false,
+  "tamper_types": []
+}

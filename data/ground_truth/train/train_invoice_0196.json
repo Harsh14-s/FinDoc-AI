@@ -1,0 +1,38 @@
+{
+  "document_id": "train_invoice_0196",
+  "document_type": "invoice",
+  "vendor_name": "Apex Logistics & Supply Chain Ltd",
+  "vendor_gstin": "27BBBBB5678B1Z2",
+  "vendor_category": "Freight & Warehousing",
+  "client_name": "Bala, Som and Lanka",
+  "client_gstin": "07KHOUN9930X9Y7",
+  "invoice_number": "INV-2025-4542",
+  "invoice_date": "2025-10-15",
+  "due_date": "2025-11-14",
+  "line_items": [
+    {
+      "description": "Network Security Audit & Patching",
+      "quantity": 4,
+      "unit_price": 18000.0,
+      "total": 72000.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 2,
+      "unit_price": 25000.0,
+      "total": 50000.0
+    },
+    {
+      "description": "Software License Subscription",
+      "quantity": 3,
+      "unit_price": 12000.0,
+      "total": 36000.0
+    }
+  ],
+  "subtotal": 158000.0,
+  "tax_amount": 28440.0,
+  "tax_rate": "18%",
+  "grand_total": 186440.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

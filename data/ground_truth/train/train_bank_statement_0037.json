@@ -1,0 +1,145 @@
+{
+  "document_id": "train_bank_statement_0037",
+  "document_type": "bank_statement",
+  "bank_name": "Apex National Bank",
+  "branch": "Connaught Place, New Delhi",
+  "ifsc": "APEX0631699",
+  "account_holder": "Yuvraj Loke",
+  "account_number": "94245819524",
+  "period_start": "2025-07-01",
+  "period_end": "2025-08-01",
+  "opening_balance": 97541.18,
+  "closing_balance": 252570.92,
+  "total_deposits": 190232.24,
+  "total_withdrawals": 35202.5,
+  "transactions": [
+    {
+      "date": "02/07/2025",
+      "raw_date": "2025-07-02",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN35265073",
+      "debit": 20222.16,
+      "credit": 0.0,
+      "balance": 77319.02
+    },
+    {
+      "date": "04/07/2025",
+      "raw_date": "2025-07-04",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN23891786",
+      "debit": 0.0,
+      "credit": 2634.64,
+      "balance": 79953.66
+    },
+    {
+      "date": "05/07/2025",
+      "raw_date": "2025-07-05",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN68754920",
+      "debit": 1850.4,
+      "credit": 0.0,
+      "balance": 78103.26
+    },
+    {
+      "date": "06/07/2025",
+      "raw_date": "2025-07-06",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN47969333",
+      "debit": 0.0,
+      "credit": 13363.39,
+      "balance": 91466.65
+    },
+    {
+      "date": "08-Jul-2025",
+      "raw_date": "2025-07-08",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN17028380",
+      "debit": 0.0,
+      "credit": 23921.97,
+      "balance": 115388.62
+    },
+    {
+      "date": "10/07/2025",
+      "raw_date": "2025-07-10",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN61883769",
+      "debit": 0.0,
+      "credit": 19749.73,
+      "balance": 135138.35
+    },
+    {
+      "date": "12-Jul-2025",
+      "raw_date": "2025-07-12",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN88213973",
+      "debit": 12000.99,
+      "credit": 0.0,
+      "balance": 123137.36
+    },
+    {
+      "date": "13-Jul-2025",
+      "raw_date": "2025-07-13",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN98054173",
+      "debit": 0.0,
+      "credit": 11202.99,
+      "balance": 134340.35
+    },
+    {
+      "date": "15/07/2025",
+      "raw_date": "2025-07-15",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN21370793",
+      "debit": 0.0,
+      "credit": 21028.92,
+      "balance": 155369.27
+    },
+    {
+      "date": "17-Jul-2025",
+      "raw_date": "2025-07-17",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN99941500",
+      "debit": 0.0,
+      "credit": 28554.88,
+      "balance": 183924.15
+    },
+    {
+      "date": "2025-07-18",
+      "raw_date": "2025-07-18",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN51455302",
+      "debit": 1128.95,
+      "credit": 0.0,
+      "balance": 182795.2
+    },
+    {
+      "date": "2025-07-19",
+      "raw_date": "2025-07-19",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN75266178",
+      "debit": 0.0,
+      "credit": 33194.56,
+      "balance": 215989.76
+    },
+    {
+      "date": "2025-07-20",
+      "raw_date": "2025-07-20",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN49700543",
+      "debit": 0.0,
+      "credit": 5845.61,
+      "balance": 221835.37
+    },
+    {
+      "date": "2025-07-21",
+      "raw_date": "2025-07-21",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN92950779",
+      "debit": 0.0,
+      "credit": 30735.55,
+      "balance": 252570.92
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

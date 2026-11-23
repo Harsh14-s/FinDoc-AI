@@ -1,0 +1,91 @@
+{
+  "document_id": "train_bank_statement_0120",
+  "document_type": "bank_statement",
+  "bank_name": "State Mercantile Commercial Bank",
+  "branch": "Bandra Kurla Complex, Mumbai",
+  "ifsc": "SMCB0408467",
+  "account_holder": "Lakshmi Wali",
+  "account_number": "39911397046",
+  "period_start": "2025-08-01",
+  "period_end": "2025-08-30",
+  "opening_balance": 147931.67,
+  "closing_balance": 201271.83,
+  "total_deposits": 87238.58,
+  "total_withdrawals": 33898.42,
+  "transactions": [
+    {
+      "date": "02/08/2025",
+      "raw_date": "2025-08-02",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN26019397",
+      "debit": 0.0,
+      "credit": 25860.24,
+      "balance": 173791.91
+    },
+    {
+      "date": "03-Aug-2025",
+      "raw_date": "2025-08-03",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN31599504",
+      "debit": 0.0,
+      "credit": 9616.27,
+      "balance": 183408.18
+    },
+    {
+      "date": "2025-08-05",
+      "raw_date": "2025-08-05",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN30777669",
+      "debit": 0.0,
+      "credit": 11904.42,
+      "balance": 195312.6
+    },
+    {
+      "date": "06-Aug-2025",
+      "raw_date": "2025-08-06",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN93935292",
+      "debit": 0.0,
+      "credit": 21092.37,
+      "balance": 216404.97
+    },
+    {
+      "date": "08-Aug-2025",
+      "raw_date": "2025-08-08",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN19781894",
+      "debit": 19480.53,
+      "credit": 0.0,
+      "balance": 196924.44
+    },
+    {
+      "date": "10-Aug-2025",
+      "raw_date": "2025-08-10",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN19150490",
+      "debit": 0.0,
+      "credit": 6843.48,
+      "balance": 203767.92
+    },
+    {
+      "date": "2025-08-11",
+      "raw_date": "2025-08-11",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN56896070",
+      "debit": 14417.89,
+      "credit": 0.0,
+      "balance": 189350.03
+    },
+    {
+      "date": "2025-08-12",
+      "raw_date": "2025-08-12",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN49402883",
+      "debit": 0.0,
+      "credit": 11921.8,
+      "balance": 201271.83
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

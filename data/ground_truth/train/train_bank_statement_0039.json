@@ -1,0 +1,145 @@
+{
+  "document_id": "train_bank_statement_0039",
+  "document_type": "bank_statement",
+  "bank_name": "Beacon Cooperative Urban Bank",
+  "branch": "MG Road, Bengaluru",
+  "ifsc": "BCOB0345369",
+  "account_holder": "Falguni Mallick",
+  "account_number": "73495939049",
+  "period_start": "2025-09-01",
+  "period_end": "2025-09-30",
+  "opening_balance": 63683.49,
+  "closing_balance": -55628.91,
+  "total_deposits": 66920.87,
+  "total_withdrawals": 186233.27,
+  "transactions": [
+    {
+      "date": "03/09/2025",
+      "raw_date": "2025-09-03",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN69135982",
+      "debit": 33175.99,
+      "credit": 0.0,
+      "balance": 30507.5
+    },
+    {
+      "date": "2025-09-05",
+      "raw_date": "2025-09-05",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN31751079",
+      "debit": 14943.8,
+      "credit": 0.0,
+      "balance": 15563.7
+    },
+    {
+      "date": "06-Sep-2025",
+      "raw_date": "2025-09-06",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN59823245",
+      "debit": 0.0,
+      "credit": 17080.38,
+      "balance": 32644.08
+    },
+    {
+      "date": "07/09/2025",
+      "raw_date": "2025-09-07",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN31516757",
+      "debit": 10334.67,
+      "credit": 0.0,
+      "balance": 22309.41
+    },
+    {
+      "date": "09/09/2025",
+      "raw_date": "2025-09-09",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN39801436",
+      "debit": 0.0,
+      "credit": 15592.8,
+      "balance": 37902.21
+    },
+    {
+      "date": "11-Sep-2025",
+      "raw_date": "2025-09-11",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN63211150",
+      "debit": 0.0,
+      "credit": 14813.94,
+      "balance": 52716.15
+    },
+    {
+      "date": "2025-09-13",
+      "raw_date": "2025-09-13",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN40137082",
+      "debit": 3315.39,
+      "credit": 0.0,
+      "balance": 49400.76
+    },
+    {
+      "date": "2025-09-15",
+      "raw_date": "2025-09-15",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN29602406",
+      "debit": 22923.64,
+      "credit": 0.0,
+      "balance": 26477.12
+    },
+    {
+      "date": "16-Sep-2025",
+      "raw_date": "2025-09-16",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN28628439",
+      "debit": 16799.7,
+      "credit": 0.0,
+      "balance": 9677.42
+    },
+    {
+      "date": "18/09/2025",
+      "raw_date": "2025-09-18",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN12550658",
+      "debit": 31752.08,
+      "credit": 0.0,
+      "balance": -22074.66
+    },
+    {
+      "date": "19-Sep-2025",
+      "raw_date": "2025-09-19",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN91722503",
+      "debit": 0.0,
+      "credit": 19433.75,
+      "balance": -2640.91
+    },
+    {
+      "date": "2025-09-21",
+      "raw_date": "2025-09-21",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN26354208",
+      "debit": 8698.59,
+      "credit": 0.0,
+      "balance": -11339.5
+    },
+    {
+      "date": "2025-09-22",
+      "raw_date": "2025-09-22",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN18429833",
+      "debit": 21986.96,
+      "credit": 0.0,
+      "balance": -33326.46
+    },
+    {
+      "date": "2025-09-24",
+      "raw_date": "2025-09-24",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN87181563",
+      "debit": 22302.45,
+      "credit": 0.0,
+      "balance": -55628.91
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

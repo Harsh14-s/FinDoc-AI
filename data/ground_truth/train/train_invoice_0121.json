@@ -1,0 +1,44 @@
+{
+  "document_id": "train_invoice_0121",
+  "document_type": "invoice",
+  "vendor_name": "BlueSky Office Supplies Pvt Ltd",
+  "vendor_gstin": "09DDDDD3456D1Z1",
+  "vendor_category": "Office Equipment",
+  "client_name": "Setty-Tiwari",
+  "client_gstin": "07BCOAV9611D8Z3",
+  "invoice_number": "INV-2025-1145",
+  "invoice_date": "2025-02-22",
+  "due_date": "2025-03-24",
+  "line_items": [
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 5,
+      "unit_price": 3500.0,
+      "total": 17500.0
+    },
+    {
+      "description": "Software License Subscription",
+      "quantity": 2,
+      "unit_price": 12000.0,
+      "total": 24000.0
+    },
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 1,
+      "unit_price": 7500.0,
+      "total": 7500.0
+    },
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 3,
+      "unit_price": 6200.0,
+      "total": 18600.0
+    }
+  ],
+  "subtotal": 67600.0,
+  "tax_amount": 12168.0,
+  "tax_rate": "18%",
+  "grand_total": 79768.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

@@ -1,0 +1,11 @@
+{
+  "document_id": "train_aadhaar_card_0070",
+  "document_type": "aadhaar_card",
+  "full_name": "Harini Mammen",
+  "gender": "Other",
+  "dob": "1999-12-26",
+  "aadhaar_number": "8520 2025 2667",
+  "address": "678, Soni Ganj, Sultan Pur Majra-143634",
+  "is_tampered": false,
+  "tamper_types": []
+}

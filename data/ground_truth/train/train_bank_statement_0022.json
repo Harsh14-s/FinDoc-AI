@@ -1,0 +1,91 @@
+{
+  "document_id": "train_bank_statement_0022",
+  "document_type": "bank_statement",
+  "bank_name": "Apex National Bank",
+  "branch": "Connaught Place, New Delhi",
+  "ifsc": "APEX0565230",
+  "account_holder": "Tanay Rattan",
+  "account_number": "26632601180",
+  "period_start": "2025-03-01",
+  "period_end": "2025-03-31",
+  "opening_balance": 137928.01,
+  "closing_balance": 92453.79,
+  "total_deposits": 45195.17,
+  "total_withdrawals": 90669.39,
+  "transactions": [
+    {
+      "date": "03/03/2025",
+      "raw_date": "2025-03-03",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN60310319",
+      "debit": 0.0,
+      "credit": 10621.19,
+      "balance": 148549.2
+    },
+    {
+      "date": "2025-03-04",
+      "raw_date": "2025-03-04",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN34166826",
+      "debit": 20024.52,
+      "credit": 0.0,
+      "balance": 128524.68
+    },
+    {
+      "date": "05/03/2025",
+      "raw_date": "2025-03-05",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN42323627",
+      "debit": 13697.78,
+      "credit": 0.0,
+      "balance": 114826.9
+    },
+    {
+      "date": "06-Mar-2025",
+      "raw_date": "2025-03-06",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN44269370",
+      "debit": 9262.22,
+      "credit": 0.0,
+      "balance": 105564.68
+    },
+    {
+      "date": "2025-03-07",
+      "raw_date": "2025-03-07",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN31203129",
+      "debit": 23877.58,
+      "credit": 0.0,
+      "balance": 81687.1
+    },
+    {
+      "date": "09-Mar-2025",
+      "raw_date": "2025-03-09",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN50151803",
+      "debit": 0.0,
+      "credit": 34573.98,
+      "balance": 116261.08
+    },
+    {
+      "date": "11/03/2025",
+      "raw_date": "2025-03-11",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN61632653",
+      "debit": 10923.2,
+      "credit": 0.0,
+      "balance": 105337.88
+    },
+    {
+      "date": "12-Mar-2025",
+      "raw_date": "2025-03-12",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN49711319",
+      "debit": 12884.09,
+      "credit": 0.0,
+      "balance": 92453.79
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

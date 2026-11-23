@@ -1,0 +1,109 @@
+{
+  "document_id": "test_bank_statement_0020",
+  "document_type": "bank_statement",
+  "bank_name": "Beacon Cooperative Urban Bank",
+  "branch": "MG Road, Bengaluru",
+  "ifsc": "BCOB0260751",
+  "account_holder": "Xalak Saraf",
+  "account_number": "78892487227",
+  "period_start": "2025-02-01",
+  "period_end": "2025-03-03",
+  "opening_balance": 63115.57,
+  "closing_balance": 124628.01,
+  "total_deposits": 154554.31,
+  "total_withdrawals": 93041.87,
+  "transactions": [
+    {
+      "date": "03-Feb-2025",
+      "raw_date": "2025-02-03",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN29077681",
+      "debit": 27796.53,
+      "credit": 0.0,
+      "balance": 35319.04
+    },
+    {
+      "date": "05/02/2025",
+      "raw_date": "2025-02-05",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN50958413",
+      "debit": 0.0,
+      "credit": 32820.31,
+      "balance": 68139.35
+    },
+    {
+      "date": "2025-02-06",
+      "raw_date": "2025-02-06",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN75604774",
+      "debit": 0.0,
+      "credit": 28759.81,
+      "balance": 96899.16
+    },
+    {
+      "date": "07/02/2025",
+      "raw_date": "2025-02-07",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN66045988",
+      "debit": 0.0,
+      "credit": 30529.72,
+      "balance": 127428.88
+    },
+    {
+      "date": "09/02/2025",
+      "raw_date": "2025-02-09",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN60641104",
+      "debit": 12154.9,
+      "credit": 0.0,
+      "balance": 115273.98
+    },
+    {
+      "date": "10/02/2025",
+      "raw_date": "2025-02-10",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN71865804",
+      "debit": 0.0,
+      "credit": 17914.35,
+      "balance": 133188.33
+    },
+    {
+      "date": "2025-02-12",
+      "raw_date": "2025-02-12",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN53649791",
+      "debit": 0.0,
+      "credit": 30388.92,
+      "balance": 163577.25
+    },
+    {
+      "date": "2025-02-14",
+      "raw_date": "2025-02-14",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN82611046",
+      "debit": 0.0,
+      "credit": 14141.2,
+      "balance": 177718.45
+    },
+    {
+      "date": "16-Feb-2025",
+      "raw_date": "2025-02-16",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN13329148",
+      "debit": 30375.4,
+      "credit": 0.0,
+      "balance": 147343.05
+    },
+    {
+      "date": "2025-02-18",
+      "raw_date": "2025-02-18",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN21428912",
+      "debit": 22715.04,
+      "credit": 0.0,
+      "balance": 124628.01
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

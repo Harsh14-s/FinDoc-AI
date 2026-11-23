@@ -1,0 +1,40 @@
+{
+  "document_id": "test_invoice_0057",
+  "document_type": "invoice",
+  "vendor_name": "Vortex Tech Solutions Pvt Ltd",
+  "vendor_gstin": "07AAAAA1234A1Z5",
+  "vendor_category": "IT & Cloud Services",
+  "client_name": "Sangha, Gandhi and Dewan",
+  "client_gstin": "07RMIKU3309T5S8",
+  "invoice_number": "INV-2025-8487",
+  "invoice_date": "2025-07-24",
+  "due_date": "2025-08-23",
+  "line_items": [
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 5,
+      "unit_price": 4500.0,
+      "total": 22500.0
+    },
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 3,
+      "unit_price": 6200.0,
+      "total": 18600.0
+    },
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 2,
+      "unit_price": 3500.0,
+      "total": 7000.0
+    }
+  ],
+  "subtotal": 48100.0,
+  "tax_amount": 8658.0,
+  "tax_rate": "18%",
+  "grand_total": 54958.0,
+  "is_tampered": true,
+  "tamper_types": [
+    "total_mismatch: grand total does not match subtotal + tax"
+  ]
+}

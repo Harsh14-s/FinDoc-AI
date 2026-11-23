@@ -1,0 +1,11 @@
+{
+  "document_id": "train_aadhaar_card_0222",
+  "document_type": "aadhaar_card",
+  "full_name": "Wridesh Jhaveri",
+  "gender": "Female",
+  "dob": "1985-03-01",
+  "aadhaar_number": "6410 6343 1612",
+  "address": "067, Zacharia Ganj, Pimpri-Chinchwad-843959",
+  "is_tampered": false,
+  "tamper_types": []
+}

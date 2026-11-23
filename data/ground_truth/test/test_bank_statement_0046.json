@@ -1,0 +1,127 @@
+{
+  "document_id": "test_bank_statement_0046",
+  "document_type": "bank_statement",
+  "bank_name": "State Mercantile Commercial Bank",
+  "branch": "Bandra Kurla Complex, Mumbai",
+  "ifsc": "SMCB0167077",
+  "account_holder": "Indira Shankar",
+  "account_number": "70742399569",
+  "period_start": "2025-07-01",
+  "period_end": "2025-07-30",
+  "opening_balance": 90732.06,
+  "closing_balance": 166113.94,
+  "total_deposits": 132007.8,
+  "total_withdrawals": 56625.92,
+  "transactions": [
+    {
+      "date": "03/07/2025",
+      "raw_date": "2025-07-03",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN22227594",
+      "debit": 1848.43,
+      "credit": 0.0,
+      "balance": 88883.63
+    },
+    {
+      "date": "05/07/2025",
+      "raw_date": "2025-07-05",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN49922892",
+      "debit": 0.0,
+      "credit": 24660.92,
+      "balance": 113544.55
+    },
+    {
+      "date": "06/07/2025",
+      "raw_date": "2025-07-06",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN67992341",
+      "debit": 0.0,
+      "credit": 31548.78,
+      "balance": 145093.33
+    },
+    {
+      "date": "08/07/2025",
+      "raw_date": "2025-07-08",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN22822379",
+      "debit": 0.0,
+      "credit": 24599.01,
+      "balance": 169692.34
+    },
+    {
+      "date": "09-Jul-2025",
+      "raw_date": "2025-07-09",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN94299900",
+      "debit": 5948.66,
+      "credit": 0.0,
+      "balance": 163743.68
+    },
+    {
+      "date": "11/07/2025",
+      "raw_date": "2025-07-11",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN39159454",
+      "debit": 25423.12,
+      "credit": 0.0,
+      "balance": 138320.56
+    },
+    {
+      "date": "13-Jul-2025",
+      "raw_date": "2025-07-13",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN24123001",
+      "debit": 0.0,
+      "credit": 13221.26,
+      "balance": 151541.82
+    },
+    {
+      "date": "2025-07-15",
+      "raw_date": "2025-07-15",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN77922837",
+      "debit": 9220.45,
+      "credit": 0.0,
+      "balance": 142321.37
+    },
+    {
+      "date": "17/07/2025",
+      "raw_date": "2025-07-17",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN71995701",
+      "debit": 0.0,
+      "credit": 3025.24,
+      "balance": 145346.61
+    },
+    {
+      "date": "19/07/2025",
+      "raw_date": "2025-07-19",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN11441144",
+      "debit": 14185.26,
+      "credit": 0.0,
+      "balance": 131161.35
+    },
+    {
+      "date": "20/07/2025",
+      "raw_date": "2025-07-20",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN72309982",
+      "debit": 0.0,
+      "credit": 11785.31,
+      "balance": 142946.66
+    },
+    {
+      "date": "2025-07-22",
+      "raw_date": "2025-07-22",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN68750274",
+      "debit": 0.0,
+      "credit": 23167.28,
+      "balance": 166113.94
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

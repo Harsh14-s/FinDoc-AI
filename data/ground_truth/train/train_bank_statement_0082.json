@@ -1,0 +1,109 @@
+{
+  "document_id": "train_bank_statement_0082",
+  "document_type": "bank_statement",
+  "bank_name": "State Mercantile Commercial Bank",
+  "branch": "Bandra Kurla Complex, Mumbai",
+  "ifsc": "SMCB0722780",
+  "account_holder": "Upadhriti Modi",
+  "account_number": "98045036590",
+  "period_start": "2025-02-01",
+  "period_end": "2025-03-01",
+  "opening_balance": 148360.32,
+  "closing_balance": 68808.29,
+  "total_deposits": 66903.0,
+  "total_withdrawals": 146455.03,
+  "transactions": [
+    {
+      "date": "02-Feb-2025",
+      "raw_date": "2025-02-02",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN59044830",
+      "debit": 20109.12,
+      "credit": 0.0,
+      "balance": 128251.2
+    },
+    {
+      "date": "03-Feb-2025",
+      "raw_date": "2025-02-03",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN12240013",
+      "debit": 27077.66,
+      "credit": 0.0,
+      "balance": 101173.54
+    },
+    {
+      "date": "2025-02-04",
+      "raw_date": "2025-02-04",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN15345470",
+      "debit": 0.0,
+      "credit": 9545.39,
+      "balance": 110718.93
+    },
+    {
+      "date": "06/02/2025",
+      "raw_date": "2025-02-06",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN65758338",
+      "debit": 0.0,
+      "credit": 25085.7,
+      "balance": 135804.63
+    },
+    {
+      "date": "08/02/2025",
+      "raw_date": "2025-02-08",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN30492422",
+      "debit": 19049.11,
+      "credit": 0.0,
+      "balance": 116755.52
+    },
+    {
+      "date": "09-Feb-2025",
+      "raw_date": "2025-02-09",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN30854365",
+      "debit": 0.0,
+      "credit": 32271.91,
+      "balance": 149027.43
+    },
+    {
+      "date": "11-Feb-2025",
+      "raw_date": "2025-02-11",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN97219985",
+      "debit": 26831.23,
+      "credit": 0.0,
+      "balance": 122196.2
+    },
+    {
+      "date": "2025-02-12",
+      "raw_date": "2025-02-12",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN42029368",
+      "debit": 25683.56,
+      "credit": 0.0,
+      "balance": 96512.64
+    },
+    {
+      "date": "13-Feb-2025",
+      "raw_date": "2025-02-13",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN92181084",
+      "debit": 4501.54,
+      "credit": 0.0,
+      "balance": 92011.1
+    },
+    {
+      "date": "2025-02-14",
+      "raw_date": "2025-02-14",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN33574794",
+      "debit": 23202.81,
+      "credit": 0.0,
+      "balance": 68808.29
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

@@ -1,0 +1,136 @@
+{
+  "document_id": "train_bank_statement_0198",
+  "document_type": "bank_statement",
+  "bank_name": "State Mercantile Commercial Bank",
+  "branch": "Bandra Kurla Complex, Mumbai",
+  "ifsc": "SMCB0330533",
+  "account_holder": "Dipta Sahota",
+  "account_number": "56215306619",
+  "period_start": "2025-05-01",
+  "period_end": "2025-05-30",
+  "opening_balance": 123693.37,
+  "closing_balance": 88303.73,
+  "total_deposits": 82085.21,
+  "total_withdrawals": 117474.85,
+  "transactions": [
+    {
+      "date": "02/05/2025",
+      "raw_date": "2025-05-02",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN21606388",
+      "debit": 29997.64,
+      "credit": 0.0,
+      "balance": 93695.73
+    },
+    {
+      "date": "2025-05-04",
+      "raw_date": "2025-05-04",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN47469681",
+      "debit": 29376.12,
+      "credit": 0.0,
+      "balance": 64319.61
+    },
+    {
+      "date": "06-May-2025",
+      "raw_date": "2025-05-06",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN39850909",
+      "debit": 0.0,
+      "credit": 15481.58,
+      "balance": 79801.19
+    },
+    {
+      "date": "2025-05-07",
+      "raw_date": "2025-05-07",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN15935671",
+      "debit": 14913.13,
+      "credit": 0.0,
+      "balance": 64888.06
+    },
+    {
+      "date": "09-May-2025",
+      "raw_date": "2025-05-09",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN74326441",
+      "debit": 0.0,
+      "credit": 18823.7,
+      "balance": 83711.76
+    },
+    {
+      "date": "10-May-2025",
+      "raw_date": "2025-05-10",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN11667385",
+      "debit": 3366.66,
+      "credit": 0.0,
+      "balance": 80345.1
+    },
+    {
+      "date": "2025-05-12",
+      "raw_date": "2025-05-12",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN96924795",
+      "debit": 0.0,
+      "credit": 10704.77,
+      "balance": 91049.87
+    },
+    {
+      "date": "13-May-2025",
+      "raw_date": "2025-05-13",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN71643898",
+      "debit": 6082.2,
+      "credit": 0.0,
+      "balance": 84967.67
+    },
+    {
+      "date": "2025-05-14",
+      "raw_date": "2025-05-14",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN64406548",
+      "debit": 5282.53,
+      "credit": 0.0,
+      "balance": 79685.14
+    },
+    {
+      "date": "2025-05-16",
+      "raw_date": "2025-05-16",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN94195455",
+      "debit": 547.05,
+      "credit": 0.0,
+      "balance": 79138.09
+    },
+    {
+      "date": "18/05/2025",
+      "raw_date": "2025-05-18",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN49807633",
+      "debit": 0.0,
+      "credit": 18816.75,
+      "balance": 97954.84
+    },
+    {
+      "date": "20-May-2025",
+      "raw_date": "2025-05-20",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN20866138",
+      "debit": 27909.52,
+      "credit": 0.0,
+      "balance": 70045.32
+    },
+    {
+      "date": "2025-05-22",
+      "raw_date": "2025-05-22",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN58853980",
+      "debit": 0.0,
+      "credit": 18258.41,
+      "balance": 88303.73
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

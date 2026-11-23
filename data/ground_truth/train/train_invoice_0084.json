@@ -1,0 +1,44 @@
+{
+  "document_id": "train_invoice_0084",
+  "document_type": "invoice",
+  "vendor_name": "Pinnacle Advisory & Consulting LLP",
+  "vendor_gstin": "29CCCCC9012C1Z8",
+  "vendor_category": "Professional Services",
+  "client_name": "Sarin, Swamy and Chand",
+  "client_gstin": "07KVASF7565S5Q1",
+  "invoice_number": "INV-2025-9569",
+  "invoice_date": "2025-09-26",
+  "due_date": "2025-10-26",
+  "line_items": [
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 1,
+      "unit_price": 25000.0,
+      "total": 25000.0
+    },
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 1,
+      "unit_price": 3500.0,
+      "total": 3500.0
+    },
+    {
+      "description": "Software License Subscription",
+      "quantity": 3,
+      "unit_price": 12000.0,
+      "total": 36000.0
+    },
+    {
+      "description": "Network Security Audit & Patching",
+      "quantity": 4,
+      "unit_price": 18000.0,
+      "total": 72000.0
+    }
+  ],
+  "subtotal": 136500.0,
+  "tax_amount": 24570.0,
+  "tax_rate": "18%",
+  "grand_total": 161070.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

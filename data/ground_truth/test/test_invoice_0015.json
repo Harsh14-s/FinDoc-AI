@@ -1,0 +1,32 @@
+{
+  "document_id": "test_invoice_0015",
+  "document_type": "invoice",
+  "vendor_name": "Vortex Tech Solutions Pvt Ltd",
+  "vendor_gstin": "07AAAAA1234A1Z5",
+  "vendor_category": "IT & Cloud Services",
+  "client_name": "Maharaj, Wason and Mangat",
+  "client_gstin": "07HJPMN0862H1Q1",
+  "invoice_number": "INV-2025-7915",
+  "invoice_date": "2025-10-11",
+  "due_date": "2025-11-10",
+  "line_items": [
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 4,
+      "unit_price": 6200.0,
+      "total": 24800.0
+    },
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 4,
+      "unit_price": 7500.0,
+      "total": 30000.0
+    }
+  ],
+  "subtotal": 54800.0,
+  "tax_amount": 9864.0,
+  "tax_rate": "18%",
+  "grand_total": 64664.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

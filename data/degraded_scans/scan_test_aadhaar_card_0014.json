@@ -1,0 +1,13 @@
+{
+  "document_id": "test_aadhaar_card_0014",
+  "document_type": "aadhaar_card",
+  "full_name": "Falan Bava",
+  "gender": "Other",
+  "dob": "1990-07-16",
+  "aadhaar_number": "9999 ABCD 162",
+  "address": "20/387, Bhasin Path, Morbi-088600",
+  "is_tampered": true,
+  "tamper_types": [
+    "invalid_aadhaar_format: Aadhaar contains alphabets and incorrect length"
+  ]
+}

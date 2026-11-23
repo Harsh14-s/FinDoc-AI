@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: findoc
+Version: 1.0.0
+Summary: FinDocAI: Intelligent Financial Document Extraction, Validation and Risk Insights
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi>=0.110.0
+Requires-Dist: uvicorn>=0.28.0
+Requires-Dist: streamlit>=1.32.0
+Requires-Dist: pandas>=2.2.0
+Requires-Dist: pymupdf>=1.24.0
+Requires-Dist: pdfplumber>=0.11.0
+Requires-Dist: pytesseract>=0.3.10
+Requires-Dist: scikit-learn>=1.4.0
+Requires-Dist: reportlab>=4.1.0
+Requires-Dist: faker>=24.0.0
+Requires-Dist: python-multipart>=0.0.9
+Requires-Dist: pillow>=10.2.0
+Requires-Dist: pytest>=8.0.0

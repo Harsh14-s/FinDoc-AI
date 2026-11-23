@@ -1,0 +1,109 @@
+{
+  "document_id": "test_bank_statement_0001",
+  "document_type": "bank_statement",
+  "bank_name": "Beacon Cooperative Urban Bank",
+  "branch": "MG Road, Bengaluru",
+  "ifsc": "BCOB0672255",
+  "account_holder": "Anvi Bhat",
+  "account_number": "53434838270",
+  "period_start": "2025-07-01",
+  "period_end": "2025-08-01",
+  "opening_balance": 110342.31,
+  "closing_balance": 135439.39,
+  "total_deposits": 117761.78,
+  "total_withdrawals": 92664.7,
+  "transactions": [
+    {
+      "date": "02/07/2025",
+      "raw_date": "2025-07-02",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN59357131",
+      "debit": 0.0,
+      "credit": 16895.15,
+      "balance": 127237.46
+    },
+    {
+      "date": "03-Jul-2025",
+      "raw_date": "2025-07-03",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN17337997",
+      "debit": 0.0,
+      "credit": 26011.02,
+      "balance": 153248.48
+    },
+    {
+      "date": "04-Jul-2025",
+      "raw_date": "2025-07-04",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN58701586",
+      "debit": 11169.76,
+      "credit": 0.0,
+      "balance": 142078.72
+    },
+    {
+      "date": "2025-07-05",
+      "raw_date": "2025-07-05",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN62139697",
+      "debit": 30088.83,
+      "credit": 0.0,
+      "balance": 111989.89
+    },
+    {
+      "date": "07/07/2025",
+      "raw_date": "2025-07-07",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN41602967",
+      "debit": 0.0,
+      "credit": 32803.12,
+      "balance": 144793.01
+    },
+    {
+      "date": "08/07/2025",
+      "raw_date": "2025-07-08",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN94738725",
+      "debit": 0.0,
+      "credit": 32098.23,
+      "balance": 176891.24
+    },
+    {
+      "date": "10/07/2025",
+      "raw_date": "2025-07-10",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN20750109",
+      "debit": 0.0,
+      "credit": 9954.26,
+      "balance": 186845.5
+    },
+    {
+      "date": "2025-07-12",
+      "raw_date": "2025-07-12",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN66689004",
+      "debit": 11978.92,
+      "credit": 0.0,
+      "balance": 174866.58
+    },
+    {
+      "date": "13-Jul-2025",
+      "raw_date": "2025-07-13",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN90814633",
+      "debit": 12639.04,
+      "credit": 0.0,
+      "balance": 162227.54
+    },
+    {
+      "date": "15-Jul-2025",
+      "raw_date": "2025-07-15",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN96083599",
+      "debit": 26788.15,
+      "credit": 0.0,
+      "balance": 135439.39
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

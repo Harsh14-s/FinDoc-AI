@@ -1,0 +1,11 @@
+{
+  "document_id": "test_aadhaar_card_0039",
+  "document_type": "aadhaar_card",
+  "full_name": "Ikbal Kothari",
+  "gender": "Other",
+  "dob": "1989-09-12",
+  "aadhaar_number": "3885 1674 8622",
+  "address": "10, Kuruvilla Zila, Sasaram-756798",
+  "is_tampered": false,
+  "tamper_types": []
+}

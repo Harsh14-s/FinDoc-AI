@@ -1,0 +1,38 @@
+{
+  "document_id": "train_invoice_0015",
+  "document_type": "invoice",
+  "vendor_name": "BlueSky Office Supplies Pvt Ltd",
+  "vendor_gstin": "09DDDDD3456D1Z1",
+  "vendor_category": "Office Equipment",
+  "client_name": "Kannan, Amble and Bobal",
+  "client_gstin": "07GPRQF0310N5I1",
+  "invoice_number": "INV-2025-5398",
+  "invoice_date": "2025-06-28",
+  "due_date": "2025-07-28",
+  "line_items": [
+    {
+      "description": "Software License Subscription",
+      "quantity": 2,
+      "unit_price": 12000.0,
+      "total": 24000.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 4,
+      "unit_price": 25000.0,
+      "total": 100000.0
+    },
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 5,
+      "unit_price": 8500.0,
+      "total": 42500.0
+    }
+  ],
+  "subtotal": 166500.0,
+  "tax_amount": 29970.0,
+  "tax_rate": "18%",
+  "grand_total": 196470.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

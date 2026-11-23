@@ -1,0 +1,100 @@
+{
+  "document_id": "test_bank_statement_0045",
+  "document_type": "bank_statement",
+  "bank_name": "Metro Alliance Bank",
+  "branch": "Sector 62, Noida",
+  "ifsc": "METR0314124",
+  "account_holder": "Manya Comar",
+  "account_number": "65749414722",
+  "period_start": "2025-07-01",
+  "period_end": "2025-07-29",
+  "opening_balance": 91811.32,
+  "closing_balance": 137192.48,
+  "total_deposits": 108979.48,
+  "total_withdrawals": 63598.32,
+  "transactions": [
+    {
+      "date": "03/07/2025",
+      "raw_date": "2025-07-03",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN95765571",
+      "debit": 0.0,
+      "credit": 33686.87,
+      "balance": 125498.19
+    },
+    {
+      "date": "2025-07-04",
+      "raw_date": "2025-07-04",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN84209891",
+      "debit": 0.0,
+      "credit": 4098.8,
+      "balance": 129596.99
+    },
+    {
+      "date": "05/07/2025",
+      "raw_date": "2025-07-05",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN19326928",
+      "debit": 6940.88,
+      "credit": 0.0,
+      "balance": 122656.11
+    },
+    {
+      "date": "07/07/2025",
+      "raw_date": "2025-07-07",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN19392480",
+      "debit": 0.0,
+      "credit": 23255.16,
+      "balance": 145911.27
+    },
+    {
+      "date": "08/07/2025",
+      "raw_date": "2025-07-08",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN33062057",
+      "debit": 0.0,
+      "credit": 18389.34,
+      "balance": 164300.61
+    },
+    {
+      "date": "10/07/2025",
+      "raw_date": "2025-07-10",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN82001505",
+      "debit": 0.0,
+      "credit": 4320.67,
+      "balance": 168621.28
+    },
+    {
+      "date": "2025-07-12",
+      "raw_date": "2025-07-12",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN37713235",
+      "debit": 31673.77,
+      "credit": 0.0,
+      "balance": 136947.51
+    },
+    {
+      "date": "2025-07-13",
+      "raw_date": "2025-07-13",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN73723896",
+      "debit": 24983.67,
+      "credit": 0.0,
+      "balance": 111963.84
+    },
+    {
+      "date": "15/07/2025",
+      "raw_date": "2025-07-15",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN71600090",
+      "debit": 0.0,
+      "credit": 25228.64,
+      "balance": 137192.48
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

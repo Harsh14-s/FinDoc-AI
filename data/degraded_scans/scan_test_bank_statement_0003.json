@@ -1,0 +1,138 @@
+{
+  "document_id": "test_bank_statement_0003",
+  "document_type": "bank_statement",
+  "bank_name": "Metro Alliance Bank",
+  "branch": "Sector 62, Noida",
+  "ifsc": "METR0601602",
+  "account_holder": "Wridesh Kar",
+  "account_number": "71501350971",
+  "period_start": "2025-03-01",
+  "period_end": "2025-03-31",
+  "opening_balance": 46684.88,
+  "closing_balance": 120043.13,
+  "total_deposits": 132007.47,
+  "total_withdrawals": 58649.22,
+  "transactions": [
+    {
+      "date": "03/03/2025",
+      "raw_date": "2025-03-03",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN34412762",
+      "debit": 0.0,
+      "credit": 14800.13,
+      "balance": 61485.01
+    },
+    {
+      "date": "05-Mar-2025",
+      "raw_date": "2025-03-05",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN84964625",
+      "debit": 0.0,
+      "credit": 33209.77,
+      "balance": 94694.78
+    },
+    {
+      "date": "05-Mar-2025",
+      "raw_date": "2025-03-05",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN84964625",
+      "debit": 0.0,
+      "credit": 33209.77,
+      "balance": 94694.78
+    },
+    {
+      "date": "2025-03-06",
+      "raw_date": "2025-03-06",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN32650041",
+      "debit": 7340.18,
+      "credit": 0.0,
+      "balance": 87354.6
+    },
+    {
+      "date": "08/03/2025",
+      "raw_date": "2025-03-08",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN21953600",
+      "debit": 9475.44,
+      "credit": 0.0,
+      "balance": 77879.16
+    },
+    {
+      "date": "09/03/2025",
+      "raw_date": "2025-03-09",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN68406016",
+      "debit": 0.0,
+      "credit": 25291.13,
+      "balance": 103170.29
+    },
+    {
+      "date": "11/03/2025",
+      "raw_date": "2025-03-11",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN45729141",
+      "debit": 0.0,
+      "credit": 7508.52,
+      "balance": 110678.81
+    },
+    {
+      "date": "2025-03-13",
+      "raw_date": "2025-03-13",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN90541748",
+      "debit": 0.0,
+      "credit": 30043.65,
+      "balance": 140722.46
+    },
+    {
+      "date": "2025-03-15",
+      "raw_date": "2025-03-15",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN29588118",
+      "debit": 14594.08,
+      "credit": 0.0,
+      "balance": 126128.38
+    },
+    {
+      "date": "17/03/2025",
+      "raw_date": "2025-03-17",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN43328672",
+      "debit": 0.0,
+      "credit": 16058.7,
+      "balance": 142187.08
+    },
+    {
+      "date": "19-Mar-2025",
+      "raw_date": "2025-03-19",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN53385340",
+      "debit": 0.0,
+      "credit": 5095.57,
+      "balance": 147282.65
+    },
+    {
+      "date": "21/03/2025",
+      "raw_date": "2025-03-21",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN90154282",
+      "debit": 24941.63,
+      "credit": 0.0,
+      "balance": 122341.02
+    },
+    {
+      "date": "22/03/2025",
+      "raw_date": "2025-03-22",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN41519884",
+      "debit": 2297.89,
+      "credit": 0.0,
+      "balance": 120043.13
+    }
+  ],
+  "is_tampered": true,
+  "tamper_types": [
+    "duplicate_transactions: ref_no TXN84964625 duplicated"
+  ]
+}

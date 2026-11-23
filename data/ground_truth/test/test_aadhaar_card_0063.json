@@ -1,0 +1,11 @@
+{
+  "document_id": "test_aadhaar_card_0063",
+  "document_type": "aadhaar_card",
+  "full_name": "Kamya Gandhi",
+  "gender": "Male",
+  "dob": "1979-12-07",
+  "aadhaar_number": "8947 4687 1861",
+  "address": "11/037, Deo Zila, Kadapa-005162",
+  "is_tampered": false,
+  "tamper_types": []
+}

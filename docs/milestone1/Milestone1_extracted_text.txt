@@ -1,0 +1,259 @@
+=== PAGE 1 ===
+CAPSTONE PROJECT EVALUATION
+FinDocAI
+Intelligent Financial Document Extraction, 
+Validation and Risk Insights
+An AI-assisted framework for structured financial 
+data processing.
+Harsh Shukla — E23CSEU0003
+Akshita Singh — E23CSEU0030
+
+
+=== PAGE 2 ===
+PROBLEM SPACE
+EXHIBIT 01
+Financial documents are difficult to process at scale
+Different formats create different review 
+tasks.
+Many formats
+Bank statements, invoices, 
+income statements, and balance 
+sheets arrive in different layouts 
+and formats.
+Imperfect extraction
+Scanned PDFs and images may 
+require OCR; important fields 
+can be missing or incorrectly 
+extracted.
+Manual verification
+Totals and calculations need 
+verification, while large 
+transaction volumes make 
+manual review slow and 
+repetitive.
+Need
+One workflow that extracts, 
+standardizes, validates, and 
+highlights inconsistencies for 
+human review.
+02
+
+
+=== PAGE 3 ===
+PROJECT AIM · PROPOSED / EVALUATED
+FinDocAI turns repetitive review into a guided workflow
+Aim: propose and develop a prototype for selected financial documents that extracts structured data, validates predefined rules, and
+presents preliminary risk indicators through a user-friendly interface.
+1
+Accept
+PDFs and scanned images.
+2
+Extract
+Text, tables, and relevant fields.
+3
+Normalize
+Outputs into tables or JSON.
+4
+Validate
+Required fields, types, and arithmetic 
+relationships.
+5
+Flag
+Unusual values or inconsistencies.
+6
+Evaluate
+Extraction quality, processing time, and 
+failure cases.
+PROPOSED CAPABILITY
+Structured extraction, normalization, validation, and 
+preliminary risk indicators.
+EVALUATION LENS
+Extraction quality, processing time, and failure cases.
+03
+
+
+=== PAGE 4 ===
+USERS AND TRUST
+STAKEHOLDER VIEW
+Different stakeholders need the same data to be reviewable
+FinDocAI supports professional review; it is not intended to replace expert judgement.
+Stakeholder
+Need
+FinDocAI support
+Financial analysts
+Structured, reviewable financial data
+Standardized fields, tables, and review status
+Accountants
+Verification of totals and required fields
+Rule checks and correction workflow
+Risk analysts
+Preliminary indicators of unusual values or 
+inconsistencies
+Explainable flags with reasons
+Business administrators
+Faster document handling and reporting
+Dashboard and export
+System administrators
+Reliable processing and controlled access
+Failure handling and access controls
+Document owners
+Secure and appropriate handling
+Data minimization and authorized use
+04
+
+
+=== PAGE 5 ===
+SUSTAINABILITY CONTEXT
+SDG ALIGNMENT
+FinDocAI aligns most directly with SDG 9
+09
+Industry, Innovation and 
+Infrastructure
+The project explores digital transformation for 
+document-heavy financial workflows and innovation in 
+data processing and validation.
+08
+Decent Work and Economic Growth
+It could reduce repetitive administrative effort and 
+support more efficient operations.
+This is a potential, indirect contribution—not a claim of measured social or economic impact.
+05
+
+
+=== PAGE 6 ===
+TECHNOLOGY LANDSCAPE
+BUILDING BLOCKS
+Existing technologies provide strong building blocks
+Positioning: compare fairly; the project focuses on an understandable integrated workflow rather than claiming existing tools lack 
+capabilities.
+Technology / approach
+Main capability
+Relevance to FinDocAI
+Amazon Textract
+Text, forms, and table extraction
+OCR and structured document extraction
+Google Cloud Document AI
+Document processing and information 
+extraction
+Parsing and structured output
+Azure AI Document Intelligence
+Text, tables, and field extraction
+Document understanding workflows
+Tesseract OCR + Python PDF 
+libraries
+Open-source recognition and PDF parsing
+Cost-conscious prototype options
+LayoutLMv3 research
+Document understanding using text, 
+layout, and visual information
+Research background for intelligent processing
+NIST AI RMF
+Guidance for trustworthy AI risk 
+management
+Reliability, transparency, and human oversight
+06
+
+
+=== PAGE 7 ===
+PROJECT OPPORTUNITY
+INTEGRATION
+The opportunity is integration with transparent review
+Connect extraction, normalization, 
+validation, preliminary flagging, human 
+review, and export in one understandable 
+flow.
+Explain why each rule-based flag was 
+triggered instead of presenting an opaque 
+risk score.
+Proposed contribution: a lightweight 
+prototype for selected financial 
+documents, with scope and limitations 
+made explicit.
+07
+
+
+=== PAGE 8 ===
+SYSTEM REQUIREMENTS
+FUNCTION · TRUST
+Requirements balance functionality with trust
+Functional
+Upload PDFs and scans; extract text, tables, and fields; 
+standardize output; validate fields, types, and 
+arithmetic; flag issues; review, correct, and export.
+Non-functional
+Measure accuracy against verified reference data; 
+protect sensitive documents; process supported files in 
+reasonable time; remain understandable to non-
+technical users.
+RELIABILITY + EXPLAINABILITY
+Handle invalid files and extraction failures gracefully, and show why a rule-based flag 
+appeared.
+08
+
+
+=== PAGE 9 ===
+PROPOSED WORKFLOW
+HUMAN REVIEW REMAINS ESSENTIAL
+How FinDocAI will work
+1. Document upload: submit a PDF or scanned image.
+2. Parsing and OCR: parse digital PDFs and use OCR when required.
+3. Structuring and normalization: identify selected fields and tables; 
+normalize dates, amounts, and formats into tables or JSON.
+4. Validation and flagging: check fields, types, calculations, missing values, 
+mismatches, and unusual transactions; record reasons.
+5. Dashboard, review, and export: display results and status, allow 
+authorized correction, and export reviewed data plus a processing 
+summary.
+Human review remains essential: a flagged 
+transaction is not proof of fraud, and the 
+system does not make autonomous credit or 
+financial decisions.
+09
+
+
+=== PAGE 10 ===
+PROTOTYPE ARCHITECTURE
+PROPOSED TECHNOLOGIES
+The proposed stack is practical for a prototype
+CORE
+Python · PyMuPDF and/or pdfplumber · 
+pandas · Streamlit
+OCR
+Tesseract OCR or a managed OCR service
+Depends on quality and deployment needs.
+OPTIONAL SERVICES
+FastAPI · SQLite
+API layer and prototype storage.
+ENGINEERING
+pytest · Git · GitHub
+Testing and version control.
+FEASIBILITY NOTE
+Open-source components can reduce prototype cost; final choices depend on document formats, 
+extraction quality, deployment requirements, and resources.
+All tools are proposed technologies unless implementation is later confirmed.
+10
+
+
+=== PAGE 11 ===
+CONCLUSION
+Conclusion: From Documents to Reviewable Financial Data
+INTEGRATED WORKFLOW
+Extraction, standardization, predefined 
+validation checks, and human-guided review
+VISIBILITY
+Clearer view of missing fields and possible 
+inconsistencies
+FinDocAI supports professional judgement and does not 
+replace it.
+•
+Evaluation will focus on extraction quality, processing time, validation performance, and failure analysis.
+Structured data. Transparent validation. Human-guided financial insights.
+11
+
+
+=== PAGE 12 ===
+CAPSTONE PROJECT EVALUATION
+Thank You
+FinDocAI: Intelligent Financial Document Extraction, Validation and Risk Insights
+Harsh Shukla — E23CSEU0003
+Akshita Singh — E23CSEU0030

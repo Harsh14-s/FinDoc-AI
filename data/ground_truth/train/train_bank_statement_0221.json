@@ -1,0 +1,136 @@
+{
+  "document_id": "train_bank_statement_0221",
+  "document_type": "bank_statement",
+  "bank_name": "Metro Alliance Bank",
+  "branch": "Sector 62, Noida",
+  "ifsc": "METR0417459",
+  "account_holder": "Azad Saini",
+  "account_number": "28584134027",
+  "period_start": "2025-10-01",
+  "period_end": "2025-10-29",
+  "opening_balance": 120021.43,
+  "closing_balance": 235038.91,
+  "total_deposits": 160813.53,
+  "total_withdrawals": 45796.05,
+  "transactions": [
+    {
+      "date": "03-Oct-2025",
+      "raw_date": "2025-10-03",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN75800289",
+      "debit": 0.0,
+      "credit": 23342.22,
+      "balance": 143363.65
+    },
+    {
+      "date": "2025-10-05",
+      "raw_date": "2025-10-05",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN83366099",
+      "debit": 0.0,
+      "credit": 30158.69,
+      "balance": 173522.34
+    },
+    {
+      "date": "06/10/2025",
+      "raw_date": "2025-10-06",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN70413482",
+      "debit": 4610.13,
+      "credit": 0.0,
+      "balance": 168912.21
+    },
+    {
+      "date": "08-Oct-2025",
+      "raw_date": "2025-10-08",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN84714519",
+      "debit": 1633.66,
+      "credit": 0.0,
+      "balance": 167278.55
+    },
+    {
+      "date": "10/10/2025",
+      "raw_date": "2025-10-10",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN28050706",
+      "debit": 0.0,
+      "credit": 17456.05,
+      "balance": 184734.6
+    },
+    {
+      "date": "12-Oct-2025",
+      "raw_date": "2025-10-12",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN75841004",
+      "debit": 20125.51,
+      "credit": 0.0,
+      "balance": 164609.09
+    },
+    {
+      "date": "14/10/2025",
+      "raw_date": "2025-10-14",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN17480910",
+      "debit": 5892.73,
+      "credit": 0.0,
+      "balance": 158716.36
+    },
+    {
+      "date": "16/10/2025",
+      "raw_date": "2025-10-16",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN57347151",
+      "debit": 13534.02,
+      "credit": 0.0,
+      "balance": 145182.34
+    },
+    {
+      "date": "2025-10-18",
+      "raw_date": "2025-10-18",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN16055696",
+      "debit": 0.0,
+      "credit": 1471.07,
+      "balance": 146653.41
+    },
+    {
+      "date": "2025-10-20",
+      "raw_date": "2025-10-20",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN88378721",
+      "debit": 0.0,
+      "credit": 28429.59,
+      "balance": 175083.0
+    },
+    {
+      "date": "22/10/2025",
+      "raw_date": "2025-10-22",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN57964863",
+      "debit": 0.0,
+      "credit": 12407.43,
+      "balance": 187490.43
+    },
+    {
+      "date": "2025-10-24",
+      "raw_date": "2025-10-24",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN43234179",
+      "debit": 0.0,
+      "credit": 23312.78,
+      "balance": 210803.21
+    },
+    {
+      "date": "2025-10-26",
+      "raw_date": "2025-10-26",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN50924657",
+      "debit": 0.0,
+      "credit": 24235.7,
+      "balance": 235038.91
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

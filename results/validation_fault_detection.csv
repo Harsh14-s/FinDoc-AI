@@ -1,0 +1,8 @@
+Fault Type,Injected Count,Detected Count,Detection Rate (%)
+balance_mismatch,4,4,100.0
+total_mismatch,1,1,100.0
+future_dates,3,3,100.0
+duplicate_transactions,2,2,100.0
+invalid_pan_format,0,0,0.0
+invalid_aadhaar_format,2,2,100.0
+invalid_gstin,1,1,100.0

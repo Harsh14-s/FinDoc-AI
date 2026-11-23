@@ -1,0 +1,136 @@
+{
+  "document_id": "train_bank_statement_0119",
+  "document_type": "bank_statement",
+  "bank_name": "Beacon Cooperative Urban Bank",
+  "branch": "MG Road, Bengaluru",
+  "ifsc": "BCOB0574843",
+  "account_holder": "Jonathan Maharaj",
+  "account_number": "52822935571",
+  "period_start": "2025-03-01",
+  "period_end": "2025-03-30",
+  "opening_balance": 76593.18,
+  "closing_balance": 193191.99,
+  "total_deposits": 218101.22,
+  "total_withdrawals": 101502.41,
+  "transactions": [
+    {
+      "date": "03-Mar-2025",
+      "raw_date": "2025-03-03",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN84300459",
+      "debit": 25059.67,
+      "credit": 0.0,
+      "balance": 51533.51
+    },
+    {
+      "date": "04-Mar-2025",
+      "raw_date": "2025-03-04",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN56344519",
+      "debit": 0.0,
+      "credit": 25146.27,
+      "balance": 76679.78
+    },
+    {
+      "date": "05/03/2025",
+      "raw_date": "2025-03-05",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN95480242",
+      "debit": 0.0,
+      "credit": 17884.32,
+      "balance": 94564.1
+    },
+    {
+      "date": "06-Mar-2025",
+      "raw_date": "2025-03-06",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN88222933",
+      "debit": 0.0,
+      "credit": 19898.67,
+      "balance": 114462.77
+    },
+    {
+      "date": "08-Mar-2025",
+      "raw_date": "2025-03-08",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN11714029",
+      "debit": 0.0,
+      "credit": 29731.89,
+      "balance": 144194.66
+    },
+    {
+      "date": "09-Mar-2025",
+      "raw_date": "2025-03-09",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN17122263",
+      "debit": 0.0,
+      "credit": 13640.03,
+      "balance": 157834.69
+    },
+    {
+      "date": "10-Mar-2025",
+      "raw_date": "2025-03-10",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN48468887",
+      "debit": 0.0,
+      "credit": 27600.86,
+      "balance": 185435.55
+    },
+    {
+      "date": "2025-03-12",
+      "raw_date": "2025-03-12",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN49613096",
+      "debit": 0.0,
+      "credit": 29458.67,
+      "balance": 214894.22
+    },
+    {
+      "date": "13-Mar-2025",
+      "raw_date": "2025-03-13",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN23754633",
+      "debit": 0.0,
+      "credit": 28583.9,
+      "balance": 243478.12
+    },
+    {
+      "date": "14-Mar-2025",
+      "raw_date": "2025-03-14",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN48606206",
+      "debit": 18126.82,
+      "credit": 0.0,
+      "balance": 225351.3
+    },
+    {
+      "date": "15-Mar-2025",
+      "raw_date": "2025-03-15",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN51963706",
+      "debit": 33506.22,
+      "credit": 0.0,
+      "balance": 191845.08
+    },
+    {
+      "date": "16-Mar-2025",
+      "raw_date": "2025-03-16",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN37257905",
+      "debit": 0.0,
+      "credit": 26156.61,
+      "balance": 218001.69
+    },
+    {
+      "date": "18/03/2025",
+      "raw_date": "2025-03-18",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN96923747",
+      "debit": 24809.7,
+      "credit": 0.0,
+      "balance": 193191.99
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

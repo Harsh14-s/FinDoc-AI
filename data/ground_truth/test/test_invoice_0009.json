@@ -1,0 +1,50 @@
+{
+  "document_id": "test_invoice_0009",
+  "document_type": "invoice",
+  "vendor_name": "Vortex Tech Solutions Pvt Ltd",
+  "vendor_gstin": "07AAAAA1234A1Z5",
+  "vendor_category": "IT & Cloud Services",
+  "client_name": "Lal-Parsa",
+  "client_gstin": "07NXUAC8771K7O5",
+  "invoice_number": "INV-2025-9412",
+  "invoice_date": "2025-02-17",
+  "due_date": "2025-03-19",
+  "line_items": [
+    {
+      "description": "Network Security Audit & Patching",
+      "quantity": 3,
+      "unit_price": 18000.0,
+      "total": 54000.0
+    },
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 3,
+      "unit_price": 4500.0,
+      "total": 13500.0
+    },
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 5,
+      "unit_price": 8500.0,
+      "total": 42500.0
+    },
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 1,
+      "unit_price": 6200.0,
+      "total": 6200.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 5,
+      "unit_price": 25000.0,
+      "total": 125000.0
+    }
+  ],
+  "subtotal": 241200.0,
+  "tax_amount": 43416.0,
+  "tax_rate": "18%",
+  "grand_total": 284616.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

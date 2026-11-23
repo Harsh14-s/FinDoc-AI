@@ -1,0 +1,50 @@
+{
+  "document_id": "train_invoice_0126",
+  "document_type": "invoice",
+  "vendor_name": "Apex Logistics & Supply Chain Ltd",
+  "vendor_gstin": "27BBBBB5678B1Z2",
+  "vendor_category": "Freight & Warehousing",
+  "client_name": "Dugar-Pingle",
+  "client_gstin": "07JKWND4599R1F0",
+  "invoice_number": "INV-2025-3020",
+  "invoice_date": "2025-01-01",
+  "due_date": "2025-01-31",
+  "line_items": [
+    {
+      "description": "Software License Subscription",
+      "quantity": 4,
+      "unit_price": 12000.0,
+      "total": 48000.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 5,
+      "unit_price": 25000.0,
+      "total": 125000.0
+    },
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 2,
+      "unit_price": 3500.0,
+      "total": 7000.0
+    },
+    {
+      "description": "Network Security Audit & Patching",
+      "quantity": 2,
+      "unit_price": 18000.0,
+      "total": 36000.0
+    },
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 2,
+      "unit_price": 7500.0,
+      "total": 15000.0
+    }
+  ],
+  "subtotal": 231000.0,
+  "tax_amount": 41580.0,
+  "tax_rate": "18%",
+  "grand_total": 272580.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

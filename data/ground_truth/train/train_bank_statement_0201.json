@@ -1,0 +1,109 @@
+{
+  "document_id": "train_bank_statement_0201",
+  "document_type": "bank_statement",
+  "bank_name": "Beacon Cooperative Urban Bank",
+  "branch": "MG Road, Bengaluru",
+  "ifsc": "BCOB0813269",
+  "account_holder": "Veda Handa",
+  "account_number": "79867769959",
+  "period_start": "2025-07-01",
+  "period_end": "2025-07-31",
+  "opening_balance": 31807.5,
+  "closing_balance": -1272.86,
+  "total_deposits": 92941.62,
+  "total_withdrawals": 126021.98,
+  "transactions": [
+    {
+      "date": "03/07/2025",
+      "raw_date": "2025-07-03",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN26469781",
+      "debit": 18670.55,
+      "credit": 0.0,
+      "balance": 13136.95
+    },
+    {
+      "date": "2025-07-05",
+      "raw_date": "2025-07-05",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN18808386",
+      "debit": 28096.68,
+      "credit": 0.0,
+      "balance": -14959.73
+    },
+    {
+      "date": "2025-07-07",
+      "raw_date": "2025-07-07",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN48704726",
+      "debit": 0.0,
+      "credit": 31479.13,
+      "balance": 16519.4
+    },
+    {
+      "date": "08/07/2025",
+      "raw_date": "2025-07-08",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN29858055",
+      "debit": 0.0,
+      "credit": 10020.02,
+      "balance": 26539.42
+    },
+    {
+      "date": "09/07/2025",
+      "raw_date": "2025-07-09",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN49348536",
+      "debit": 22141.03,
+      "credit": 0.0,
+      "balance": 4398.39
+    },
+    {
+      "date": "2025-07-10",
+      "raw_date": "2025-07-10",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN96528081",
+      "debit": 0.0,
+      "credit": 15813.17,
+      "balance": 20211.56
+    },
+    {
+      "date": "12-Jul-2025",
+      "raw_date": "2025-07-12",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN41182544",
+      "debit": 0.0,
+      "credit": 30576.88,
+      "balance": 50788.44
+    },
+    {
+      "date": "14/07/2025",
+      "raw_date": "2025-07-14",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN53796105",
+      "debit": 23123.74,
+      "credit": 0.0,
+      "balance": 27664.7
+    },
+    {
+      "date": "2025-07-16",
+      "raw_date": "2025-07-16",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN51137063",
+      "debit": 0.0,
+      "credit": 5052.42,
+      "balance": 32717.12
+    },
+    {
+      "date": "2025-07-18",
+      "raw_date": "2025-07-18",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN16351040",
+      "debit": 33989.98,
+      "credit": 0.0,
+      "balance": -1272.86
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

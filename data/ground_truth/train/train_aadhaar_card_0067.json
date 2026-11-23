@@ -1,0 +1,11 @@
+{
+  "document_id": "train_aadhaar_card_0067",
+  "document_type": "aadhaar_card",
+  "full_name": "Keya Ranganathan",
+  "gender": "Female",
+  "dob": "1982-09-24",
+  "aadhaar_number": "6249 4621 8303",
+  "address": "91/905, Sangha Circle, Coimbatore 067165",
+  "is_tampered": false,
+  "tamper_types": []
+}

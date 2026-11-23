@@ -1,0 +1,129 @@
+{
+  "document_id": "test_bank_statement_0006",
+  "document_type": "bank_statement",
+  "bank_name": "Beacon Cooperative Urban Bank",
+  "branch": "MG Road, Bengaluru",
+  "ifsc": "BCOB0977634",
+  "account_holder": "Rayaan Behl",
+  "account_number": "26970360055",
+  "period_start": "2025-06-01",
+  "period_end": "2025-06-30",
+  "opening_balance": 28609.31,
+  "closing_balance": 56138.51,
+  "total_deposits": 129121.9,
+  "total_withdrawals": 101592.7,
+  "transactions": [
+    {
+      "date": "2025-06-03",
+      "raw_date": "2025-06-03",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN98316111",
+      "debit": 9791.49,
+      "credit": 0.0,
+      "balance": 18817.82
+    },
+    {
+      "date": "05/06/2025",
+      "raw_date": "2025-06-05",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN70814320",
+      "debit": 0.0,
+      "credit": 23137.96,
+      "balance": 41955.78
+    },
+    {
+      "date": "05/06/2025",
+      "raw_date": "2025-06-05",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN70814320",
+      "debit": 0.0,
+      "credit": 23137.96,
+      "balance": 41955.78
+    },
+    {
+      "date": "06/06/2025",
+      "raw_date": "2025-06-06",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN47977444",
+      "debit": 28153.75,
+      "credit": 0.0,
+      "balance": 13802.03
+    },
+    {
+      "date": "07/06/2025",
+      "raw_date": "2025-06-07",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN22421986",
+      "debit": 21279.06,
+      "credit": 0.0,
+      "balance": -7477.03
+    },
+    {
+      "date": "2025-06-09",
+      "raw_date": "2025-06-09",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN63541768",
+      "debit": 0.0,
+      "credit": 8782.76,
+      "balance": 1305.73
+    },
+    {
+      "date": "10-Jun-2025",
+      "raw_date": "2025-06-10",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN48243447",
+      "debit": 0.0,
+      "credit": 27392.49,
+      "balance": 28698.22
+    },
+    {
+      "date": "11-Jun-2025",
+      "raw_date": "2025-06-11",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN51621092",
+      "debit": 0.0,
+      "credit": 28137.96,
+      "balance": 56836.18
+    },
+    {
+      "date": "12-Jun-2025",
+      "raw_date": "2025-06-12",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN59319220",
+      "debit": 0.0,
+      "credit": 23460.45,
+      "balance": 80296.63
+    },
+    {
+      "date": "13-Jun-2025",
+      "raw_date": "2025-06-13",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN46034695",
+      "debit": 13889.09,
+      "credit": 0.0,
+      "balance": 66407.54
+    },
+    {
+      "date": "2025-06-15",
+      "raw_date": "2025-06-15",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN92391939",
+      "debit": 28479.31,
+      "credit": 0.0,
+      "balance": 37928.23
+    },
+    {
+      "date": "17-Jun-2025",
+      "raw_date": "2025-06-17",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN72213255",
+      "debit": 0.0,
+      "credit": 18210.28,
+      "balance": 56138.51
+    }
+  ],
+  "is_tampered": true,
+  "tamper_types": [
+    "duplicate_transactions: ref_no TXN70814320 duplicated"
+  ]
+}

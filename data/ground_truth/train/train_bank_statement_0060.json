@@ -1,0 +1,118 @@
+{
+  "document_id": "train_bank_statement_0060",
+  "document_type": "bank_statement",
+  "bank_name": "Apex National Bank",
+  "branch": "Connaught Place, New Delhi",
+  "ifsc": "APEX0979827",
+  "account_holder": "Noah Sibal",
+  "account_number": "16545291437",
+  "period_start": "2025-02-01",
+  "period_end": "2025-03-01",
+  "opening_balance": 120542.36,
+  "closing_balance": 63055.06,
+  "total_deposits": 53364.85,
+  "total_withdrawals": 110852.15,
+  "transactions": [
+    {
+      "date": "02-Feb-2025",
+      "raw_date": "2025-02-02",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN39356057",
+      "debit": 0.0,
+      "credit": 5710.52,
+      "balance": 126252.88
+    },
+    {
+      "date": "04-Feb-2025",
+      "raw_date": "2025-02-04",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN95594482",
+      "debit": 0.0,
+      "credit": 2585.53,
+      "balance": 128838.41
+    },
+    {
+      "date": "2025-02-06",
+      "raw_date": "2025-02-06",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN65208920",
+      "debit": 0.0,
+      "credit": 18861.33,
+      "balance": 147699.74
+    },
+    {
+      "date": "2025-02-07",
+      "raw_date": "2025-02-07",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN48478684",
+      "debit": 18982.96,
+      "credit": 0.0,
+      "balance": 128716.78
+    },
+    {
+      "date": "09-Feb-2025",
+      "raw_date": "2025-02-09",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN22927031",
+      "debit": 0.0,
+      "credit": 4192.07,
+      "balance": 132908.85
+    },
+    {
+      "date": "10/02/2025",
+      "raw_date": "2025-02-10",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN57572279",
+      "debit": 0.0,
+      "credit": 18662.73,
+      "balance": 151571.58
+    },
+    {
+      "date": "2025-02-12",
+      "raw_date": "2025-02-12",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN85833309",
+      "debit": 14507.95,
+      "credit": 0.0,
+      "balance": 137063.63
+    },
+    {
+      "date": "13-Feb-2025",
+      "raw_date": "2025-02-13",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN97742922",
+      "debit": 29751.42,
+      "credit": 0.0,
+      "balance": 107312.21
+    },
+    {
+      "date": "2025-02-14",
+      "raw_date": "2025-02-14",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN73888323",
+      "debit": 13512.35,
+      "credit": 0.0,
+      "balance": 93799.86
+    },
+    {
+      "date": "15-Feb-2025",
+      "raw_date": "2025-02-15",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN68238367",
+      "debit": 0.0,
+      "credit": 3352.67,
+      "balance": 97152.53
+    },
+    {
+      "date": "2025-02-17",
+      "raw_date": "2025-02-17",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN80888325",
+      "debit": 34097.47,
+      "credit": 0.0,
+      "balance": 63055.06
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

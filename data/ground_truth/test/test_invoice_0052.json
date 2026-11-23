@@ -1,0 +1,50 @@
+{
+  "document_id": "test_invoice_0052",
+  "document_type": "invoice",
+  "vendor_name": "Apex Logistics & Supply Chain Ltd",
+  "vendor_gstin": "27BBBBB5678B1Z2",
+  "vendor_category": "Freight & Warehousing",
+  "client_name": "Swamy-Sagar",
+  "client_gstin": "07YWOSC7721R9O0",
+  "invoice_number": "INV-2025-3879",
+  "invoice_date": "2025-05-13",
+  "due_date": "2025-06-12",
+  "line_items": [
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 1,
+      "unit_price": 6200.0,
+      "total": 6200.0
+    },
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 3,
+      "unit_price": 8500.0,
+      "total": 25500.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 2,
+      "unit_price": 25000.0,
+      "total": 50000.0
+    },
+    {
+      "description": "Network Security Audit & Patching",
+      "quantity": 4,
+      "unit_price": 18000.0,
+      "total": 72000.0
+    },
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 2,
+      "unit_price": 3500.0,
+      "total": 7000.0
+    }
+  ],
+  "subtotal": 160700.0,
+  "tax_amount": 28926.0,
+  "tax_rate": "18%",
+  "grand_total": 189626.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

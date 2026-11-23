@@ -1,0 +1,100 @@
+{
+  "document_id": "test_bank_statement_0048",
+  "document_type": "bank_statement",
+  "bank_name": "State Mercantile Commercial Bank",
+  "branch": "Bandra Kurla Complex, Mumbai",
+  "ifsc": "SMCB0781516",
+  "account_holder": "Dhriti Dalal",
+  "account_number": "47860501335",
+  "period_start": "2025-10-01",
+  "period_end": "2025-10-31",
+  "opening_balance": 30492.37,
+  "closing_balance": -14492.02,
+  "total_deposits": 45480.6,
+  "total_withdrawals": 90464.99,
+  "transactions": [
+    {
+      "date": "03-Oct-2025",
+      "raw_date": "2025-10-03",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN23665188",
+      "debit": 17735.37,
+      "credit": 0.0,
+      "balance": 12757.0
+    },
+    {
+      "date": "04-Oct-2025",
+      "raw_date": "2025-10-04",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN94674464",
+      "debit": 21195.42,
+      "credit": 0.0,
+      "balance": -8438.42
+    },
+    {
+      "date": "06-Oct-2025",
+      "raw_date": "2025-10-06",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN95275696",
+      "debit": 0.0,
+      "credit": 11955.61,
+      "balance": 3517.19
+    },
+    {
+      "date": "08/10/2025",
+      "raw_date": "2025-10-08",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN88522325",
+      "debit": 0.0,
+      "credit": 1108.88,
+      "balance": 4626.07
+    },
+    {
+      "date": "10-Oct-2025",
+      "raw_date": "2025-10-10",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN88848693",
+      "debit": 8518.68,
+      "credit": 0.0,
+      "balance": -3892.61
+    },
+    {
+      "date": "11/10/2025",
+      "raw_date": "2025-10-11",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN26650536",
+      "debit": 0.0,
+      "credit": 26683.47,
+      "balance": 22790.86
+    },
+    {
+      "date": "2025-10-12",
+      "raw_date": "2025-10-12",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN18042731",
+      "debit": 21881.93,
+      "credit": 0.0,
+      "balance": 908.93
+    },
+    {
+      "date": "14-Oct-2025",
+      "raw_date": "2025-10-14",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN37432134",
+      "debit": 0.0,
+      "credit": 5732.64,
+      "balance": 6641.57
+    },
+    {
+      "date": "15-Oct-2025",
+      "raw_date": "2025-10-15",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN69555922",
+      "debit": 21133.59,
+      "credit": 0.0,
+      "balance": -14492.02
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

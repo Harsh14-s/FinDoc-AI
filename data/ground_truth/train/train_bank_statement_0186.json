@@ -1,0 +1,136 @@
+{
+  "document_id": "train_bank_statement_0186",
+  "document_type": "bank_statement",
+  "bank_name": "Apex National Bank",
+  "branch": "Connaught Place, New Delhi",
+  "ifsc": "APEX0159645",
+  "account_holder": "Dhriti Gupta",
+  "account_number": "21250225415",
+  "period_start": "2025-10-01",
+  "period_end": "2025-10-30",
+  "opening_balance": 143811.12,
+  "closing_balance": 246391.23,
+  "total_deposits": 153734.32,
+  "total_withdrawals": 51154.21,
+  "transactions": [
+    {
+      "date": "02-Oct-2025",
+      "raw_date": "2025-10-02",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN60460287",
+      "debit": 0.0,
+      "credit": 21361.66,
+      "balance": 165172.78
+    },
+    {
+      "date": "03-Oct-2025",
+      "raw_date": "2025-10-03",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN72673716",
+      "debit": 9240.08,
+      "credit": 0.0,
+      "balance": 155932.7
+    },
+    {
+      "date": "04-Oct-2025",
+      "raw_date": "2025-10-04",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN67308741",
+      "debit": 10035.23,
+      "credit": 0.0,
+      "balance": 145897.47
+    },
+    {
+      "date": "06/10/2025",
+      "raw_date": "2025-10-06",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN18373492",
+      "debit": 0.0,
+      "credit": 3052.9,
+      "balance": 148950.37
+    },
+    {
+      "date": "08/10/2025",
+      "raw_date": "2025-10-08",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN44660198",
+      "debit": 0.0,
+      "credit": 34860.57,
+      "balance": 183810.94
+    },
+    {
+      "date": "09-Oct-2025",
+      "raw_date": "2025-10-09",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN36933352",
+      "debit": 0.0,
+      "credit": 34290.06,
+      "balance": 218101.0
+    },
+    {
+      "date": "2025-10-11",
+      "raw_date": "2025-10-11",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN24553291",
+      "debit": 0.0,
+      "credit": 22769.17,
+      "balance": 240870.17
+    },
+    {
+      "date": "13-Oct-2025",
+      "raw_date": "2025-10-13",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN69268093",
+      "debit": 4165.62,
+      "credit": 0.0,
+      "balance": 236704.55
+    },
+    {
+      "date": "15/10/2025",
+      "raw_date": "2025-10-15",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN43634472",
+      "debit": 0.0,
+      "credit": 2929.23,
+      "balance": 239633.78
+    },
+    {
+      "date": "16-Oct-2025",
+      "raw_date": "2025-10-16",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN15078212",
+      "debit": 0.0,
+      "credit": 22591.57,
+      "balance": 262225.35
+    },
+    {
+      "date": "18-Oct-2025",
+      "raw_date": "2025-10-18",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN62523472",
+      "debit": 0.0,
+      "credit": 11879.16,
+      "balance": 274104.51
+    },
+    {
+      "date": "19/10/2025",
+      "raw_date": "2025-10-19",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN74174787",
+      "debit": 27099.18,
+      "credit": 0.0,
+      "balance": 247005.33
+    },
+    {
+      "date": "2025-10-21",
+      "raw_date": "2025-10-21",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN74701849",
+      "debit": 614.1,
+      "credit": 0.0,
+      "balance": 246391.23
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

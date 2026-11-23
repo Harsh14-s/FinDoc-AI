@@ -1,0 +1,91 @@
+{
+  "document_id": "train_bank_statement_0075",
+  "document_type": "bank_statement",
+  "bank_name": "State Mercantile Commercial Bank",
+  "branch": "Bandra Kurla Complex, Mumbai",
+  "ifsc": "SMCB0571578",
+  "account_holder": "Ridhi Oak",
+  "account_number": "18586982545",
+  "period_start": "2025-05-01",
+  "period_end": "2025-05-31",
+  "opening_balance": 132774.95,
+  "closing_balance": 217052.16,
+  "total_deposits": 123114.05,
+  "total_withdrawals": 38836.84,
+  "transactions": [
+    {
+      "date": "03-May-2025",
+      "raw_date": "2025-05-03",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN88909809",
+      "debit": 8674.64,
+      "credit": 0.0,
+      "balance": 124100.31
+    },
+    {
+      "date": "2025-05-05",
+      "raw_date": "2025-05-05",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN28687800",
+      "debit": 6226.37,
+      "credit": 0.0,
+      "balance": 117873.94
+    },
+    {
+      "date": "06/05/2025",
+      "raw_date": "2025-05-06",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN81441519",
+      "debit": 0.0,
+      "credit": 20167.56,
+      "balance": 138041.5
+    },
+    {
+      "date": "07/05/2025",
+      "raw_date": "2025-05-07",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN49276764",
+      "debit": 0.0,
+      "credit": 34275.51,
+      "balance": 172317.01
+    },
+    {
+      "date": "2025-05-09",
+      "raw_date": "2025-05-09",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN22780905",
+      "debit": 23935.83,
+      "credit": 0.0,
+      "balance": 148381.18
+    },
+    {
+      "date": "2025-05-11",
+      "raw_date": "2025-05-11",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN98032908",
+      "debit": 0.0,
+      "credit": 34740.77,
+      "balance": 183121.95
+    },
+    {
+      "date": "12-May-2025",
+      "raw_date": "2025-05-12",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN43226234",
+      "debit": 0.0,
+      "credit": 11612.34,
+      "balance": 194734.29
+    },
+    {
+      "date": "14/05/2025",
+      "raw_date": "2025-05-14",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN94263610",
+      "debit": 0.0,
+      "credit": 22317.87,
+      "balance": 217052.16
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

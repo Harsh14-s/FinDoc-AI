@@ -1,0 +1,109 @@
+{
+  "document_id": "test_bank_statement_0096",
+  "document_type": "bank_statement",
+  "bank_name": "Apex National Bank",
+  "branch": "Connaught Place, New Delhi",
+  "ifsc": "APEX0643157",
+  "account_holder": "Nidhi Sethi",
+  "account_number": "12301905670",
+  "period_start": "2025-09-01",
+  "period_end": "2025-09-30",
+  "opening_balance": 52038.32,
+  "closing_balance": 3364.98,
+  "total_deposits": 42977.8,
+  "total_withdrawals": 91651.14,
+  "transactions": [
+    {
+      "date": "02-Sep-2025",
+      "raw_date": "2025-09-02",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN21199497",
+      "debit": 0.0,
+      "credit": 5280.49,
+      "balance": 57318.81
+    },
+    {
+      "date": "03/09/2025",
+      "raw_date": "2025-09-03",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN22343983",
+      "debit": 0.0,
+      "credit": 7373.69,
+      "balance": 64692.5
+    },
+    {
+      "date": "05/09/2025",
+      "raw_date": "2025-09-05",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN78807596",
+      "debit": 17605.16,
+      "credit": 0.0,
+      "balance": 47087.34
+    },
+    {
+      "date": "06/09/2025",
+      "raw_date": "2025-09-06",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN47726289",
+      "debit": 0.0,
+      "credit": 24203.48,
+      "balance": 71290.82
+    },
+    {
+      "date": "2025-09-07",
+      "raw_date": "2025-09-07",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN32233584",
+      "debit": 20771.47,
+      "credit": 0.0,
+      "balance": 50519.35
+    },
+    {
+      "date": "09/09/2025",
+      "raw_date": "2025-09-09",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN46463456",
+      "debit": 15118.94,
+      "credit": 0.0,
+      "balance": 35400.41
+    },
+    {
+      "date": "10/09/2025",
+      "raw_date": "2025-09-10",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN57367517",
+      "debit": 7390.37,
+      "credit": 0.0,
+      "balance": 28010.04
+    },
+    {
+      "date": "11/09/2025",
+      "raw_date": "2025-09-11",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN78633149",
+      "debit": 0.0,
+      "credit": 1664.72,
+      "balance": 29674.76
+    },
+    {
+      "date": "13/09/2025",
+      "raw_date": "2025-09-13",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN81202261",
+      "debit": 30765.2,
+      "credit": 0.0,
+      "balance": -1090.44
+    },
+    {
+      "date": "15/09/2025",
+      "raw_date": "2025-09-15",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN53309532",
+      "debit": 0.0,
+      "credit": 4455.42,
+      "balance": 3364.98
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

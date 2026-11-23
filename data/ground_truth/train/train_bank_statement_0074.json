@@ -1,0 +1,102 @@
+{
+  "document_id": "train_bank_statement_0074",
+  "document_type": "bank_statement",
+  "bank_name": "Apex National Bank",
+  "branch": "Connaught Place, New Delhi",
+  "ifsc": "APEX0827120",
+  "account_holder": "Bhavani Singh",
+  "account_number": "58030810494",
+  "period_start": "2025-03-01",
+  "period_end": "2025-04-01",
+  "opening_balance": 77279.89,
+  "closing_balance": 89471.33,
+  "total_deposits": 99942.09,
+  "total_withdrawals": 95550.65,
+  "transactions": [
+    {
+      "date": "2025-03-03",
+      "raw_date": "2025-03-03",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN96605343",
+      "debit": 0.0,
+      "credit": 22424.81,
+      "balance": 99704.7
+    },
+    {
+      "date": "04-Mar-2025",
+      "raw_date": "2025-03-04",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN70532325",
+      "debit": 0.0,
+      "credit": 6954.9,
+      "balance": 106659.6
+    },
+    {
+      "date": "2025-03-05",
+      "raw_date": "2025-03-05",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN75043108",
+      "debit": 0.0,
+      "credit": 33338.55,
+      "balance": 139998.15
+    },
+    {
+      "date": "06/03/2025",
+      "raw_date": "2025-03-06",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN76433728",
+      "debit": 17937.61,
+      "credit": 0.0,
+      "balance": 122060.54
+    },
+    {
+      "date": "2025-03-08",
+      "raw_date": "2025-03-08",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN32448383",
+      "debit": 15812.89,
+      "credit": 0.0,
+      "balance": 106247.65
+    },
+    {
+      "date": "09/03/2025",
+      "raw_date": "2025-03-09",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN82156607",
+      "debit": 0.0,
+      "credit": 9982.43,
+      "balance": 116230.08
+    },
+    {
+      "date": "10-Mar-2025",
+      "raw_date": "2025-03-10",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN76479831",
+      "debit": 27152.89,
+      "credit": 0.0,
+      "balance": 89077.19
+    },
+    {
+      "date": "11-Mar-2025",
+      "raw_date": "2025-03-11",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN59239353",
+      "debit": 0.0,
+      "credit": 27241.4,
+      "balance": 116318.59
+    },
+    {
+      "date": "12-Mar-2025",
+      "raw_date": "2025-03-12",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN23746101",
+      "debit": 34647.26,
+      "credit": 0.0,
+      "balance": 81671.33
+    }
+  ],
+  "is_tampered": true,
+  "tamper_types": [
+    "balance_mismatch: closing balance altered"
+  ]
+}

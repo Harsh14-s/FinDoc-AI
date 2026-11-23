@@ -1,0 +1,44 @@
+{
+  "document_id": "train_invoice_0103",
+  "document_type": "invoice",
+  "vendor_name": "Pinnacle Advisory & Consulting LLP",
+  "vendor_gstin": "29CCCCC9012C1Z8",
+  "vendor_category": "Professional Services",
+  "client_name": "Kumar-Sharaf",
+  "client_gstin": "07ECWLT4074O8B2",
+  "invoice_number": "INV-2025-3786",
+  "invoice_date": "2025-09-06",
+  "due_date": "2025-10-06",
+  "line_items": [
+    {
+      "description": "Software License Subscription",
+      "quantity": 5,
+      "unit_price": 12000.0,
+      "total": 60000.0
+    },
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 2,
+      "unit_price": 8500.0,
+      "total": 17000.0
+    },
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 3,
+      "unit_price": 3500.0,
+      "total": 10500.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 1,
+      "unit_price": 25000.0,
+      "total": 25000.0
+    }
+  ],
+  "subtotal": 112500.0,
+  "tax_amount": 20250.0,
+  "tax_rate": "18%",
+  "grand_total": 132750.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

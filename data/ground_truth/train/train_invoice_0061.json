@@ -1,0 +1,44 @@
+{
+  "document_id": "train_invoice_0061",
+  "document_type": "invoice",
+  "vendor_name": "Apex Logistics & Supply Chain Ltd",
+  "vendor_gstin": "27BBBBB5678B1Z2",
+  "vendor_category": "Freight & Warehousing",
+  "client_name": "Walla Inc",
+  "client_gstin": "07IDLDQ6990Y1U6",
+  "invoice_number": "INV-2025-4464",
+  "invoice_date": "2025-10-16",
+  "due_date": "2025-11-15",
+  "line_items": [
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 5,
+      "unit_price": 4500.0,
+      "total": 22500.0
+    },
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 5,
+      "unit_price": 3500.0,
+      "total": 17500.0
+    },
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 1,
+      "unit_price": 7500.0,
+      "total": 7500.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 2,
+      "unit_price": 25000.0,
+      "total": 50000.0
+    }
+  ],
+  "subtotal": 97500.0,
+  "tax_amount": 17550.0,
+  "tax_rate": "18%",
+  "grand_total": 115050.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

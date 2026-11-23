@@ -1,0 +1,109 @@
+{
+  "document_id": "test_bank_statement_0041",
+  "document_type": "bank_statement",
+  "bank_name": "Metro Alliance Bank",
+  "branch": "Sector 62, Noida",
+  "ifsc": "METR0500944",
+  "account_holder": "Charita Basu",
+  "account_number": "45721330726",
+  "period_start": "2025-01-01",
+  "period_end": "2025-01-30",
+  "opening_balance": 80211.06,
+  "closing_balance": 186698.61,
+  "total_deposits": 156592.2,
+  "total_withdrawals": 50104.65,
+  "transactions": [
+    {
+      "date": "02-Jan-2025",
+      "raw_date": "2025-01-02",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN49529512",
+      "debit": 0.0,
+      "credit": 31600.92,
+      "balance": 111811.98
+    },
+    {
+      "date": "03/01/2025",
+      "raw_date": "2025-01-03",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN19576257",
+      "debit": 3895.11,
+      "credit": 0.0,
+      "balance": 107916.87
+    },
+    {
+      "date": "04/01/2025",
+      "raw_date": "2025-01-04",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN54190018",
+      "debit": 0.0,
+      "credit": 7284.3,
+      "balance": 115201.17
+    },
+    {
+      "date": "06-Jan-2025",
+      "raw_date": "2025-01-06",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN28503943",
+      "debit": 0.0,
+      "credit": 21339.17,
+      "balance": 136540.34
+    },
+    {
+      "date": "08/01/2025",
+      "raw_date": "2025-01-08",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN47828631",
+      "debit": 0.0,
+      "credit": 27067.63,
+      "balance": 163607.97
+    },
+    {
+      "date": "10/01/2025",
+      "raw_date": "2025-01-10",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN11595945",
+      "debit": 26644.31,
+      "credit": 0.0,
+      "balance": 136963.66
+    },
+    {
+      "date": "11/01/2025",
+      "raw_date": "2025-01-11",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN38168948",
+      "debit": 0.0,
+      "credit": 25455.09,
+      "balance": 162418.75
+    },
+    {
+      "date": "12-Jan-2025",
+      "raw_date": "2025-01-12",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN72912993",
+      "debit": 19565.23,
+      "credit": 0.0,
+      "balance": 142853.52
+    },
+    {
+      "date": "2025-01-14",
+      "raw_date": "2025-01-14",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN52020192",
+      "debit": 0.0,
+      "credit": 27821.06,
+      "balance": 170674.58
+    },
+    {
+      "date": "2025-01-16",
+      "raw_date": "2025-01-16",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN84953463",
+      "debit": 0.0,
+      "credit": 16024.03,
+      "balance": 186698.61
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

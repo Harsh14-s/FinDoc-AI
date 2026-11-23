@@ -1,0 +1,11 @@
+{
+  "document_id": "train_aadhaar_card_0192",
+  "document_type": "aadhaar_card",
+  "full_name": "Nandini Behl",
+  "gender": "Female",
+  "dob": "1995-06-10",
+  "aadhaar_number": "3716 8121 5118",
+  "address": "78/49, Dani, Jalandhar 558523",
+  "is_tampered": false,
+  "tamper_types": []
+}

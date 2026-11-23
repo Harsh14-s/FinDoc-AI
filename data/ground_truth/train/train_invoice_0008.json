@@ -1,0 +1,44 @@
+{
+  "document_id": "train_invoice_0008",
+  "document_type": "invoice",
+  "vendor_name": "Vortex Tech Solutions Pvt Ltd",
+  "vendor_gstin": "07AAAAA1234A1Z5",
+  "vendor_category": "IT & Cloud Services",
+  "client_name": "Mutti Group",
+  "client_gstin": "07PFZPD4139J5Q3",
+  "invoice_number": "INV-2025-5650",
+  "invoice_date": "2025-09-22",
+  "due_date": "2025-10-22",
+  "line_items": [
+    {
+      "description": "Software License Subscription",
+      "quantity": 2,
+      "unit_price": 12000.0,
+      "total": 24000.0
+    },
+    {
+      "description": "Network Security Audit & Patching",
+      "quantity": 2,
+      "unit_price": 18000.0,
+      "total": 36000.0
+    },
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 2,
+      "unit_price": 3500.0,
+      "total": 7000.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 1,
+      "unit_price": 25000.0,
+      "total": 25000.0
+    }
+  ],
+  "subtotal": 92000.0,
+  "tax_amount": 16560.0,
+  "tax_rate": "18%",
+  "grand_total": 108560.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

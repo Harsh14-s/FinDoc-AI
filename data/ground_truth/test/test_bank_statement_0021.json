@@ -1,0 +1,91 @@
+{
+  "document_id": "test_bank_statement_0021",
+  "document_type": "bank_statement",
+  "bank_name": "Apex National Bank",
+  "branch": "Connaught Place, New Delhi",
+  "ifsc": "APEX0647098",
+  "account_holder": "Girish Wable",
+  "account_number": "91420952632",
+  "period_start": "2025-04-01",
+  "period_end": "2025-05-02",
+  "opening_balance": 87829.85,
+  "closing_balance": 117896.2,
+  "total_deposits": 55337.94,
+  "total_withdrawals": 25271.59,
+  "transactions": [
+    {
+      "date": "2025-04-02",
+      "raw_date": "2025-04-02",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN37622679",
+      "debit": 0.0,
+      "credit": 1154.59,
+      "balance": 88984.44
+    },
+    {
+      "date": "04-Apr-2025",
+      "raw_date": "2025-04-04",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN63928396",
+      "debit": 21436.49,
+      "credit": 0.0,
+      "balance": 67547.95
+    },
+    {
+      "date": "2025-04-05",
+      "raw_date": "2025-04-05",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN68655485",
+      "debit": 1302.58,
+      "credit": 0.0,
+      "balance": 66245.37
+    },
+    {
+      "date": "07/04/2025",
+      "raw_date": "2025-04-07",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN52598349",
+      "debit": 0.0,
+      "credit": 30157.87,
+      "balance": 96403.24
+    },
+    {
+      "date": "09/04/2025",
+      "raw_date": "2025-04-09",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN32569515",
+      "debit": 0.0,
+      "credit": 3927.01,
+      "balance": 100330.25
+    },
+    {
+      "date": "2025-04-10",
+      "raw_date": "2025-04-10",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN22029742",
+      "debit": 0.0,
+      "credit": 9316.63,
+      "balance": 109646.88
+    },
+    {
+      "date": "2025-04-12",
+      "raw_date": "2025-04-12",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN53659778",
+      "debit": 2532.52,
+      "credit": 0.0,
+      "balance": 107114.36
+    },
+    {
+      "date": "13/04/2025",
+      "raw_date": "2025-04-13",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN23253224",
+      "debit": 0.0,
+      "credit": 10781.84,
+      "balance": 117896.2
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

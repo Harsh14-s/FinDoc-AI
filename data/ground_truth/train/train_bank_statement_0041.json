@@ -1,0 +1,91 @@
+{
+  "document_id": "train_bank_statement_0041",
+  "document_type": "bank_statement",
+  "bank_name": "Apex National Bank",
+  "branch": "Connaught Place, New Delhi",
+  "ifsc": "APEX0766549",
+  "account_holder": "Hemani Murthy",
+  "account_number": "16314182096",
+  "period_start": "2025-07-01",
+  "period_end": "2025-07-31",
+  "opening_balance": 56706.28,
+  "closing_balance": 112776.56,
+  "total_deposits": 107704.34,
+  "total_withdrawals": 51634.06,
+  "transactions": [
+    {
+      "date": "2025-07-03",
+      "raw_date": "2025-07-03",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN94323222",
+      "debit": 0.0,
+      "credit": 25786.47,
+      "balance": 82492.75
+    },
+    {
+      "date": "05/07/2025",
+      "raw_date": "2025-07-05",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN83284724",
+      "debit": 0.0,
+      "credit": 2029.58,
+      "balance": 84522.33
+    },
+    {
+      "date": "2025-07-06",
+      "raw_date": "2025-07-06",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN34464938",
+      "debit": 17009.33,
+      "credit": 0.0,
+      "balance": 67513.0
+    },
+    {
+      "date": "2025-07-07",
+      "raw_date": "2025-07-07",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN36772387",
+      "debit": 0.0,
+      "credit": 7454.89,
+      "balance": 74967.89
+    },
+    {
+      "date": "09/07/2025",
+      "raw_date": "2025-07-09",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN82884346",
+      "debit": 34624.73,
+      "credit": 0.0,
+      "balance": 40343.16
+    },
+    {
+      "date": "11/07/2025",
+      "raw_date": "2025-07-11",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN35649468",
+      "debit": 0.0,
+      "credit": 26488.54,
+      "balance": 66831.7
+    },
+    {
+      "date": "13/07/2025",
+      "raw_date": "2025-07-13",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN54550177",
+      "debit": 0.0,
+      "credit": 30370.04,
+      "balance": 97201.74
+    },
+    {
+      "date": "14-Jul-2025",
+      "raw_date": "2025-07-14",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN63690013",
+      "debit": 0.0,
+      "credit": 15574.82,
+      "balance": 112776.56
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

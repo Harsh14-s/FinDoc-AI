@@ -1,0 +1,91 @@
+{
+  "document_id": "train_bank_statement_0148",
+  "document_type": "bank_statement",
+  "bank_name": "Metro Alliance Bank",
+  "branch": "Sector 62, Noida",
+  "ifsc": "METR0685472",
+  "account_holder": "Krisha Dube",
+  "account_number": "53949002894",
+  "period_start": "2025-06-01",
+  "period_end": "2025-07-02",
+  "opening_balance": 116648.6,
+  "closing_balance": 184782.08,
+  "total_deposits": 121027.01,
+  "total_withdrawals": 52893.53,
+  "transactions": [
+    {
+      "date": "2025-06-03",
+      "raw_date": "2025-06-03",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN43647879",
+      "debit": 0.0,
+      "credit": 25491.77,
+      "balance": 142140.37
+    },
+    {
+      "date": "2025-06-05",
+      "raw_date": "2025-06-05",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN75779034",
+      "debit": 19224.33,
+      "credit": 0.0,
+      "balance": 122916.04
+    },
+    {
+      "date": "06-Jun-2025",
+      "raw_date": "2025-06-06",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN46953423",
+      "debit": 0.0,
+      "credit": 25767.88,
+      "balance": 148683.92
+    },
+    {
+      "date": "07-Jun-2025",
+      "raw_date": "2025-06-07",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN45346140",
+      "debit": 16003.75,
+      "credit": 0.0,
+      "balance": 132680.17
+    },
+    {
+      "date": "09-Jun-2025",
+      "raw_date": "2025-06-09",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN60874366",
+      "debit": 0.0,
+      "credit": 22511.9,
+      "balance": 155192.07
+    },
+    {
+      "date": "10-Jun-2025",
+      "raw_date": "2025-06-10",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN58865345",
+      "debit": 0.0,
+      "credit": 21880.84,
+      "balance": 177072.91
+    },
+    {
+      "date": "11-Jun-2025",
+      "raw_date": "2025-06-11",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN98354109",
+      "debit": 0.0,
+      "credit": 25374.62,
+      "balance": 202447.53
+    },
+    {
+      "date": "2025-06-13",
+      "raw_date": "2025-06-13",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN84016756",
+      "debit": 17665.45,
+      "credit": 0.0,
+      "balance": 184782.08
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

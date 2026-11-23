@@ -1,0 +1,40 @@
+{
+  "document_id": "train_invoice_0093",
+  "document_type": "invoice",
+  "vendor_name": "Vortex Tech Solutions Pvt Ltd",
+  "vendor_gstin": "07AAAAA1234A1Z5",
+  "vendor_category": "IT & Cloud Services",
+  "client_name": "Suri, Dixit and Sekhon",
+  "client_gstin": "07YDUMS8755P8K8",
+  "invoice_number": "INV-2025-8729",
+  "invoice_date": "2025-09-12",
+  "due_date": "2025-10-12",
+  "line_items": [
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 2,
+      "unit_price": 25000.0,
+      "total": 50000.0
+    },
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 3,
+      "unit_price": 4500.0,
+      "total": 13500.0
+    },
+    {
+      "description": "Software License Subscription",
+      "quantity": 5,
+      "unit_price": 12000.0,
+      "total": 60000.0
+    }
+  ],
+  "subtotal": 123500.0,
+  "tax_amount": 22230.0,
+  "tax_rate": "18%",
+  "grand_total": 149930.0,
+  "is_tampered": true,
+  "tamper_types": [
+    "total_mismatch: grand total does not match subtotal + tax"
+  ]
+}

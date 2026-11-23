@@ -1,0 +1,127 @@
+{
+  "document_id": "test_bank_statement_0077",
+  "document_type": "bank_statement",
+  "bank_name": "Metro Alliance Bank",
+  "branch": "Sector 62, Noida",
+  "ifsc": "METR0213119",
+  "account_holder": "Yashodhara Agate",
+  "account_number": "23449336488",
+  "period_start": "2025-01-01",
+  "period_end": "2025-01-30",
+  "opening_balance": 44442.75,
+  "closing_balance": 100732.86,
+  "total_deposits": 111481.37,
+  "total_withdrawals": 55191.26,
+  "transactions": [
+    {
+      "date": "02-Jan-2025",
+      "raw_date": "2025-01-02",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN67668666",
+      "debit": 0.0,
+      "credit": 29129.33,
+      "balance": 73572.08
+    },
+    {
+      "date": "03/01/2025",
+      "raw_date": "2025-01-03",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN21088383",
+      "debit": 10236.71,
+      "credit": 0.0,
+      "balance": 63335.37
+    },
+    {
+      "date": "04/01/2025",
+      "raw_date": "2025-01-04",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN43482865",
+      "debit": 0.0,
+      "credit": 18137.77,
+      "balance": 81473.14
+    },
+    {
+      "date": "2025-01-05",
+      "raw_date": "2025-01-05",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN67600736",
+      "debit": 9033.73,
+      "credit": 0.0,
+      "balance": 72439.41
+    },
+    {
+      "date": "2025-01-07",
+      "raw_date": "2025-01-07",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN34318675",
+      "debit": 17830.52,
+      "credit": 0.0,
+      "balance": 54608.89
+    },
+    {
+      "date": "2025-01-08",
+      "raw_date": "2025-01-08",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN46757086",
+      "debit": 0.0,
+      "credit": 14344.27,
+      "balance": 68953.16
+    },
+    {
+      "date": "09/01/2025",
+      "raw_date": "2025-01-09",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN16839113",
+      "debit": 0.0,
+      "credit": 7387.7,
+      "balance": 76340.86
+    },
+    {
+      "date": "2025-01-11",
+      "raw_date": "2025-01-11",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN41061693",
+      "debit": 0.0,
+      "credit": 22349.19,
+      "balance": 98690.05
+    },
+    {
+      "date": "2025-01-13",
+      "raw_date": "2025-01-13",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN96419192",
+      "debit": 18090.3,
+      "credit": 0.0,
+      "balance": 80599.75
+    },
+    {
+      "date": "15-Jan-2025",
+      "raw_date": "2025-01-15",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN57113712",
+      "debit": 0.0,
+      "credit": 10179.18,
+      "balance": 90778.93
+    },
+    {
+      "date": "2025-01-17",
+      "raw_date": "2025-01-17",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN15488046",
+      "debit": 0.0,
+      "credit": 2140.7,
+      "balance": 92919.63
+    },
+    {
+      "date": "18/01/2025",
+      "raw_date": "2025-01-18",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN73358574",
+      "debit": 0.0,
+      "credit": 7813.23,
+      "balance": 100732.86
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

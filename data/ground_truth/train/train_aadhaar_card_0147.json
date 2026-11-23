@@ -1,0 +1,11 @@
+{
+  "document_id": "train_aadhaar_card_0147",
+  "document_type": "aadhaar_card",
+  "full_name": "Pallavi Trivedi",
+  "gender": "Male",
+  "dob": "1976-06-21",
+  "aadhaar_number": "3260 9787 2759",
+  "address": "573, Devan Ganj, Solapur 188805",
+  "is_tampered": false,
+  "tamper_types": []
+}

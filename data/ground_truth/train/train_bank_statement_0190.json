@@ -1,0 +1,136 @@
+{
+  "document_id": "train_bank_statement_0190",
+  "document_type": "bank_statement",
+  "bank_name": "Apex National Bank",
+  "branch": "Connaught Place, New Delhi",
+  "ifsc": "APEX0612997",
+  "account_holder": "Krish Lalla",
+  "account_number": "42611452293",
+  "period_start": "2025-07-01",
+  "period_end": "2025-07-29",
+  "opening_balance": 124092.4,
+  "closing_balance": 52459.17,
+  "total_deposits": 67562.46,
+  "total_withdrawals": 139195.69,
+  "transactions": [
+    {
+      "date": "2025-07-03",
+      "raw_date": "2025-07-03",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN70305001",
+      "debit": 29281.64,
+      "credit": 0.0,
+      "balance": 94810.76
+    },
+    {
+      "date": "04/07/2025",
+      "raw_date": "2025-07-04",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN15746469",
+      "debit": 0.0,
+      "credit": 2433.88,
+      "balance": 97244.64
+    },
+    {
+      "date": "05-Jul-2025",
+      "raw_date": "2025-07-05",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN71521428",
+      "debit": 23522.42,
+      "credit": 0.0,
+      "balance": 73722.22
+    },
+    {
+      "date": "06/07/2025",
+      "raw_date": "2025-07-06",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN29003951",
+      "debit": 0.0,
+      "credit": 2985.15,
+      "balance": 76707.37
+    },
+    {
+      "date": "07-Jul-2025",
+      "raw_date": "2025-07-07",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN42572300",
+      "debit": 21833.84,
+      "credit": 0.0,
+      "balance": 54873.53
+    },
+    {
+      "date": "08/07/2025",
+      "raw_date": "2025-07-08",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN16705248",
+      "debit": 0.0,
+      "credit": 6442.59,
+      "balance": 61316.12
+    },
+    {
+      "date": "2025-07-09",
+      "raw_date": "2025-07-09",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN18584245",
+      "debit": 29319.65,
+      "credit": 0.0,
+      "balance": 31996.47
+    },
+    {
+      "date": "2025-07-10",
+      "raw_date": "2025-07-10",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN18470495",
+      "debit": 21739.18,
+      "credit": 0.0,
+      "balance": 10257.29
+    },
+    {
+      "date": "12/07/2025",
+      "raw_date": "2025-07-12",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN63956682",
+      "debit": 0.0,
+      "credit": 28497.48,
+      "balance": 38754.77
+    },
+    {
+      "date": "2025-07-13",
+      "raw_date": "2025-07-13",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN38619492",
+      "debit": 11594.85,
+      "credit": 0.0,
+      "balance": 27159.92
+    },
+    {
+      "date": "2025-07-14",
+      "raw_date": "2025-07-14",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN46761344",
+      "debit": 0.0,
+      "credit": 2681.16,
+      "balance": 29841.08
+    },
+    {
+      "date": "2025-07-16",
+      "raw_date": "2025-07-16",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN84277128",
+      "debit": 0.0,
+      "credit": 24522.2,
+      "balance": 54363.28
+    },
+    {
+      "date": "18-Jul-2025",
+      "raw_date": "2025-07-18",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN23417457",
+      "debit": 1904.11,
+      "credit": 0.0,
+      "balance": 52459.17
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

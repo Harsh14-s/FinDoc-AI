@@ -1,0 +1,91 @@
+{
+  "document_id": "train_bank_statement_0161",
+  "document_type": "bank_statement",
+  "bank_name": "Metro Alliance Bank",
+  "branch": "Sector 62, Noida",
+  "ifsc": "METR0579770",
+  "account_holder": "Lila Prakash",
+  "account_number": "55904020787",
+  "period_start": "2025-04-01",
+  "period_end": "2025-05-02",
+  "opening_balance": 75608.35,
+  "closing_balance": 130473.66,
+  "total_deposits": 95464.83,
+  "total_withdrawals": 40599.52,
+  "transactions": [
+    {
+      "date": "03-Apr-2025",
+      "raw_date": "2025-04-03",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN86763742",
+      "debit": 0.0,
+      "credit": 14098.2,
+      "balance": 89706.55
+    },
+    {
+      "date": "2025-04-04",
+      "raw_date": "2025-04-04",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN15692967",
+      "debit": 0.0,
+      "credit": 16263.06,
+      "balance": 105969.61
+    },
+    {
+      "date": "06-Apr-2025",
+      "raw_date": "2025-04-06",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN79273350",
+      "debit": 0.0,
+      "credit": 19740.68,
+      "balance": 125710.29
+    },
+    {
+      "date": "07/04/2025",
+      "raw_date": "2025-04-07",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN50876565",
+      "debit": 0.0,
+      "credit": 14232.38,
+      "balance": 139942.67
+    },
+    {
+      "date": "2025-04-09",
+      "raw_date": "2025-04-09",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN92293489",
+      "debit": 0.0,
+      "credit": 15074.95,
+      "balance": 155017.62
+    },
+    {
+      "date": "2025-04-10",
+      "raw_date": "2025-04-10",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN77197151",
+      "debit": 16083.58,
+      "credit": 0.0,
+      "balance": 138934.04
+    },
+    {
+      "date": "11/04/2025",
+      "raw_date": "2025-04-11",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN28160554",
+      "debit": 24515.94,
+      "credit": 0.0,
+      "balance": 114418.1
+    },
+    {
+      "date": "13/04/2025",
+      "raw_date": "2025-04-13",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN34008676",
+      "debit": 0.0,
+      "credit": 16055.56,
+      "balance": 130473.66
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

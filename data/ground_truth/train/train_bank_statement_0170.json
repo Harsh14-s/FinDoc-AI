@@ -1,0 +1,91 @@
+{
+  "document_id": "train_bank_statement_0170",
+  "document_type": "bank_statement",
+  "bank_name": "Beacon Cooperative Urban Bank",
+  "branch": "MG Road, Bengaluru",
+  "ifsc": "BCOB0417003",
+  "account_holder": "Mitesh Sengupta",
+  "account_number": "79647790447",
+  "period_start": "2025-03-01",
+  "period_end": "2025-03-29",
+  "opening_balance": 71776.96,
+  "closing_balance": 97880.01,
+  "total_deposits": 72071.87,
+  "total_withdrawals": 45968.82,
+  "transactions": [
+    {
+      "date": "02-Mar-2025",
+      "raw_date": "2025-03-02",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN74781956",
+      "debit": 1360.25,
+      "credit": 0.0,
+      "balance": 70416.71
+    },
+    {
+      "date": "03/03/2025",
+      "raw_date": "2025-03-03",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN80280155",
+      "debit": 0.0,
+      "credit": 17179.78,
+      "balance": 87596.49
+    },
+    {
+      "date": "05-Mar-2025",
+      "raw_date": "2025-03-05",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN23187101",
+      "debit": 0.0,
+      "credit": 27047.11,
+      "balance": 114643.6
+    },
+    {
+      "date": "2025-03-06",
+      "raw_date": "2025-03-06",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN80107942",
+      "debit": 16348.21,
+      "credit": 0.0,
+      "balance": 98295.39
+    },
+    {
+      "date": "2025-03-07",
+      "raw_date": "2025-03-07",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN89763928",
+      "debit": 24203.31,
+      "credit": 0.0,
+      "balance": 74092.08
+    },
+    {
+      "date": "09-Mar-2025",
+      "raw_date": "2025-03-09",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN98447373",
+      "debit": 4057.05,
+      "credit": 0.0,
+      "balance": 70035.03
+    },
+    {
+      "date": "11-Mar-2025",
+      "raw_date": "2025-03-11",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN51895110",
+      "debit": 0.0,
+      "credit": 20425.81,
+      "balance": 90460.84
+    },
+    {
+      "date": "12/03/2025",
+      "raw_date": "2025-03-12",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN48462422",
+      "debit": 0.0,
+      "credit": 7419.17,
+      "balance": 97880.01
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

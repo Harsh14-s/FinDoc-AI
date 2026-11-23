@@ -1,0 +1,50 @@
+{
+  "document_id": "train_invoice_0042",
+  "document_type": "invoice",
+  "vendor_name": "BlueSky Office Supplies Pvt Ltd",
+  "vendor_gstin": "09DDDDD3456D1Z1",
+  "vendor_category": "Office Equipment",
+  "client_name": "Vaidya-D\u2019Alia",
+  "client_gstin": "07AHZIR6934U0V6",
+  "invoice_number": "INV-2025-7335",
+  "invoice_date": "2025-06-06",
+  "due_date": "2025-07-06",
+  "line_items": [
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 4,
+      "unit_price": 3500.0,
+      "total": 14000.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 1,
+      "unit_price": 25000.0,
+      "total": 25000.0
+    },
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 4,
+      "unit_price": 6200.0,
+      "total": 24800.0
+    },
+    {
+      "description": "Network Security Audit & Patching",
+      "quantity": 5,
+      "unit_price": 18000.0,
+      "total": 90000.0
+    },
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 2,
+      "unit_price": 4500.0,
+      "total": 9000.0
+    }
+  ],
+  "subtotal": 162800.0,
+  "tax_amount": 29304.0,
+  "tax_rate": "18%",
+  "grand_total": 192104.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

@@ -1,0 +1,100 @@
+{
+  "document_id": "test_bank_statement_0012",
+  "document_type": "bank_statement",
+  "bank_name": "Apex National Bank",
+  "branch": "Connaught Place, New Delhi",
+  "ifsc": "APEX0118785",
+  "account_holder": "Om Pandey",
+  "account_number": "84877596201",
+  "period_start": "2025-01-01",
+  "period_end": "2025-02-01",
+  "opening_balance": 39584.78,
+  "closing_balance": -30735.81,
+  "total_deposits": 66957.74,
+  "total_withdrawals": 137278.33,
+  "transactions": [
+    {
+      "date": "03-Jan-2025",
+      "raw_date": "2025-01-03",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN90783964",
+      "debit": 30472.93,
+      "credit": 0.0,
+      "balance": 9111.85
+    },
+    {
+      "date": "05-Jan-2025",
+      "raw_date": "2025-01-05",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN58416197",
+      "debit": 34100.31,
+      "credit": 0.0,
+      "balance": -24988.46
+    },
+    {
+      "date": "2025-01-07",
+      "raw_date": "2025-01-07",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN35609022",
+      "debit": 0.0,
+      "credit": 5161.43,
+      "balance": -19827.03
+    },
+    {
+      "date": "2025-01-08",
+      "raw_date": "2025-01-08",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN97056735",
+      "debit": 7718.42,
+      "credit": 0.0,
+      "balance": -27545.45
+    },
+    {
+      "date": "2025-01-09",
+      "raw_date": "2025-01-09",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN82287324",
+      "debit": 30107.53,
+      "credit": 0.0,
+      "balance": -57652.98
+    },
+    {
+      "date": "2025-01-10",
+      "raw_date": "2025-01-10",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN66623671",
+      "debit": 5611.71,
+      "credit": 0.0,
+      "balance": -63264.69
+    },
+    {
+      "date": "11/01/2025",
+      "raw_date": "2025-01-11",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN69762583",
+      "debit": 0.0,
+      "credit": 31633.33,
+      "balance": -31631.36
+    },
+    {
+      "date": "2025-01-13",
+      "raw_date": "2025-01-13",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN88547740",
+      "debit": 0.0,
+      "credit": 30162.98,
+      "balance": -1468.38
+    },
+    {
+      "date": "14/01/2025",
+      "raw_date": "2025-01-14",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN16834659",
+      "debit": 29267.43,
+      "credit": 0.0,
+      "balance": -30735.81
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

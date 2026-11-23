@@ -1,0 +1,93 @@
+{
+  "document_id": "train_bank_statement_0046",
+  "document_type": "bank_statement",
+  "bank_name": "Beacon Cooperative Urban Bank",
+  "branch": "MG Road, Bengaluru",
+  "ifsc": "BCOB0904214",
+  "account_holder": "Chakrika Datta",
+  "account_number": "38566385752",
+  "period_start": "2025-10-01",
+  "period_end": "2025-11-01",
+  "opening_balance": 102263.55,
+  "closing_balance": 95190.54,
+  "total_deposits": 78740.68,
+  "total_withdrawals": 85813.69,
+  "transactions": [
+    {
+      "date": "2025-10-03",
+      "raw_date": "2025-10-03",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN74819756",
+      "debit": 0.0,
+      "credit": 33504.43,
+      "balance": 135767.98
+    },
+    {
+      "date": "05/10/2025",
+      "raw_date": "2025-10-05",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN31217198",
+      "debit": 24257.17,
+      "credit": 0.0,
+      "balance": 111510.81
+    },
+    {
+      "date": "07/10/2025",
+      "raw_date": "2025-10-07",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN29282885",
+      "debit": 12236.64,
+      "credit": 0.0,
+      "balance": 99274.17
+    },
+    {
+      "date": "09/10/2025",
+      "raw_date": "2025-10-09",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN27551135",
+      "debit": 0.0,
+      "credit": 34150.41,
+      "balance": 133424.58
+    },
+    {
+      "date": "10/10/2025",
+      "raw_date": "2025-10-10",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN26444612",
+      "debit": 0.0,
+      "credit": 8839.96,
+      "balance": 142264.54
+    },
+    {
+      "date": "12-Oct-2025",
+      "raw_date": "2025-10-12",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN61559717",
+      "debit": 0.0,
+      "credit": 2245.88,
+      "balance": 144510.42
+    },
+    {
+      "date": "14-Oct-2025",
+      "raw_date": "2025-10-14",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN53947691",
+      "debit": 31629.72,
+      "credit": 0.0,
+      "balance": 112880.7
+    },
+    {
+      "date": "2029-06-15",
+      "raw_date": "2029-06-15",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN79085198",
+      "debit": 17690.16,
+      "credit": 0.0,
+      "balance": 95190.54
+    }
+  ],
+  "is_tampered": true,
+  "tamper_types": [
+    "future_dates: transaction date 2029-06-15 after period end"
+  ]
+}

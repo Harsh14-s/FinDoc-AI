@@ -1,0 +1,32 @@
+{
+  "document_id": "train_invoice_0150",
+  "document_type": "invoice",
+  "vendor_name": "Apex Logistics & Supply Chain Ltd",
+  "vendor_gstin": "27BBBBB5678B1Z2",
+  "vendor_category": "Freight & Warehousing",
+  "client_name": "Sen, Kaur and Walla",
+  "client_gstin": "07CDXSX3473Y5G9",
+  "invoice_number": "INV-2025-2754",
+  "invoice_date": "2025-08-07",
+  "due_date": "2025-09-06",
+  "line_items": [
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 4,
+      "unit_price": 4500.0,
+      "total": 18000.0
+    },
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 4,
+      "unit_price": 6200.0,
+      "total": 24800.0
+    }
+  ],
+  "subtotal": 42800.0,
+  "tax_amount": 7704.0,
+  "tax_rate": "18%",
+  "grand_total": 50504.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

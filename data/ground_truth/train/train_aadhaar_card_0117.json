@@ -1,0 +1,11 @@
+{
+  "document_id": "train_aadhaar_card_0117",
+  "document_type": "aadhaar_card",
+  "full_name": "Manbir Agate",
+  "gender": "Female",
+  "dob": "1998-03-04",
+  "aadhaar_number": "5173 6273 9259",
+  "address": "H.No. 020, Khanna Path, Pune 402681",
+  "is_tampered": false,
+  "tamper_types": []
+}

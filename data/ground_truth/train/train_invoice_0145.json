@@ -1,0 +1,38 @@
+{
+  "document_id": "train_invoice_0145",
+  "document_type": "invoice",
+  "vendor_name": "Apex Logistics & Supply Chain Ltd",
+  "vendor_gstin": "27BBBBB5678B1Z2",
+  "vendor_category": "Freight & Warehousing",
+  "client_name": "Doctor, Nath and Bumb",
+  "client_gstin": "07MTFTJ9254Y6P2",
+  "invoice_number": "INV-2025-2676",
+  "invoice_date": "2025-05-09",
+  "due_date": "2025-06-08",
+  "line_items": [
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 2,
+      "unit_price": 3500.0,
+      "total": 7000.0
+    },
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 1,
+      "unit_price": 7500.0,
+      "total": 7500.0
+    },
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 2,
+      "unit_price": 4500.0,
+      "total": 9000.0
+    }
+  ],
+  "subtotal": 23500.0,
+  "tax_amount": 4230.0,
+  "tax_rate": "18%",
+  "grand_total": 27730.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

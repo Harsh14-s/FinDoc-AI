@@ -1,0 +1,118 @@
+{
+  "document_id": "train_bank_statement_0045",
+  "document_type": "bank_statement",
+  "bank_name": "Beacon Cooperative Urban Bank",
+  "branch": "MG Road, Bengaluru",
+  "ifsc": "BCOB0227257",
+  "account_holder": "Nilima Narain",
+  "account_number": "42249860359",
+  "period_start": "2025-04-01",
+  "period_end": "2025-04-30",
+  "opening_balance": 54592.02,
+  "closing_balance": 182534.09,
+  "total_deposits": 149059.12,
+  "total_withdrawals": 21117.05,
+  "transactions": [
+    {
+      "date": "02/04/2025",
+      "raw_date": "2025-04-02",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN59514418",
+      "debit": 0.0,
+      "credit": 19613.74,
+      "balance": 74205.76
+    },
+    {
+      "date": "03-Apr-2025",
+      "raw_date": "2025-04-03",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN63440127",
+      "debit": 2768.31,
+      "credit": 0.0,
+      "balance": 71437.45
+    },
+    {
+      "date": "2025-04-05",
+      "raw_date": "2025-04-05",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN87161840",
+      "debit": 14625.46,
+      "credit": 0.0,
+      "balance": 56811.99
+    },
+    {
+      "date": "06/04/2025",
+      "raw_date": "2025-04-06",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN70394554",
+      "debit": 0.0,
+      "credit": 22660.68,
+      "balance": 79472.67
+    },
+    {
+      "date": "08-Apr-2025",
+      "raw_date": "2025-04-08",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN83994695",
+      "debit": 0.0,
+      "credit": 30789.63,
+      "balance": 110262.3
+    },
+    {
+      "date": "2025-04-09",
+      "raw_date": "2025-04-09",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN17437386",
+      "debit": 0.0,
+      "credit": 15425.33,
+      "balance": 125687.63
+    },
+    {
+      "date": "10/04/2025",
+      "raw_date": "2025-04-10",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN40262109",
+      "debit": 0.0,
+      "credit": 11631.8,
+      "balance": 137319.43
+    },
+    {
+      "date": "12/04/2025",
+      "raw_date": "2025-04-12",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN83932683",
+      "debit": 0.0,
+      "credit": 22409.47,
+      "balance": 159728.9
+    },
+    {
+      "date": "2025-04-13",
+      "raw_date": "2025-04-13",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN96031876",
+      "debit": 3723.28,
+      "credit": 0.0,
+      "balance": 156005.62
+    },
+    {
+      "date": "14/04/2025",
+      "raw_date": "2025-04-14",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN91220369",
+      "debit": 0.0,
+      "credit": 23226.28,
+      "balance": 179231.9
+    },
+    {
+      "date": "15-Apr-2025",
+      "raw_date": "2025-04-15",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN96094462",
+      "debit": 0.0,
+      "credit": 3302.19,
+      "balance": 182534.09
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

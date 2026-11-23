@@ -1,0 +1,138 @@
+{
+  "document_id": "train_bank_statement_0164",
+  "document_type": "bank_statement",
+  "bank_name": "State Mercantile Commercial Bank",
+  "branch": "Bandra Kurla Complex, Mumbai",
+  "ifsc": "SMCB0906519",
+  "account_holder": "Urvashi Kulkarni",
+  "account_number": "32095920424",
+  "period_start": "2025-01-01",
+  "period_end": "2025-02-01",
+  "opening_balance": 63507.78,
+  "closing_balance": 127939.67,
+  "total_deposits": 111626.17,
+  "total_withdrawals": 54994.28,
+  "transactions": [
+    {
+      "date": "2025-01-03",
+      "raw_date": "2025-01-03",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN27659164",
+      "debit": 4555.61,
+      "credit": 0.0,
+      "balance": 58952.17
+    },
+    {
+      "date": "04/01/2025",
+      "raw_date": "2025-01-04",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN76790446",
+      "debit": 921.17,
+      "credit": 0.0,
+      "balance": 58031.0
+    },
+    {
+      "date": "05-Jan-2025",
+      "raw_date": "2025-01-05",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN89035763",
+      "debit": 8706.8,
+      "credit": 0.0,
+      "balance": 49324.2
+    },
+    {
+      "date": "2025-01-07",
+      "raw_date": "2025-01-07",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN90544341",
+      "debit": 3239.47,
+      "credit": 0.0,
+      "balance": 46084.73
+    },
+    {
+      "date": "2025-01-08",
+      "raw_date": "2025-01-08",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN37868647",
+      "debit": 0.0,
+      "credit": 22187.92,
+      "balance": 68272.65
+    },
+    {
+      "date": "2025-01-09",
+      "raw_date": "2025-01-09",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN56844649",
+      "debit": 0.0,
+      "credit": 2399.71,
+      "balance": 70672.36
+    },
+    {
+      "date": "10/01/2025",
+      "raw_date": "2025-01-10",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN90971604",
+      "debit": 0.0,
+      "credit": 23511.38,
+      "balance": 94183.74
+    },
+    {
+      "date": "2025-01-12",
+      "raw_date": "2025-01-12",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN33924094",
+      "debit": 0.0,
+      "credit": 14885.01,
+      "balance": 109068.75
+    },
+    {
+      "date": "14-Jan-2025",
+      "raw_date": "2025-01-14",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN86810468",
+      "debit": 24644.72,
+      "credit": 0.0,
+      "balance": 84424.03
+    },
+    {
+      "date": "2025-01-15",
+      "raw_date": "2025-01-15",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN14810369",
+      "debit": 12926.51,
+      "credit": 0.0,
+      "balance": 71497.52
+    },
+    {
+      "date": "2025-01-17",
+      "raw_date": "2025-01-17",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN60860378",
+      "debit": 0.0,
+      "credit": 13215.65,
+      "balance": 84713.17
+    },
+    {
+      "date": "19-Jan-2025",
+      "raw_date": "2025-01-19",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN26377680",
+      "debit": 0.0,
+      "credit": 16743.18,
+      "balance": 101456.35
+    },
+    {
+      "date": "2025-01-21",
+      "raw_date": "2025-01-21",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN80416822",
+      "debit": 0.0,
+      "credit": 18683.32,
+      "balance": 120139.67
+    }
+  ],
+  "is_tampered": true,
+  "tamper_types": [
+    "balance_mismatch: closing balance altered"
+  ]
+}

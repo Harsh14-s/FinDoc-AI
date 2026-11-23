@@ -1,0 +1,44 @@
+{
+  "document_id": "test_invoice_0061",
+  "document_type": "invoice",
+  "vendor_name": "Pinnacle Advisory & Consulting LLP",
+  "vendor_gstin": "29CCCCC9012C1Z8",
+  "vendor_category": "Professional Services",
+  "client_name": "Narang-Agate",
+  "client_gstin": "07NBNFR1751U8S6",
+  "invoice_number": "INV-2025-3390",
+  "invoice_date": "2025-01-20",
+  "due_date": "2025-02-19",
+  "line_items": [
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 3,
+      "unit_price": 6200.0,
+      "total": 18600.0
+    },
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 5,
+      "unit_price": 3500.0,
+      "total": 17500.0
+    },
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 4,
+      "unit_price": 7500.0,
+      "total": 30000.0
+    },
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 2,
+      "unit_price": 4500.0,
+      "total": 9000.0
+    }
+  ],
+  "subtotal": 75100.0,
+  "tax_amount": 13518.0,
+  "tax_rate": "18%",
+  "grand_total": 88618.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

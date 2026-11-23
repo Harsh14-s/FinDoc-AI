@@ -1,0 +1,11 @@
+{
+  "document_id": "test_aadhaar_card_0067",
+  "document_type": "aadhaar_card",
+  "full_name": "Tanay Doshi",
+  "gender": "Male",
+  "dob": "1981-11-06",
+  "aadhaar_number": "2719 5206 1573",
+  "address": "196, Sanghvi Path, Kolhapur 413899",
+  "is_tampered": false,
+  "tamper_types": []
+}

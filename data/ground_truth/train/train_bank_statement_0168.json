@@ -1,0 +1,118 @@
+{
+  "document_id": "train_bank_statement_0168",
+  "document_type": "bank_statement",
+  "bank_name": "Apex National Bank",
+  "branch": "Connaught Place, New Delhi",
+  "ifsc": "APEX0755843",
+  "account_holder": "Falan Ravi",
+  "account_number": "70232564671",
+  "period_start": "2025-02-01",
+  "period_end": "2025-03-02",
+  "opening_balance": 124945.54,
+  "closing_balance": 155566.11,
+  "total_deposits": 100960.44,
+  "total_withdrawals": 70339.87,
+  "transactions": [
+    {
+      "date": "03-Feb-2025",
+      "raw_date": "2025-02-03",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN85217695",
+      "debit": 0.0,
+      "credit": 12015.83,
+      "balance": 136961.37
+    },
+    {
+      "date": "04/02/2025",
+      "raw_date": "2025-02-04",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN47799296",
+      "debit": 0.0,
+      "credit": 22601.33,
+      "balance": 159562.7
+    },
+    {
+      "date": "2025-02-05",
+      "raw_date": "2025-02-05",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN10822924",
+      "debit": 0.0,
+      "credit": 19474.78,
+      "balance": 179037.48
+    },
+    {
+      "date": "07-Feb-2025",
+      "raw_date": "2025-02-07",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN86359356",
+      "debit": 0.0,
+      "credit": 14163.7,
+      "balance": 193201.18
+    },
+    {
+      "date": "08-Feb-2025",
+      "raw_date": "2025-02-08",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN55357116",
+      "debit": 0.0,
+      "credit": 7193.54,
+      "balance": 200394.72
+    },
+    {
+      "date": "2025-02-10",
+      "raw_date": "2025-02-10",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN74625235",
+      "debit": 22775.0,
+      "credit": 0.0,
+      "balance": 177619.72
+    },
+    {
+      "date": "12-Feb-2025",
+      "raw_date": "2025-02-12",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN65559839",
+      "debit": 16455.22,
+      "credit": 0.0,
+      "balance": 161164.5
+    },
+    {
+      "date": "13-Feb-2025",
+      "raw_date": "2025-02-13",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN52346074",
+      "debit": 0.0,
+      "credit": 25511.26,
+      "balance": 186675.76
+    },
+    {
+      "date": "2025-02-14",
+      "raw_date": "2025-02-14",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN57458790",
+      "debit": 11944.32,
+      "credit": 0.0,
+      "balance": 174731.44
+    },
+    {
+      "date": "15-Feb-2025",
+      "raw_date": "2025-02-15",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN60363964",
+      "debit": 12200.76,
+      "credit": 0.0,
+      "balance": 162530.68
+    },
+    {
+      "date": "16/02/2025",
+      "raw_date": "2025-02-16",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN25682621",
+      "debit": 6964.57,
+      "credit": 0.0,
+      "balance": 155566.11
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

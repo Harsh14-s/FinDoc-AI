@@ -1,0 +1,12 @@
+{
+  "document_id": "train_pan_card_0182",
+  "document_type": "pan_card",
+  "full_name": "Chasmum Subramanian",
+  "father_name": "Samaksh Mishra",
+  "dob": "1991-07-01",
+  "pan_number": "INVALID78",
+  "is_tampered": true,
+  "tamper_types": [
+    "invalid_pan_format: PAN violates 10-char alphanumeric regex"
+  ]
+}

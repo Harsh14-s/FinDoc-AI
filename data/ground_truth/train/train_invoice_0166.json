@@ -1,0 +1,44 @@
+{
+  "document_id": "train_invoice_0166",
+  "document_type": "invoice",
+  "vendor_name": "Pinnacle Advisory & Consulting LLP",
+  "vendor_gstin": "29CCCCC9012C1Z8",
+  "vendor_category": "Professional Services",
+  "client_name": "Dash-Pillai",
+  "client_gstin": "07FSFXZ6676H5R2",
+  "invoice_number": "INV-2025-5255",
+  "invoice_date": "2025-09-19",
+  "due_date": "2025-10-19",
+  "line_items": [
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 5,
+      "unit_price": 25000.0,
+      "total": 125000.0
+    },
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 4,
+      "unit_price": 6200.0,
+      "total": 24800.0
+    },
+    {
+      "description": "Network Security Audit & Patching",
+      "quantity": 4,
+      "unit_price": 18000.0,
+      "total": 72000.0
+    },
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 2,
+      "unit_price": 8500.0,
+      "total": 17000.0
+    }
+  ],
+  "subtotal": 238800.0,
+  "tax_amount": 42984.0,
+  "tax_rate": "18%",
+  "grand_total": 281784.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

@@ -1,0 +1,32 @@
+{
+  "document_id": "train_invoice_0091",
+  "document_type": "invoice",
+  "vendor_name": "Apex Logistics & Supply Chain Ltd",
+  "vendor_gstin": "27BBBBB5678B1Z2",
+  "vendor_category": "Freight & Warehousing",
+  "client_name": "Kohli-Shan",
+  "client_gstin": "07VIERX8263Y9A8",
+  "invoice_number": "INV-2025-9615",
+  "invoice_date": "2025-04-21",
+  "due_date": "2025-05-21",
+  "line_items": [
+    {
+      "description": "Network Security Audit & Patching",
+      "quantity": 3,
+      "unit_price": 18000.0,
+      "total": 54000.0
+    },
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 4,
+      "unit_price": 3500.0,
+      "total": 14000.0
+    }
+  ],
+  "subtotal": 68000.0,
+  "tax_amount": 12240.0,
+  "tax_rate": "18%",
+  "grand_total": 80240.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

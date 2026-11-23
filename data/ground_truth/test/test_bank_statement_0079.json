@@ -1,0 +1,138 @@
+{
+  "document_id": "test_bank_statement_0079",
+  "document_type": "bank_statement",
+  "bank_name": "Beacon Cooperative Urban Bank",
+  "branch": "MG Road, Bengaluru",
+  "ifsc": "BCOB0201593",
+  "account_holder": "Praneel Kapoor",
+  "account_number": "24192103936",
+  "period_start": "2025-01-01",
+  "period_end": "2025-01-30",
+  "opening_balance": 66401.47,
+  "closing_balance": -9727.82,
+  "total_deposits": 90082.71,
+  "total_withdrawals": 166212.0,
+  "transactions": [
+    {
+      "date": "03/01/2025",
+      "raw_date": "2025-01-03",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN97274855",
+      "debit": 13319.93,
+      "credit": 0.0,
+      "balance": 53081.54
+    },
+    {
+      "date": "04-Jan-2025",
+      "raw_date": "2025-01-04",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN27513454",
+      "debit": 31108.19,
+      "credit": 0.0,
+      "balance": 21973.35
+    },
+    {
+      "date": "2025-01-05",
+      "raw_date": "2025-01-05",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN97826062",
+      "debit": 0.0,
+      "credit": 20736.37,
+      "balance": 42709.72
+    },
+    {
+      "date": "06-Jan-2025",
+      "raw_date": "2025-01-06",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN83360594",
+      "debit": 3083.35,
+      "credit": 0.0,
+      "balance": 39626.37
+    },
+    {
+      "date": "08-Jan-2025",
+      "raw_date": "2025-01-08",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN37111862",
+      "debit": 34642.74,
+      "credit": 0.0,
+      "balance": 4983.63
+    },
+    {
+      "date": "09-Jan-2025",
+      "raw_date": "2025-01-09",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN66131539",
+      "debit": 0.0,
+      "credit": 4910.2,
+      "balance": 9893.83
+    },
+    {
+      "date": "11-Jan-2025",
+      "raw_date": "2025-01-11",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN70194264",
+      "debit": 31374.5,
+      "credit": 0.0,
+      "balance": -21480.67
+    },
+    {
+      "date": "2025-01-12",
+      "raw_date": "2025-01-12",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN77628209",
+      "debit": 0.0,
+      "credit": 14955.64,
+      "balance": -6525.03
+    },
+    {
+      "date": "2025-01-13",
+      "raw_date": "2025-01-13",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN48877018",
+      "debit": 0.0,
+      "credit": 33878.3,
+      "balance": 27353.27
+    },
+    {
+      "date": "14-Jan-2025",
+      "raw_date": "2025-01-14",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN81466893",
+      "debit": 14213.54,
+      "credit": 0.0,
+      "balance": 13139.73
+    },
+    {
+      "date": "15/01/2025",
+      "raw_date": "2025-01-15",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN78354185",
+      "debit": 0.0,
+      "credit": 15602.2,
+      "balance": 28741.93
+    },
+    {
+      "date": "2025-01-17",
+      "raw_date": "2025-01-17",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN10483257",
+      "debit": 7638.9,
+      "credit": 0.0,
+      "balance": 21103.03
+    },
+    {
+      "date": "2029-06-15",
+      "raw_date": "2029-06-15",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN78826270",
+      "debit": 30830.85,
+      "credit": 0.0,
+      "balance": -9727.82
+    }
+  ],
+  "is_tampered": true,
+  "tamper_types": [
+    "future_dates: transaction date 2029-06-15 after period end"
+  ]
+}

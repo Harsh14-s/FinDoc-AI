@@ -1,0 +1,32 @@
+{
+  "document_id": "train_invoice_0220",
+  "document_type": "invoice",
+  "vendor_name": "Apex Logistics & Supply Chain Ltd",
+  "vendor_gstin": "27BBBBB5678B1Z2",
+  "vendor_category": "Freight & Warehousing",
+  "client_name": "Bajaj LLC",
+  "client_gstin": "07PDWJR7868M6U3",
+  "invoice_number": "INV-2025-1487",
+  "invoice_date": "2025-02-24",
+  "due_date": "2025-03-26",
+  "line_items": [
+    {
+      "description": "Software License Subscription",
+      "quantity": 1,
+      "unit_price": 12000.0,
+      "total": 12000.0
+    },
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 2,
+      "unit_price": 8500.0,
+      "total": 17000.0
+    }
+  ],
+  "subtotal": 29000.0,
+  "tax_amount": 5220.0,
+  "tax_rate": "18%",
+  "grand_total": 34220.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

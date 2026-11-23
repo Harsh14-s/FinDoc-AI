@@ -1,0 +1,32 @@
+{
+  "document_id": "test_invoice_0031",
+  "document_type": "invoice",
+  "vendor_name": "BlueSky Office Supplies Pvt Ltd",
+  "vendor_gstin": "09DDDDD3456D1Z1",
+  "vendor_category": "Office Equipment",
+  "client_name": "Rama-Chad",
+  "client_gstin": "07KIRTR8398F2J6",
+  "invoice_number": "INV-2025-2078",
+  "invoice_date": "2025-02-22",
+  "due_date": "2025-03-24",
+  "line_items": [
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 4,
+      "unit_price": 4500.0,
+      "total": 18000.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 4,
+      "unit_price": 25000.0,
+      "total": 100000.0
+    }
+  ],
+  "subtotal": 118000.0,
+  "tax_amount": 21240.0,
+  "tax_rate": "18%",
+  "grand_total": 139240.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

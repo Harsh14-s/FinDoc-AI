@@ -1,0 +1,44 @@
+{
+  "document_id": "train_invoice_0189",
+  "document_type": "invoice",
+  "vendor_name": "Apex Logistics & Supply Chain Ltd",
+  "vendor_gstin": "27BBBBB5678B1Z2",
+  "vendor_category": "Freight & Warehousing",
+  "client_name": "Kale PLC",
+  "client_gstin": "07PRESI5004A7G9",
+  "invoice_number": "INV-2025-5897",
+  "invoice_date": "2025-07-04",
+  "due_date": "2025-08-03",
+  "line_items": [
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 2,
+      "unit_price": 3500.0,
+      "total": 7000.0
+    },
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 2,
+      "unit_price": 4500.0,
+      "total": 9000.0
+    },
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 1,
+      "unit_price": 7500.0,
+      "total": 7500.0
+    },
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 2,
+      "unit_price": 8500.0,
+      "total": 17000.0
+    }
+  ],
+  "subtotal": 40500.0,
+  "tax_amount": 7290.0,
+  "tax_rate": "18%",
+  "grand_total": 47790.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

@@ -1,0 +1,136 @@
+{
+  "document_id": "train_bank_statement_0036",
+  "document_type": "bank_statement",
+  "bank_name": "State Mercantile Commercial Bank",
+  "branch": "Bandra Kurla Complex, Mumbai",
+  "ifsc": "SMCB0973835",
+  "account_holder": "Praneel Natarajan",
+  "account_number": "85163054443",
+  "period_start": "2025-06-01",
+  "period_end": "2025-06-29",
+  "opening_balance": 74633.9,
+  "closing_balance": 111246.48,
+  "total_deposits": 141342.48,
+  "total_withdrawals": 104729.9,
+  "transactions": [
+    {
+      "date": "02-Jun-2025",
+      "raw_date": "2025-06-02",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN52018286",
+      "debit": 0.0,
+      "credit": 32280.1,
+      "balance": 106914.0
+    },
+    {
+      "date": "2025-06-04",
+      "raw_date": "2025-06-04",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN48858073",
+      "debit": 22584.89,
+      "credit": 0.0,
+      "balance": 84329.11
+    },
+    {
+      "date": "06-Jun-2025",
+      "raw_date": "2025-06-06",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN33068427",
+      "debit": 0.0,
+      "credit": 33833.89,
+      "balance": 118163.0
+    },
+    {
+      "date": "2025-06-08",
+      "raw_date": "2025-06-08",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN24208709",
+      "debit": 0.0,
+      "credit": 3540.48,
+      "balance": 121703.48
+    },
+    {
+      "date": "10-Jun-2025",
+      "raw_date": "2025-06-10",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN51644346",
+      "debit": 3213.32,
+      "credit": 0.0,
+      "balance": 118490.16
+    },
+    {
+      "date": "12-Jun-2025",
+      "raw_date": "2025-06-12",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN78515906",
+      "debit": 0.0,
+      "credit": 6300.58,
+      "balance": 124790.74
+    },
+    {
+      "date": "13/06/2025",
+      "raw_date": "2025-06-13",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN56892354",
+      "debit": 31754.33,
+      "credit": 0.0,
+      "balance": 93036.41
+    },
+    {
+      "date": "14-Jun-2025",
+      "raw_date": "2025-06-14",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN33286644",
+      "debit": 0.0,
+      "credit": 9330.9,
+      "balance": 102367.31
+    },
+    {
+      "date": "15/06/2025",
+      "raw_date": "2025-06-15",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN76319264",
+      "debit": 0.0,
+      "credit": 27163.26,
+      "balance": 129530.57
+    },
+    {
+      "date": "17-Jun-2025",
+      "raw_date": "2025-06-17",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN53380275",
+      "debit": 34535.35,
+      "credit": 0.0,
+      "balance": 94995.22
+    },
+    {
+      "date": "19/06/2025",
+      "raw_date": "2025-06-19",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN72937522",
+      "debit": 0.0,
+      "credit": 15671.82,
+      "balance": 110667.04
+    },
+    {
+      "date": "21/06/2025",
+      "raw_date": "2025-06-21",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN19957701",
+      "debit": 12642.01,
+      "credit": 0.0,
+      "balance": 98025.03
+    },
+    {
+      "date": "2025-06-23",
+      "raw_date": "2025-06-23",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN48530827",
+      "debit": 0.0,
+      "credit": 13221.45,
+      "balance": 111246.48
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

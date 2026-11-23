@@ -1,0 +1,10 @@
+{
+  "document_id": "test_pan_card_0080",
+  "document_type": "pan_card",
+  "full_name": "Nandini Biswas",
+  "father_name": "Lohit Mukhopadhyay",
+  "dob": "1991-12-24",
+  "pan_number": "NHFSO3803H",
+  "is_tampered": false,
+  "tamper_types": []
+}

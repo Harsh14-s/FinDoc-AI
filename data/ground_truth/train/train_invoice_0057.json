@@ -1,0 +1,50 @@
+{
+  "document_id": "train_invoice_0057",
+  "document_type": "invoice",
+  "vendor_name": "BlueSky Office Supplies Pvt Ltd",
+  "vendor_gstin": "09DDDDD3456D1Z1",
+  "vendor_category": "Office Equipment",
+  "client_name": "Kashyap Group",
+  "client_gstin": "07IDADN2316A6Y5",
+  "invoice_number": "INV-2025-8636",
+  "invoice_date": "2025-02-26",
+  "due_date": "2025-03-28",
+  "line_items": [
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 1,
+      "unit_price": 7500.0,
+      "total": 7500.0
+    },
+    {
+      "description": "Software License Subscription",
+      "quantity": 5,
+      "unit_price": 12000.0,
+      "total": 60000.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 2,
+      "unit_price": 25000.0,
+      "total": 50000.0
+    },
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 2,
+      "unit_price": 3500.0,
+      "total": 7000.0
+    },
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 1,
+      "unit_price": 8500.0,
+      "total": 8500.0
+    }
+  ],
+  "subtotal": 133000.0,
+  "tax_amount": 23940.0,
+  "tax_rate": "18%",
+  "grand_total": 156940.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

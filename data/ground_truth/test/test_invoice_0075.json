@@ -1,0 +1,38 @@
+{
+  "document_id": "test_invoice_0075",
+  "document_type": "invoice",
+  "vendor_name": "Pinnacle Advisory & Consulting LLP",
+  "vendor_gstin": "29CCCCC9012C1Z8",
+  "vendor_category": "Professional Services",
+  "client_name": "Arora Ltd",
+  "client_gstin": "07HYUQK2027X5I8",
+  "invoice_number": "INV-2025-1518",
+  "invoice_date": "2025-03-22",
+  "due_date": "2025-04-21",
+  "line_items": [
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 1,
+      "unit_price": 3500.0,
+      "total": 3500.0
+    },
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 4,
+      "unit_price": 7500.0,
+      "total": 30000.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 4,
+      "unit_price": 25000.0,
+      "total": 100000.0
+    }
+  ],
+  "subtotal": 133500.0,
+  "tax_amount": 24030.0,
+  "tax_rate": "18%",
+  "grand_total": 157530.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

@@ -1,0 +1,50 @@
+{
+  "document_id": "test_invoice_0004",
+  "document_type": "invoice",
+  "vendor_name": "Pinnacle Advisory & Consulting LLP",
+  "vendor_gstin": "29CCCCC9012C1Z8",
+  "vendor_category": "Professional Services",
+  "client_name": "Dhawan-Sheth",
+  "client_gstin": "07IYPQN0866V8P8",
+  "invoice_number": "INV-2025-1746",
+  "invoice_date": "2025-01-09",
+  "due_date": "2025-02-08",
+  "line_items": [
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 5,
+      "unit_price": 6200.0,
+      "total": 31000.0
+    },
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 1,
+      "unit_price": 8500.0,
+      "total": 8500.0
+    },
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 5,
+      "unit_price": 7500.0,
+      "total": 37500.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 2,
+      "unit_price": 25000.0,
+      "total": 50000.0
+    },
+    {
+      "description": "Software License Subscription",
+      "quantity": 3,
+      "unit_price": 12000.0,
+      "total": 36000.0
+    }
+  ],
+  "subtotal": 163000.0,
+  "tax_amount": 29340.0,
+  "tax_rate": "18%",
+  "grand_total": 192340.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

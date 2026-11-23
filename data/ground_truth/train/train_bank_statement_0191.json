@@ -1,0 +1,100 @@
+{
+  "document_id": "train_bank_statement_0191",
+  "document_type": "bank_statement",
+  "bank_name": "Metro Alliance Bank",
+  "branch": "Sector 62, Noida",
+  "ifsc": "METR0116389",
+  "account_holder": "Neha Pau",
+  "account_number": "34814867785",
+  "period_start": "2025-08-01",
+  "period_end": "2025-08-29",
+  "opening_balance": 25793.7,
+  "closing_balance": 8022.94,
+  "total_deposits": 74772.26,
+  "total_withdrawals": 92543.02,
+  "transactions": [
+    {
+      "date": "02-Aug-2025",
+      "raw_date": "2025-08-02",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN73889312",
+      "debit": 14859.67,
+      "credit": 0.0,
+      "balance": 10934.03
+    },
+    {
+      "date": "03/08/2025",
+      "raw_date": "2025-08-03",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN70454232",
+      "debit": 0.0,
+      "credit": 9847.77,
+      "balance": 20781.8
+    },
+    {
+      "date": "04-Aug-2025",
+      "raw_date": "2025-08-04",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN15049433",
+      "debit": 0.0,
+      "credit": 21563.56,
+      "balance": 42345.36
+    },
+    {
+      "date": "05/08/2025",
+      "raw_date": "2025-08-05",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN50426348",
+      "debit": 3536.73,
+      "credit": 0.0,
+      "balance": 38808.63
+    },
+    {
+      "date": "2025-08-07",
+      "raw_date": "2025-08-07",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN35756766",
+      "debit": 0.0,
+      "credit": 19741.01,
+      "balance": 58549.64
+    },
+    {
+      "date": "08-Aug-2025",
+      "raw_date": "2025-08-08",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN82440371",
+      "debit": 26758.92,
+      "credit": 0.0,
+      "balance": 31790.72
+    },
+    {
+      "date": "2025-08-09",
+      "raw_date": "2025-08-09",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN47101348",
+      "debit": 23246.79,
+      "credit": 0.0,
+      "balance": 8543.93
+    },
+    {
+      "date": "10/08/2025",
+      "raw_date": "2025-08-10",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN73674613",
+      "debit": 24140.91,
+      "credit": 0.0,
+      "balance": -15596.98
+    },
+    {
+      "date": "2025-08-11",
+      "raw_date": "2025-08-11",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN15786878",
+      "debit": 0.0,
+      "credit": 23619.92,
+      "balance": 8022.94
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

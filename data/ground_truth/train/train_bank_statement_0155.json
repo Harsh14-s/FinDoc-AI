@@ -1,0 +1,109 @@
+{
+  "document_id": "train_bank_statement_0155",
+  "document_type": "bank_statement",
+  "bank_name": "Metro Alliance Bank",
+  "branch": "Sector 62, Noida",
+  "ifsc": "METR0611994",
+  "account_holder": "Fariq Bahl",
+  "account_number": "33547300682",
+  "period_start": "2025-10-01",
+  "period_end": "2025-10-29",
+  "opening_balance": 99403.9,
+  "closing_balance": 49386.25,
+  "total_deposits": 77861.22,
+  "total_withdrawals": 127878.87,
+  "transactions": [
+    {
+      "date": "02/10/2025",
+      "raw_date": "2025-10-02",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN54881018",
+      "debit": 27414.21,
+      "credit": 0.0,
+      "balance": 71989.69
+    },
+    {
+      "date": "04-Oct-2025",
+      "raw_date": "2025-10-04",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN40429530",
+      "debit": 4658.65,
+      "credit": 0.0,
+      "balance": 67331.04
+    },
+    {
+      "date": "05-Oct-2025",
+      "raw_date": "2025-10-05",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN52857940",
+      "debit": 0.0,
+      "credit": 18591.23,
+      "balance": 85922.27
+    },
+    {
+      "date": "2025-10-06",
+      "raw_date": "2025-10-06",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN39634895",
+      "debit": 0.0,
+      "credit": 17832.86,
+      "balance": 103755.13
+    },
+    {
+      "date": "07-Oct-2025",
+      "raw_date": "2025-10-07",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN87209399",
+      "debit": 26472.99,
+      "credit": 0.0,
+      "balance": 77282.14
+    },
+    {
+      "date": "2025-10-08",
+      "raw_date": "2025-10-08",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN29865888",
+      "debit": 27629.71,
+      "credit": 0.0,
+      "balance": 49652.43
+    },
+    {
+      "date": "10/10/2025",
+      "raw_date": "2025-10-10",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN83571770",
+      "debit": 26213.37,
+      "credit": 0.0,
+      "balance": 23439.06
+    },
+    {
+      "date": "2025-10-12",
+      "raw_date": "2025-10-12",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN27498659",
+      "debit": 15489.94,
+      "credit": 0.0,
+      "balance": 7949.12
+    },
+    {
+      "date": "2025-10-14",
+      "raw_date": "2025-10-14",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN86682706",
+      "debit": 0.0,
+      "credit": 14138.5,
+      "balance": 22087.62
+    },
+    {
+      "date": "15-Oct-2025",
+      "raw_date": "2025-10-15",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN53407575",
+      "debit": 0.0,
+      "credit": 27298.63,
+      "balance": 49386.25
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

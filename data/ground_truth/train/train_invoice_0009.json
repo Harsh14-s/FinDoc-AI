@@ -1,0 +1,32 @@
+{
+  "document_id": "train_invoice_0009",
+  "document_type": "invoice",
+  "vendor_name": "Vortex Tech Solutions Pvt Ltd",
+  "vendor_gstin": "07AAAAA1234A1Z5",
+  "vendor_category": "IT & Cloud Services",
+  "client_name": "Koshy Ltd",
+  "client_gstin": "07ZXOIG8849F6F9",
+  "invoice_number": "INV-2025-5012",
+  "invoice_date": "2025-08-20",
+  "due_date": "2025-09-19",
+  "line_items": [
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 5,
+      "unit_price": 3500.0,
+      "total": 17500.0
+    },
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 2,
+      "unit_price": 8500.0,
+      "total": 17000.0
+    }
+  ],
+  "subtotal": 34500.0,
+  "tax_amount": 6210.0,
+  "tax_rate": "18%",
+  "grand_total": 40710.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

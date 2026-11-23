@@ -1,0 +1,11 @@
+{
+  "document_id": "test_aadhaar_card_0062",
+  "document_type": "aadhaar_card",
+  "full_name": "Kalpit Sundaram",
+  "gender": "Female",
+  "dob": "1990-05-23",
+  "aadhaar_number": "9917 7171 1963",
+  "address": "H.No. 127, Acharya Chowk, Panihati 424154",
+  "is_tampered": false,
+  "tamper_types": []
+}

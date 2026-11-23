@@ -1,0 +1,34 @@
+{
+  "document_id": "test_invoice_0032",
+  "document_type": "invoice",
+  "vendor_name": "Vortex Tech Solutions Pvt Ltd",
+  "vendor_gstin": "07AAAAA1234A1Z5",
+  "vendor_category": "IT & Cloud Services",
+  "client_name": "Ganesh Group",
+  "client_gstin": "07QPUOF4647M1N5",
+  "invoice_number": "INV-2025-7736",
+  "invoice_date": "2030-04-01",
+  "due_date": "2030-05-01",
+  "line_items": [
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 4,
+      "unit_price": 3500.0,
+      "total": 14000.0
+    },
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 4,
+      "unit_price": 8500.0,
+      "total": 34000.0
+    }
+  ],
+  "subtotal": 48000.0,
+  "tax_amount": 8640.0,
+  "tax_rate": "18%",
+  "grand_total": 56640.0,
+  "is_tampered": true,
+  "tamper_types": [
+    "future_dates: invoice date 2030-04-01 is far in the future"
+  ]
+}

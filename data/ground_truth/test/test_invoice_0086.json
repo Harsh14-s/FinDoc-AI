@@ -1,0 +1,38 @@
+{
+  "document_id": "test_invoice_0086",
+  "document_type": "invoice",
+  "vendor_name": "Vortex Tech Solutions Pvt Ltd",
+  "vendor_gstin": "07AAAAA1234A1Z5",
+  "vendor_category": "IT & Cloud Services",
+  "client_name": "Rout Inc",
+  "client_gstin": "07WQYVU3850T5G0",
+  "invoice_number": "INV-2025-6065",
+  "invoice_date": "2025-04-18",
+  "due_date": "2025-05-18",
+  "line_items": [
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 1,
+      "unit_price": 4500.0,
+      "total": 4500.0
+    },
+    {
+      "description": "Software License Subscription",
+      "quantity": 5,
+      "unit_price": 12000.0,
+      "total": 60000.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 5,
+      "unit_price": 25000.0,
+      "total": 125000.0
+    }
+  ],
+  "subtotal": 189500.0,
+  "tax_amount": 34110.0,
+  "tax_rate": "18%",
+  "grand_total": 223610.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

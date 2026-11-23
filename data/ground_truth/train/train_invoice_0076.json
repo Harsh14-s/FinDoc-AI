@@ -1,0 +1,32 @@
+{
+  "document_id": "train_invoice_0076",
+  "document_type": "invoice",
+  "vendor_name": "BlueSky Office Supplies Pvt Ltd",
+  "vendor_gstin": "09DDDDD3456D1Z1",
+  "vendor_category": "Office Equipment",
+  "client_name": "Behl LLC",
+  "client_gstin": "07KORDJ7116J7Z1",
+  "invoice_number": "INV-2025-8406",
+  "invoice_date": "2025-02-21",
+  "due_date": "2025-03-23",
+  "line_items": [
+    {
+      "description": "Network Security Audit & Patching",
+      "quantity": 3,
+      "unit_price": 18000.0,
+      "total": 54000.0
+    },
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 3,
+      "unit_price": 6200.0,
+      "total": 18600.0
+    }
+  ],
+  "subtotal": 72600.0,
+  "tax_amount": 13068.0,
+  "tax_rate": "18%",
+  "grand_total": 85668.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

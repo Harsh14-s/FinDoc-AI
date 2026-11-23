@@ -1,0 +1,32 @@
+{
+  "document_id": "test_invoice_0025",
+  "document_type": "invoice",
+  "vendor_name": "BlueSky Office Supplies Pvt Ltd",
+  "vendor_gstin": "09DDDDD3456D1Z1",
+  "vendor_category": "Office Equipment",
+  "client_name": "Mistry and Sons",
+  "client_gstin": "07YWVIY9396S8U5",
+  "invoice_number": "INV-2025-7436",
+  "invoice_date": "2025-09-03",
+  "due_date": "2025-10-03",
+  "line_items": [
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 4,
+      "unit_price": 4500.0,
+      "total": 18000.0
+    },
+    {
+      "description": "Network Security Audit & Patching",
+      "quantity": 1,
+      "unit_price": 18000.0,
+      "total": 18000.0
+    }
+  ],
+  "subtotal": 36000.0,
+  "tax_amount": 6480.0,
+  "tax_rate": "18%",
+  "grand_total": 42480.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

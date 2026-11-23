@@ -1,0 +1,127 @@
+{
+  "document_id": "test_bank_statement_0033",
+  "document_type": "bank_statement",
+  "bank_name": "Apex National Bank",
+  "branch": "Connaught Place, New Delhi",
+  "ifsc": "APEX0808602",
+  "account_holder": "Tanvi Chhabra",
+  "account_number": "97357987579",
+  "period_start": "2025-01-01",
+  "period_end": "2025-02-01",
+  "opening_balance": 89651.61,
+  "closing_balance": 141667.56,
+  "total_deposits": 118442.44,
+  "total_withdrawals": 66426.49,
+  "transactions": [
+    {
+      "date": "02-Jan-2025",
+      "raw_date": "2025-01-02",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN19065665",
+      "debit": 0.0,
+      "credit": 21033.54,
+      "balance": 110685.15
+    },
+    {
+      "date": "03/01/2025",
+      "raw_date": "2025-01-03",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN57699801",
+      "debit": 0.0,
+      "credit": 18056.98,
+      "balance": 128742.13
+    },
+    {
+      "date": "2025-01-05",
+      "raw_date": "2025-01-05",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN15915081",
+      "debit": 8888.76,
+      "credit": 0.0,
+      "balance": 119853.37
+    },
+    {
+      "date": "06/01/2025",
+      "raw_date": "2025-01-06",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN97470361",
+      "debit": 18202.84,
+      "credit": 0.0,
+      "balance": 101650.53
+    },
+    {
+      "date": "08/01/2025",
+      "raw_date": "2025-01-08",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN29784909",
+      "debit": 27254.6,
+      "credit": 0.0,
+      "balance": 74395.93
+    },
+    {
+      "date": "10-Jan-2025",
+      "raw_date": "2025-01-10",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN11084726",
+      "debit": 0.0,
+      "credit": 13224.63,
+      "balance": 87620.56
+    },
+    {
+      "date": "2025-01-11",
+      "raw_date": "2025-01-11",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN85088096",
+      "debit": 0.0,
+      "credit": 8689.86,
+      "balance": 96310.42
+    },
+    {
+      "date": "13-Jan-2025",
+      "raw_date": "2025-01-13",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN36893461",
+      "debit": 0.0,
+      "credit": 7241.55,
+      "balance": 103551.97
+    },
+    {
+      "date": "14-Jan-2025",
+      "raw_date": "2025-01-14",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN72733686",
+      "debit": 0.0,
+      "credit": 23541.17,
+      "balance": 127093.14
+    },
+    {
+      "date": "16/01/2025",
+      "raw_date": "2025-01-16",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN50215871",
+      "debit": 12080.29,
+      "credit": 0.0,
+      "balance": 115012.85
+    },
+    {
+      "date": "18/01/2025",
+      "raw_date": "2025-01-18",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN15662934",
+      "debit": 0.0,
+      "credit": 4117.25,
+      "balance": 119130.1
+    },
+    {
+      "date": "19/01/2025",
+      "raw_date": "2025-01-19",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN40906854",
+      "debit": 0.0,
+      "credit": 22537.46,
+      "balance": 141667.56
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

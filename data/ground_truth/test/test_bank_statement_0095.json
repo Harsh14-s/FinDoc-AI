@@ -1,0 +1,138 @@
+{
+  "document_id": "test_bank_statement_0095",
+  "document_type": "bank_statement",
+  "bank_name": "Apex National Bank",
+  "branch": "Connaught Place, New Delhi",
+  "ifsc": "APEX0224122",
+  "account_holder": "Abha Ghosh",
+  "account_number": "79262061171",
+  "period_start": "2025-10-01",
+  "period_end": "2025-11-01",
+  "opening_balance": 130378.84,
+  "closing_balance": 145219.85,
+  "total_deposits": 121052.71,
+  "total_withdrawals": 111211.7,
+  "transactions": [
+    {
+      "date": "2025-10-03",
+      "raw_date": "2025-10-03",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN22516397",
+      "debit": 0.0,
+      "credit": 11622.96,
+      "balance": 142001.8
+    },
+    {
+      "date": "2025-10-04",
+      "raw_date": "2025-10-04",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN30541837",
+      "debit": 0.0,
+      "credit": 27066.11,
+      "balance": 169067.91
+    },
+    {
+      "date": "05/10/2025",
+      "raw_date": "2025-10-05",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN27521857",
+      "debit": 26110.72,
+      "credit": 0.0,
+      "balance": 142957.19
+    },
+    {
+      "date": "07/10/2025",
+      "raw_date": "2025-10-07",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN39763482",
+      "debit": 0.0,
+      "credit": 8770.41,
+      "balance": 151727.6
+    },
+    {
+      "date": "08/10/2025",
+      "raw_date": "2025-10-08",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN60748656",
+      "debit": 25557.79,
+      "credit": 0.0,
+      "balance": 126169.81
+    },
+    {
+      "date": "09-Oct-2025",
+      "raw_date": "2025-10-09",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN13105908",
+      "debit": 0.0,
+      "credit": 5460.05,
+      "balance": 131629.86
+    },
+    {
+      "date": "2025-10-10",
+      "raw_date": "2025-10-10",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN24371585",
+      "debit": 21058.36,
+      "credit": 0.0,
+      "balance": 110571.5
+    },
+    {
+      "date": "12/10/2025",
+      "raw_date": "2025-10-12",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN76336447",
+      "debit": 3700.81,
+      "credit": 0.0,
+      "balance": 106870.69
+    },
+    {
+      "date": "2025-10-13",
+      "raw_date": "2025-10-13",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN65531931",
+      "debit": 0.0,
+      "credit": 27942.73,
+      "balance": 134813.42
+    },
+    {
+      "date": "15-Oct-2025",
+      "raw_date": "2025-10-15",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN52088657",
+      "debit": 0.0,
+      "credit": 14986.8,
+      "balance": 149800.22
+    },
+    {
+      "date": "2025-10-17",
+      "raw_date": "2025-10-17",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN11361006",
+      "debit": 0.0,
+      "credit": 6703.32,
+      "balance": 156503.54
+    },
+    {
+      "date": "18-Oct-2025",
+      "raw_date": "2025-10-18",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN74949433",
+      "debit": 34784.02,
+      "credit": 0.0,
+      "balance": 121719.52
+    },
+    {
+      "date": "2025-10-19",
+      "raw_date": "2025-10-19",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN44158548",
+      "debit": 0.0,
+      "credit": 18500.33,
+      "balance": 140219.85
+    }
+  ],
+  "is_tampered": true,
+  "tamper_types": [
+    "balance_mismatch: closing balance altered"
+  ]
+}

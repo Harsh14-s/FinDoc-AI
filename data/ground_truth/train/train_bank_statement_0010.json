@@ -1,0 +1,145 @@
+{
+  "document_id": "train_bank_statement_0010",
+  "document_type": "bank_statement",
+  "bank_name": "Metro Alliance Bank",
+  "branch": "Sector 62, Noida",
+  "ifsc": "METR0355836",
+  "account_holder": "Imaran Dua",
+  "account_number": "63662941333",
+  "period_start": "2025-03-01",
+  "period_end": "2025-03-29",
+  "opening_balance": 136582.48,
+  "closing_balance": 129135.66,
+  "total_deposits": 134065.23,
+  "total_withdrawals": 141512.05,
+  "transactions": [
+    {
+      "date": "02/03/2025",
+      "raw_date": "2025-03-02",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN79519112",
+      "debit": 0.0,
+      "credit": 28241.79,
+      "balance": 164824.27
+    },
+    {
+      "date": "2025-03-03",
+      "raw_date": "2025-03-03",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN71265269",
+      "debit": 0.0,
+      "credit": 29767.6,
+      "balance": 194591.87
+    },
+    {
+      "date": "05-Mar-2025",
+      "raw_date": "2025-03-05",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN69401199",
+      "debit": 21043.1,
+      "credit": 0.0,
+      "balance": 173548.77
+    },
+    {
+      "date": "07/03/2025",
+      "raw_date": "2025-03-07",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN73709724",
+      "debit": 5990.95,
+      "credit": 0.0,
+      "balance": 167557.82
+    },
+    {
+      "date": "09/03/2025",
+      "raw_date": "2025-03-09",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN79967676",
+      "debit": 10067.24,
+      "credit": 0.0,
+      "balance": 157490.58
+    },
+    {
+      "date": "10/03/2025",
+      "raw_date": "2025-03-10",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN41473195",
+      "debit": 25117.3,
+      "credit": 0.0,
+      "balance": 132373.28
+    },
+    {
+      "date": "2025-03-12",
+      "raw_date": "2025-03-12",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN20814950",
+      "debit": 0.0,
+      "credit": 31309.43,
+      "balance": 163682.71
+    },
+    {
+      "date": "2025-03-13",
+      "raw_date": "2025-03-13",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN38716269",
+      "debit": 5771.78,
+      "credit": 0.0,
+      "balance": 157910.93
+    },
+    {
+      "date": "2025-03-15",
+      "raw_date": "2025-03-15",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN18357162",
+      "debit": 0.0,
+      "credit": 16574.39,
+      "balance": 174485.32
+    },
+    {
+      "date": "17-Mar-2025",
+      "raw_date": "2025-03-17",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN12621534",
+      "debit": 20650.74,
+      "credit": 0.0,
+      "balance": 153834.58
+    },
+    {
+      "date": "19/03/2025",
+      "raw_date": "2025-03-19",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN62343121",
+      "debit": 0.0,
+      "credit": 12635.68,
+      "balance": 166470.26
+    },
+    {
+      "date": "20/03/2025",
+      "raw_date": "2025-03-20",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN13895645",
+      "debit": 0.0,
+      "credit": 15536.34,
+      "balance": 182006.6
+    },
+    {
+      "date": "22-Mar-2025",
+      "raw_date": "2025-03-22",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN27129912",
+      "debit": 29497.45,
+      "credit": 0.0,
+      "balance": 152509.15
+    },
+    {
+      "date": "23-Mar-2025",
+      "raw_date": "2025-03-23",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN21267237",
+      "debit": 23373.49,
+      "credit": 0.0,
+      "balance": 129135.66
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

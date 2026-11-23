@@ -1,0 +1,118 @@
+{
+  "document_id": "train_bank_statement_0007",
+  "document_type": "bank_statement",
+  "bank_name": "Beacon Cooperative Urban Bank",
+  "branch": "MG Road, Bengaluru",
+  "ifsc": "BCOB0910891",
+  "account_holder": "Daksh Karnik",
+  "account_number": "22302302217",
+  "period_start": "2025-05-01",
+  "period_end": "2025-05-31",
+  "opening_balance": 105185.22,
+  "closing_balance": 53540.84,
+  "total_deposits": 54025.73,
+  "total_withdrawals": 105670.11,
+  "transactions": [
+    {
+      "date": "2025-05-03",
+      "raw_date": "2025-05-03",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN45059710",
+      "debit": 0.0,
+      "credit": 4479.29,
+      "balance": 109664.51
+    },
+    {
+      "date": "05/05/2025",
+      "raw_date": "2025-05-05",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN68326160",
+      "debit": 0.0,
+      "credit": 4239.89,
+      "balance": 113904.4
+    },
+    {
+      "date": "07-May-2025",
+      "raw_date": "2025-05-07",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN61700055",
+      "debit": 18144.1,
+      "credit": 0.0,
+      "balance": 95760.3
+    },
+    {
+      "date": "08-May-2025",
+      "raw_date": "2025-05-08",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN79782527",
+      "debit": 0.0,
+      "credit": 15543.98,
+      "balance": 111304.28
+    },
+    {
+      "date": "09/05/2025",
+      "raw_date": "2025-05-09",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN99152472",
+      "debit": 0.0,
+      "credit": 15379.76,
+      "balance": 126684.04
+    },
+    {
+      "date": "11-May-2025",
+      "raw_date": "2025-05-11",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN51511484",
+      "debit": 10861.12,
+      "credit": 0.0,
+      "balance": 115822.92
+    },
+    {
+      "date": "13-May-2025",
+      "raw_date": "2025-05-13",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN49682169",
+      "debit": 0.0,
+      "credit": 14382.81,
+      "balance": 130205.73
+    },
+    {
+      "date": "14-May-2025",
+      "raw_date": "2025-05-14",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN33357554",
+      "debit": 32942.55,
+      "credit": 0.0,
+      "balance": 97263.18
+    },
+    {
+      "date": "2025-05-16",
+      "raw_date": "2025-05-16",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN48508907",
+      "debit": 514.0,
+      "credit": 0.0,
+      "balance": 96749.18
+    },
+    {
+      "date": "18/05/2025",
+      "raw_date": "2025-05-18",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN69295515",
+      "debit": 11617.6,
+      "credit": 0.0,
+      "balance": 85131.58
+    },
+    {
+      "date": "19-May-2025",
+      "raw_date": "2025-05-19",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN32775593",
+      "debit": 31590.74,
+      "credit": 0.0,
+      "balance": 53540.84
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

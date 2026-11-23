@@ -1,0 +1,46 @@
+{
+  "document_id": "train_invoice_0024",
+  "document_type": "invoice",
+  "vendor_name": "BlueSky Office Supplies Pvt Ltd",
+  "vendor_gstin": "09DDDDD3456D1Z1",
+  "vendor_category": "Office Equipment",
+  "client_name": "Mangal-Sampath",
+  "client_gstin": "07DLVID8723V4U3",
+  "invoice_number": "INV-2025-5690",
+  "invoice_date": "2025-04-20",
+  "due_date": "2025-05-20",
+  "line_items": [
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 3,
+      "unit_price": 8500.0,
+      "total": 25500.0
+    },
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 2,
+      "unit_price": 7500.0,
+      "total": 15000.0
+    },
+    {
+      "description": "Software License Subscription",
+      "quantity": 1,
+      "unit_price": 12000.0,
+      "total": 12000.0
+    },
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 1,
+      "unit_price": 6200.0,
+      "total": 6200.0
+    }
+  ],
+  "subtotal": 58700.0,
+  "tax_amount": 10566.0,
+  "tax_rate": "18%",
+  "grand_total": 67466.0,
+  "is_tampered": true,
+  "tamper_types": [
+    "total_mismatch: grand total does not match subtotal + tax"
+  ]
+}

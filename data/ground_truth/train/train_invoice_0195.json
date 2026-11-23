@@ -1,0 +1,40 @@
+{
+  "document_id": "train_invoice_0195",
+  "document_type": "invoice",
+  "vendor_name": "Apex Logistics & Supply Chain Ltd",
+  "vendor_gstin": "27BBBBB5678B1Z2",
+  "vendor_category": "Freight & Warehousing",
+  "client_name": "Nayar, Tripathi and Upadhyay",
+  "client_gstin": "07XVRHA8794L7T0",
+  "invoice_number": "INV-2025-7760",
+  "invoice_date": "2030-04-01",
+  "due_date": "2030-05-01",
+  "line_items": [
+    {
+      "description": "Software License Subscription",
+      "quantity": 4,
+      "unit_price": 12000.0,
+      "total": 48000.0
+    },
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 1,
+      "unit_price": 8500.0,
+      "total": 8500.0
+    },
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 4,
+      "unit_price": 6200.0,
+      "total": 24800.0
+    }
+  ],
+  "subtotal": 81300.0,
+  "tax_amount": 14634.0,
+  "tax_rate": "18%",
+  "grand_total": 95934.0,
+  "is_tampered": true,
+  "tamper_types": [
+    "future_dates: invoice date 2030-04-01 is far in the future"
+  ]
+}

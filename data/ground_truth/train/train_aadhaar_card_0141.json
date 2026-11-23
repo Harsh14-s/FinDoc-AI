@@ -1,0 +1,11 @@
+{
+  "document_id": "train_aadhaar_card_0141",
+  "document_type": "aadhaar_card",
+  "full_name": "Gautam Tripathi",
+  "gender": "Female",
+  "dob": "1993-10-21",
+  "aadhaar_number": "7317 9821 3859",
+  "address": "H.No. 97, Dora Circle, Hospet-518203",
+  "is_tampered": false,
+  "tamper_types": []
+}

@@ -1,0 +1,38 @@
+{
+  "document_id": "train_invoice_0144",
+  "document_type": "invoice",
+  "vendor_name": "BlueSky Office Supplies Pvt Ltd",
+  "vendor_gstin": "09DDDDD3456D1Z1",
+  "vendor_category": "Office Equipment",
+  "client_name": "Ram-Rege",
+  "client_gstin": "07GJRYS5905Q1U5",
+  "invoice_number": "INV-2025-5459",
+  "invoice_date": "2025-10-16",
+  "due_date": "2025-11-15",
+  "line_items": [
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 1,
+      "unit_price": 7500.0,
+      "total": 7500.0
+    },
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 5,
+      "unit_price": 4500.0,
+      "total": 22500.0
+    },
+    {
+      "description": "Software License Subscription",
+      "quantity": 1,
+      "unit_price": 12000.0,
+      "total": 12000.0
+    }
+  ],
+  "subtotal": 42000.0,
+  "tax_amount": 7560.0,
+  "tax_rate": "18%",
+  "grand_total": 49560.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

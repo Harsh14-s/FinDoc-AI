@@ -1,0 +1,13 @@
+{
+  "document_id": "train_aadhaar_card_0005",
+  "document_type": "aadhaar_card",
+  "full_name": "Caleb Sharaf",
+  "gender": "Male",
+  "dob": "1980-12-04",
+  "aadhaar_number": "9999 ABCD 304",
+  "address": "31/03, Buch Road, Salem 475255",
+  "is_tampered": true,
+  "tamper_types": [
+    "invalid_aadhaar_format: Aadhaar contains alphabets and incorrect length"
+  ]
+}

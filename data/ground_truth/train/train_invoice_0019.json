@@ -1,0 +1,34 @@
+{
+  "document_id": "train_invoice_0019",
+  "document_type": "invoice",
+  "vendor_name": "BlueSky Office Supplies Pvt Ltd",
+  "vendor_gstin": "09DDDDD3456D1Z1",
+  "vendor_category": "Office Equipment",
+  "client_name": "Sampath-Roy",
+  "client_gstin": "07ZGPMM7010I6C5",
+  "invoice_number": "INV-2025-2528",
+  "invoice_date": "2030-04-01",
+  "due_date": "2030-05-01",
+  "line_items": [
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 2,
+      "unit_price": 3500.0,
+      "total": 7000.0
+    },
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 4,
+      "unit_price": 4500.0,
+      "total": 18000.0
+    }
+  ],
+  "subtotal": 25000.0,
+  "tax_amount": 4500.0,
+  "tax_rate": "18%",
+  "grand_total": 29500.0,
+  "is_tampered": true,
+  "tamper_types": [
+    "future_dates: invoice date 2030-04-01 is far in the future"
+  ]
+}

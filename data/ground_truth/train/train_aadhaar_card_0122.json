@@ -1,0 +1,13 @@
+{
+  "document_id": "train_aadhaar_card_0122",
+  "document_type": "aadhaar_card",
+  "full_name": "Girish Munshi",
+  "gender": "Male",
+  "dob": "1987-02-13",
+  "aadhaar_number": "9999 ABCD 629",
+  "address": "71/111, Char Marg, Bikaner 988516",
+  "is_tampered": true,
+  "tamper_types": [
+    "invalid_aadhaar_format: Aadhaar contains alphabets and incorrect length"
+  ]
+}

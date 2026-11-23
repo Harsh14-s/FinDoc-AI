@@ -1,0 +1,10 @@
+{
+  "document_id": "test_pan_card_0010",
+  "document_type": "pan_card",
+  "full_name": "Amol Lal",
+  "father_name": "Manbir Dua",
+  "dob": "1975-02-24",
+  "pan_number": "REEKC5876K",
+  "is_tampered": false,
+  "tamper_types": []
+}

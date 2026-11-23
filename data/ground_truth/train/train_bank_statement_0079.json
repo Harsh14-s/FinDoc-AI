@@ -1,0 +1,145 @@
+{
+  "document_id": "train_bank_statement_0079",
+  "document_type": "bank_statement",
+  "bank_name": "Metro Alliance Bank",
+  "branch": "Sector 62, Noida",
+  "ifsc": "METR0815707",
+  "account_holder": "Shravya Singhal",
+  "account_number": "56335411389",
+  "period_start": "2025-01-01",
+  "period_end": "2025-01-29",
+  "opening_balance": 37446.84,
+  "closing_balance": 205180.55,
+  "total_deposits": 225546.38,
+  "total_withdrawals": 57812.67,
+  "transactions": [
+    {
+      "date": "03/01/2025",
+      "raw_date": "2025-01-03",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN31204188",
+      "debit": 0.0,
+      "credit": 4786.18,
+      "balance": 42233.02
+    },
+    {
+      "date": "2025-01-05",
+      "raw_date": "2025-01-05",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN67418250",
+      "debit": 0.0,
+      "credit": 34718.42,
+      "balance": 76951.44
+    },
+    {
+      "date": "2025-01-06",
+      "raw_date": "2025-01-06",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN46778269",
+      "debit": 0.0,
+      "credit": 32679.03,
+      "balance": 109630.47
+    },
+    {
+      "date": "2025-01-08",
+      "raw_date": "2025-01-08",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN97095388",
+      "debit": 0.0,
+      "credit": 23425.55,
+      "balance": 133056.02
+    },
+    {
+      "date": "09/01/2025",
+      "raw_date": "2025-01-09",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN41426254",
+      "debit": 25546.6,
+      "credit": 0.0,
+      "balance": 107509.42
+    },
+    {
+      "date": "10-Jan-2025",
+      "raw_date": "2025-01-10",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN27810664",
+      "debit": 0.0,
+      "credit": 16949.83,
+      "balance": 124459.25
+    },
+    {
+      "date": "2025-01-11",
+      "raw_date": "2025-01-11",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN56113741",
+      "debit": 820.4,
+      "credit": 0.0,
+      "balance": 123638.85
+    },
+    {
+      "date": "13/01/2025",
+      "raw_date": "2025-01-13",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN40728728",
+      "debit": 0.0,
+      "credit": 16980.66,
+      "balance": 140619.51
+    },
+    {
+      "date": "2025-01-14",
+      "raw_date": "2025-01-14",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN50165370",
+      "debit": 0.0,
+      "credit": 13180.88,
+      "balance": 153800.39
+    },
+    {
+      "date": "2025-01-16",
+      "raw_date": "2025-01-16",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN29173414",
+      "debit": 0.0,
+      "credit": 22634.38,
+      "balance": 176434.77
+    },
+    {
+      "date": "17-Jan-2025",
+      "raw_date": "2025-01-17",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN38595818",
+      "debit": 15683.43,
+      "credit": 0.0,
+      "balance": 160751.34
+    },
+    {
+      "date": "2025-01-18",
+      "raw_date": "2025-01-18",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN39158087",
+      "debit": 15762.24,
+      "credit": 0.0,
+      "balance": 144989.1
+    },
+    {
+      "date": "19-Jan-2025",
+      "raw_date": "2025-01-19",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN89131271",
+      "debit": 0.0,
+      "credit": 26459.37,
+      "balance": 171448.47
+    },
+    {
+      "date": "2025-01-21",
+      "raw_date": "2025-01-21",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN52211967",
+      "debit": 0.0,
+      "credit": 33732.08,
+      "balance": 205180.55
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

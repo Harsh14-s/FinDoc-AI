@@ -1,0 +1,138 @@
+{
+  "document_id": "test_bank_statement_0084",
+  "document_type": "bank_statement",
+  "bank_name": "Beacon Cooperative Urban Bank",
+  "branch": "MG Road, Bengaluru",
+  "ifsc": "BCOB0544420",
+  "account_holder": "Jyoti Tak",
+  "account_number": "75795960257",
+  "period_start": "2025-08-01",
+  "period_end": "2025-09-01",
+  "opening_balance": 100217.89,
+  "closing_balance": 186438.97,
+  "total_deposits": 154178.87,
+  "total_withdrawals": 72957.79,
+  "transactions": [
+    {
+      "date": "2025-08-03",
+      "raw_date": "2025-08-03",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN97772249",
+      "debit": 0.0,
+      "credit": 28173.86,
+      "balance": 128391.75
+    },
+    {
+      "date": "05-Aug-2025",
+      "raw_date": "2025-08-05",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN76115841",
+      "debit": 19086.78,
+      "credit": 0.0,
+      "balance": 109304.97
+    },
+    {
+      "date": "06-Aug-2025",
+      "raw_date": "2025-08-06",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN80725487",
+      "debit": 0.0,
+      "credit": 25164.78,
+      "balance": 134469.75
+    },
+    {
+      "date": "07/08/2025",
+      "raw_date": "2025-08-07",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN12302458",
+      "debit": 0.0,
+      "credit": 598.88,
+      "balance": 135068.63
+    },
+    {
+      "date": "09/08/2025",
+      "raw_date": "2025-08-09",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN17996341",
+      "debit": 0.0,
+      "credit": 32271.19,
+      "balance": 167339.82
+    },
+    {
+      "date": "11-Aug-2025",
+      "raw_date": "2025-08-11",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN29346175",
+      "debit": 0.0,
+      "credit": 10667.06,
+      "balance": 178006.88
+    },
+    {
+      "date": "2025-08-13",
+      "raw_date": "2025-08-13",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN28495379",
+      "debit": 0.0,
+      "credit": 8248.26,
+      "balance": 186255.14
+    },
+    {
+      "date": "14/08/2025",
+      "raw_date": "2025-08-14",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN67003442",
+      "debit": 24516.23,
+      "credit": 0.0,
+      "balance": 161738.91
+    },
+    {
+      "date": "2025-08-15",
+      "raw_date": "2025-08-15",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN89715350",
+      "debit": 3045.08,
+      "credit": 0.0,
+      "balance": 158693.83
+    },
+    {
+      "date": "2025-08-16",
+      "raw_date": "2025-08-16",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN20602300",
+      "debit": 0.0,
+      "credit": 13100.93,
+      "balance": 171794.76
+    },
+    {
+      "date": "2025-08-17",
+      "raw_date": "2025-08-17",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN65900995",
+      "debit": 0.0,
+      "credit": 20136.82,
+      "balance": 191931.58
+    },
+    {
+      "date": "18/08/2025",
+      "raw_date": "2025-08-18",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN50199242",
+      "debit": 26309.7,
+      "credit": 0.0,
+      "balance": 165621.88
+    },
+    {
+      "date": "20-Aug-2025",
+      "raw_date": "2025-08-20",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN96549919",
+      "debit": 0.0,
+      "credit": 15817.09,
+      "balance": 181438.97
+    }
+  ],
+  "is_tampered": true,
+  "tamper_types": [
+    "balance_mismatch: closing balance altered"
+  ]
+}

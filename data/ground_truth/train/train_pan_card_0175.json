@@ -1,0 +1,12 @@
+{
+  "document_id": "train_pan_card_0175",
+  "document_type": "pan_card",
+  "full_name": "Jairaj Iyer",
+  "father_name": "Jagat Tak",
+  "dob": "1997-10-27",
+  "pan_number": "INVALID61",
+  "is_tampered": true,
+  "tamper_types": [
+    "invalid_pan_format: PAN violates 10-char alphanumeric regex"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "document_id": "test_bank_statement_0024",
+  "document_type": "bank_statement",
+  "bank_name": "State Mercantile Commercial Bank",
+  "branch": "Bandra Kurla Complex, Mumbai",
+  "ifsc": "SMCB0680990",
+  "account_holder": "Maanas Rao",
+  "account_number": "44439722839",
+  "period_start": "2025-10-01",
+  "period_end": "2025-10-29",
+  "opening_balance": 55789.51,
+  "closing_balance": 109534.32,
+  "total_deposits": 124647.39,
+  "total_withdrawals": 70902.58,
+  "transactions": [
+    {
+      "date": "02-Oct-2025",
+      "raw_date": "2025-10-02",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN95335496",
+      "debit": 15886.39,
+      "credit": 0.0,
+      "balance": 39903.12
+    },
+    {
+      "date": "2025-10-03",
+      "raw_date": "2025-10-03",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN32573855",
+      "debit": 0.0,
+      "credit": 13379.03,
+      "balance": 53282.15
+    },
+    {
+      "date": "05-Oct-2025",
+      "raw_date": "2025-10-05",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN72364542",
+      "debit": 534.54,
+      "credit": 0.0,
+      "balance": 52747.61
+    },
+    {
+      "date": "07/10/2025",
+      "raw_date": "2025-10-07",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN74717944",
+      "debit": 0.0,
+      "credit": 518.73,
+      "balance": 53266.34
+    },
+    {
+      "date": "09-Oct-2025",
+      "raw_date": "2025-10-09",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN38555376",
+      "debit": 29564.13,
+      "credit": 0.0,
+      "balance": 23702.21
+    },
+    {
+      "date": "11-Oct-2025",
+      "raw_date": "2025-10-11",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN81684250",
+      "debit": 0.0,
+      "credit": 6068.86,
+      "balance": 29771.07
+    },
+    {
+      "date": "12-Oct-2025",
+      "raw_date": "2025-10-12",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN28743541",
+      "debit": 0.0,
+      "credit": 24595.81,
+      "balance": 54366.88
+    },
+    {
+      "date": "14-Oct-2025",
+      "raw_date": "2025-10-14",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN52722031",
+      "debit": 0.0,
+      "credit": 17916.3,
+      "balance": 72283.18
+    },
+    {
+      "date": "2025-10-16",
+      "raw_date": "2025-10-16",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN46643203",
+      "debit": 24917.52,
+      "credit": 0.0,
+      "balance": 47365.66
+    },
+    {
+      "date": "18/10/2025",
+      "raw_date": "2025-10-18",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN90465362",
+      "debit": 0.0,
+      "credit": 7766.52,
+      "balance": 55132.18
+    },
+    {
+      "date": "19-Oct-2025",
+      "raw_date": "2025-10-19",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN10274812",
+      "debit": 0.0,
+      "credit": 22802.29,
+      "balance": 77934.47
+    },
+    {
+      "date": "21/10/2025",
+      "raw_date": "2025-10-21",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN33291610",
+      "debit": 0.0,
+      "credit": 31599.85,
+      "balance": 109534.32
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

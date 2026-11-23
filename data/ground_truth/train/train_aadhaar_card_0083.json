@@ -1,0 +1,11 @@
+{
+  "document_id": "train_aadhaar_card_0083",
+  "document_type": "aadhaar_card",
+  "full_name": "Anita Tella",
+  "gender": "Female",
+  "dob": "1975-12-05",
+  "aadhaar_number": "7746 1185 3684",
+  "address": "59/401, Bail Ganj, Gangtok 278742",
+  "is_tampered": false,
+  "tamper_types": []
+}

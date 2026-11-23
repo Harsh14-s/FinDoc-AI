@@ -1,0 +1,32 @@
+{
+  "document_id": "train_invoice_0140",
+  "document_type": "invoice",
+  "vendor_name": "Pinnacle Advisory & Consulting LLP",
+  "vendor_gstin": "29CCCCC9012C1Z8",
+  "vendor_category": "Professional Services",
+  "client_name": "Sathe-Mitter",
+  "client_gstin": "07TDCCD4905X8S1",
+  "invoice_number": "INV-2025-6639",
+  "invoice_date": "2025-01-14",
+  "due_date": "2025-02-13",
+  "line_items": [
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 5,
+      "unit_price": 7500.0,
+      "total": 37500.0
+    },
+    {
+      "description": "Network Security Audit & Patching",
+      "quantity": 2,
+      "unit_price": 18000.0,
+      "total": 36000.0
+    }
+  ],
+  "subtotal": 73500.0,
+  "tax_amount": 13230.0,
+  "tax_rate": "18%",
+  "grand_total": 86730.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

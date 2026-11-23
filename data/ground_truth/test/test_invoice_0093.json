@@ -1,0 +1,46 @@
+{
+  "document_id": "test_invoice_0093",
+  "document_type": "invoice",
+  "vendor_name": "Vortex Tech Solutions Pvt Ltd",
+  "vendor_gstin": "INVALID#GST#999",
+  "vendor_category": "IT & Cloud Services",
+  "client_name": "Gala Group",
+  "client_gstin": "07XNCTD7561Q8H5",
+  "invoice_number": "INV-2025-1431",
+  "invoice_date": "2025-03-26",
+  "due_date": "2025-04-25",
+  "line_items": [
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 4,
+      "unit_price": 7500.0,
+      "total": 30000.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 2,
+      "unit_price": 25000.0,
+      "total": 50000.0
+    },
+    {
+      "description": "Software License Subscription",
+      "quantity": 5,
+      "unit_price": 12000.0,
+      "total": 60000.0
+    },
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 4,
+      "unit_price": 6200.0,
+      "total": 24800.0
+    }
+  ],
+  "subtotal": 164800.0,
+  "tax_amount": 29664.0,
+  "tax_rate": "18%",
+  "grand_total": 194464.0,
+  "is_tampered": true,
+  "tamper_types": [
+    "invalid_gstin: vendor GSTIN violates 15-character standard pattern"
+  ]
+}

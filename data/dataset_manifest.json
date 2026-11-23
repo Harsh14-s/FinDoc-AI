@@ -1,0 +1,2948 @@
+{
+  "train": [
+    {
+      "doc_id": "train_pan_card_0001",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0001.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0001.json"
+    },
+    {
+      "doc_id": "train_invoice_0002",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0002.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0002.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0003",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0003.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0003.json"
+    },
+    {
+      "doc_id": "train_invoice_0004",
+      "doc_type": "invoice",
+      "is_tampered": true,
+      "tamper_types": [
+        "total_mismatch: grand total does not match subtotal + tax"
+      ],
+      "pdf_path": "data\\raw\\train\\train_invoice_0004.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0004.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0005",
+      "doc_type": "aadhaar_card",
+      "is_tampered": true,
+      "tamper_types": [
+        "invalid_aadhaar_format: Aadhaar contains alphabets and incorrect length"
+      ],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0005.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0005.json"
+    },
+    {
+      "doc_id": "train_invoice_0006",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0006.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0006.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0007",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0007.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0007.json"
+    },
+    {
+      "doc_id": "train_invoice_0008",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0008.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0008.json"
+    },
+    {
+      "doc_id": "train_invoice_0009",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0009.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0009.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0010",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0010.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0010.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0011",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0011.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0011.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0012",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0012.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0012.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0013",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0013.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0013.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0014",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0014.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0014.json"
+    },
+    {
+      "doc_id": "train_invoice_0015",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0015.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0015.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0016",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0016.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0016.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0017",
+      "doc_type": "bank_statement",
+      "is_tampered": true,
+      "tamper_types": [
+        "future_dates: transaction date 2029-06-15 after period end"
+      ],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0017.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0017.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0018",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0018.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0018.json"
+    },
+    {
+      "doc_id": "train_invoice_0019",
+      "doc_type": "invoice",
+      "is_tampered": true,
+      "tamper_types": [
+        "future_dates: invoice date 2030-04-01 is far in the future"
+      ],
+      "pdf_path": "data\\raw\\train\\train_invoice_0019.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0019.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0020",
+      "doc_type": "bank_statement",
+      "is_tampered": true,
+      "tamper_types": [
+        "future_dates: transaction date 2029-06-15 after period end"
+      ],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0020.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0020.json"
+    },
+    {
+      "doc_id": "train_invoice_0021",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0021.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0021.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0022",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0022.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0022.json"
+    },
+    {
+      "doc_id": "train_pan_card_0023",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0023.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0023.json"
+    },
+    {
+      "doc_id": "train_invoice_0024",
+      "doc_type": "invoice",
+      "is_tampered": true,
+      "tamper_types": [
+        "total_mismatch: grand total does not match subtotal + tax"
+      ],
+      "pdf_path": "data\\raw\\train\\train_invoice_0024.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0024.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0025",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0025.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0025.json"
+    },
+    {
+      "doc_id": "train_pan_card_0026",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0026.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0026.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0027",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0027.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0027.json"
+    },
+    {
+      "doc_id": "train_invoice_0028",
+      "doc_type": "invoice",
+      "is_tampered": true,
+      "tamper_types": [
+        "invalid_gstin: vendor GSTIN violates 15-character standard pattern"
+      ],
+      "pdf_path": "data\\raw\\train\\train_invoice_0028.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0028.json"
+    },
+    {
+      "doc_id": "train_pan_card_0029",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0029.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0029.json"
+    },
+    {
+      "doc_id": "train_invoice_0030",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0030.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0030.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0031",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0031.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0031.json"
+    },
+    {
+      "doc_id": "train_pan_card_0032",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0032.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0032.json"
+    },
+    {
+      "doc_id": "train_pan_card_0033",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0033.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0033.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0034",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0034.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0034.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0035",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0035.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0035.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0036",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0036.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0036.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0037",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0037.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0037.json"
+    },
+    {
+      "doc_id": "train_invoice_0038",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0038.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0038.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0039",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0039.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0039.json"
+    },
+    {
+      "doc_id": "train_invoice_0040",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0040.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0040.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0041",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0041.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0041.json"
+    },
+    {
+      "doc_id": "train_invoice_0042",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0042.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0042.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0043",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0043.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0043.json"
+    },
+    {
+      "doc_id": "train_pan_card_0044",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0044.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0044.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0045",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0045.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0045.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0046",
+      "doc_type": "bank_statement",
+      "is_tampered": true,
+      "tamper_types": [
+        "future_dates: transaction date 2029-06-15 after period end"
+      ],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0046.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0046.json"
+    },
+    {
+      "doc_id": "train_invoice_0047",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0047.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0047.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0048",
+      "doc_type": "bank_statement",
+      "is_tampered": true,
+      "tamper_types": [
+        "duplicate_transactions: ref_no TXN59115280 duplicated"
+      ],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0048.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0048.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0049",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0049.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0049.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0050",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0050.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0050.json"
+    },
+    {
+      "doc_id": "train_invoice_0051",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0051.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0051.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0052",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0052.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0052.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0053",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0053.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0053.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0054",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0054.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0054.json"
+    },
+    {
+      "doc_id": "train_invoice_0055",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0055.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0055.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0056",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0056.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0056.json"
+    },
+    {
+      "doc_id": "train_invoice_0057",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0057.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0057.json"
+    },
+    {
+      "doc_id": "train_pan_card_0058",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0058.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0058.json"
+    },
+    {
+      "doc_id": "train_invoice_0059",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0059.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0059.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0060",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0060.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0060.json"
+    },
+    {
+      "doc_id": "train_invoice_0061",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0061.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0061.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0062",
+      "doc_type": "bank_statement",
+      "is_tampered": true,
+      "tamper_types": [
+        "duplicate_transactions: ref_no TXN20526386 duplicated"
+      ],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0062.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0062.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0063",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0063.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0063.json"
+    },
+    {
+      "doc_id": "train_invoice_0064",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0064.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0064.json"
+    },
+    {
+      "doc_id": "train_invoice_0065",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0065.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0065.json"
+    },
+    {
+      "doc_id": "train_pan_card_0066",
+      "doc_type": "pan_card",
+      "is_tampered": true,
+      "tamper_types": [
+        "invalid_pan_format: PAN violates 10-char alphanumeric regex"
+      ],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0066.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0066.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0067",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0067.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0067.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0068",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0068.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0068.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0069",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0069.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0069.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0070",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0070.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0070.json"
+    },
+    {
+      "doc_id": "train_pan_card_0071",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0071.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0071.json"
+    },
+    {
+      "doc_id": "train_invoice_0072",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0072.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0072.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0073",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0073.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0073.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0074",
+      "doc_type": "bank_statement",
+      "is_tampered": true,
+      "tamper_types": [
+        "balance_mismatch: closing balance altered"
+      ],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0074.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0074.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0075",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0075.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0075.json"
+    },
+    {
+      "doc_id": "train_invoice_0076",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0076.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0076.json"
+    },
+    {
+      "doc_id": "train_invoice_0077",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0077.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0077.json"
+    },
+    {
+      "doc_id": "train_invoice_0078",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0078.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0078.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0079",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0079.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0079.json"
+    },
+    {
+      "doc_id": "train_invoice_0080",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0080.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0080.json"
+    },
+    {
+      "doc_id": "train_invoice_0081",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0081.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0081.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0082",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0082.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0082.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0083",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0083.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0083.json"
+    },
+    {
+      "doc_id": "train_invoice_0084",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0084.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0084.json"
+    },
+    {
+      "doc_id": "train_pan_card_0085",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0085.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0085.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0086",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0086.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0086.json"
+    },
+    {
+      "doc_id": "train_invoice_0087",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0087.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0087.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0088",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0088.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0088.json"
+    },
+    {
+      "doc_id": "train_invoice_0089",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0089.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0089.json"
+    },
+    {
+      "doc_id": "train_pan_card_0090",
+      "doc_type": "pan_card",
+      "is_tampered": true,
+      "tamper_types": [
+        "invalid_pan_format: PAN violates 10-char alphanumeric regex"
+      ],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0090.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0090.json"
+    },
+    {
+      "doc_id": "train_invoice_0091",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0091.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0091.json"
+    },
+    {
+      "doc_id": "train_pan_card_0092",
+      "doc_type": "pan_card",
+      "is_tampered": true,
+      "tamper_types": [
+        "invalid_pan_format: PAN violates 10-char alphanumeric regex"
+      ],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0092.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0092.json"
+    },
+    {
+      "doc_id": "train_invoice_0093",
+      "doc_type": "invoice",
+      "is_tampered": true,
+      "tamper_types": [
+        "total_mismatch: grand total does not match subtotal + tax"
+      ],
+      "pdf_path": "data\\raw\\train\\train_invoice_0093.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0093.json"
+    },
+    {
+      "doc_id": "train_invoice_0094",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0094.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0094.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0095",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0095.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0095.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0096",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0096.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0096.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0097",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0097.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0097.json"
+    },
+    {
+      "doc_id": "train_invoice_0098",
+      "doc_type": "invoice",
+      "is_tampered": true,
+      "tamper_types": [
+        "invalid_gstin: vendor GSTIN violates 15-character standard pattern"
+      ],
+      "pdf_path": "data\\raw\\train\\train_invoice_0098.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0098.json"
+    },
+    {
+      "doc_id": "train_invoice_0099",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0099.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0099.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0100",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0100.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0100.json"
+    },
+    {
+      "doc_id": "train_invoice_0101",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0101.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0101.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0102",
+      "doc_type": "bank_statement",
+      "is_tampered": true,
+      "tamper_types": [
+        "future_dates: transaction date 2029-06-15 after period end"
+      ],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0102.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0102.json"
+    },
+    {
+      "doc_id": "train_invoice_0103",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0103.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0103.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0104",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0104.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0104.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0105",
+      "doc_type": "bank_statement",
+      "is_tampered": true,
+      "tamper_types": [
+        "balance_mismatch: closing balance altered"
+      ],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0105.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0105.json"
+    },
+    {
+      "doc_id": "train_pan_card_0106",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0106.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0106.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0107",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0107.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0107.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0108",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0108.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0108.json"
+    },
+    {
+      "doc_id": "train_invoice_0109",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0109.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0109.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0110",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0110.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0110.json"
+    },
+    {
+      "doc_id": "train_pan_card_0111",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0111.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0111.json"
+    },
+    {
+      "doc_id": "train_invoice_0112",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0112.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0112.json"
+    },
+    {
+      "doc_id": "train_pan_card_0113",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0113.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0113.json"
+    },
+    {
+      "doc_id": "train_invoice_0114",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0114.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0114.json"
+    },
+    {
+      "doc_id": "train_invoice_0115",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0115.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0115.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0116",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0116.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0116.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0117",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0117.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0117.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0118",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0118.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0118.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0119",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0119.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0119.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0120",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0120.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0120.json"
+    },
+    {
+      "doc_id": "train_invoice_0121",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0121.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0121.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0122",
+      "doc_type": "aadhaar_card",
+      "is_tampered": true,
+      "tamper_types": [
+        "invalid_aadhaar_format: Aadhaar contains alphabets and incorrect length"
+      ],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0122.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0122.json"
+    },
+    {
+      "doc_id": "train_invoice_0123",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0123.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0123.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0124",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0124.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0124.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0125",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0125.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0125.json"
+    },
+    {
+      "doc_id": "train_invoice_0126",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0126.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0126.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0127",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0127.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0127.json"
+    },
+    {
+      "doc_id": "train_pan_card_0128",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0128.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0128.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0129",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0129.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0129.json"
+    },
+    {
+      "doc_id": "train_pan_card_0130",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0130.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0130.json"
+    },
+    {
+      "doc_id": "train_pan_card_0131",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0131.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0131.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0132",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0132.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0132.json"
+    },
+    {
+      "doc_id": "train_invoice_0133",
+      "doc_type": "invoice",
+      "is_tampered": true,
+      "tamper_types": [
+        "future_dates: invoice date 2030-04-01 is far in the future"
+      ],
+      "pdf_path": "data\\raw\\train\\train_invoice_0133.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0133.json"
+    },
+    {
+      "doc_id": "train_invoice_0134",
+      "doc_type": "invoice",
+      "is_tampered": true,
+      "tamper_types": [
+        "invalid_gstin: vendor GSTIN violates 15-character standard pattern"
+      ],
+      "pdf_path": "data\\raw\\train\\train_invoice_0134.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0134.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0135",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0135.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0135.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0136",
+      "doc_type": "bank_statement",
+      "is_tampered": true,
+      "tamper_types": [
+        "duplicate_transactions: ref_no TXN91742470 duplicated"
+      ],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0136.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0136.json"
+    },
+    {
+      "doc_id": "train_invoice_0137",
+      "doc_type": "invoice",
+      "is_tampered": true,
+      "tamper_types": [
+        "future_dates: invoice date 2030-04-01 is far in the future"
+      ],
+      "pdf_path": "data\\raw\\train\\train_invoice_0137.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0137.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0138",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0138.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0138.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0139",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0139.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0139.json"
+    },
+    {
+      "doc_id": "train_invoice_0140",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0140.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0140.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0141",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0141.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0141.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0142",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0142.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0142.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0143",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0143.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0143.json"
+    },
+    {
+      "doc_id": "train_invoice_0144",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0144.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0144.json"
+    },
+    {
+      "doc_id": "train_invoice_0145",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0145.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0145.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0146",
+      "doc_type": "bank_statement",
+      "is_tampered": true,
+      "tamper_types": [
+        "future_dates: transaction date 2029-06-15 after period end"
+      ],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0146.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0146.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0147",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0147.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0147.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0148",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0148.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0148.json"
+    },
+    {
+      "doc_id": "train_invoice_0149",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0149.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0149.json"
+    },
+    {
+      "doc_id": "train_invoice_0150",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0150.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0150.json"
+    },
+    {
+      "doc_id": "train_invoice_0151",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0151.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0151.json"
+    },
+    {
+      "doc_id": "train_pan_card_0152",
+      "doc_type": "pan_card",
+      "is_tampered": true,
+      "tamper_types": [
+        "invalid_pan_format: PAN violates 10-char alphanumeric regex"
+      ],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0152.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0152.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0153",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0153.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0153.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0154",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0154.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0154.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0155",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0155.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0155.json"
+    },
+    {
+      "doc_id": "train_pan_card_0156",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0156.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0156.json"
+    },
+    {
+      "doc_id": "train_invoice_0157",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0157.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0157.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0158",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0158.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0158.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0159",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0159.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0159.json"
+    },
+    {
+      "doc_id": "train_invoice_0160",
+      "doc_type": "invoice",
+      "is_tampered": true,
+      "tamper_types": [
+        "total_mismatch: grand total does not match subtotal + tax"
+      ],
+      "pdf_path": "data\\raw\\train\\train_invoice_0160.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0160.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0161",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0161.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0161.json"
+    },
+    {
+      "doc_id": "train_invoice_0162",
+      "doc_type": "invoice",
+      "is_tampered": true,
+      "tamper_types": [
+        "invalid_gstin: vendor GSTIN violates 15-character standard pattern"
+      ],
+      "pdf_path": "data\\raw\\train\\train_invoice_0162.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0162.json"
+    },
+    {
+      "doc_id": "train_invoice_0163",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0163.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0163.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0164",
+      "doc_type": "bank_statement",
+      "is_tampered": true,
+      "tamper_types": [
+        "balance_mismatch: closing balance altered"
+      ],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0164.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0164.json"
+    },
+    {
+      "doc_id": "train_pan_card_0165",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0165.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0165.json"
+    },
+    {
+      "doc_id": "train_invoice_0166",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0166.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0166.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0167",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0167.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0167.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0168",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0168.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0168.json"
+    },
+    {
+      "doc_id": "train_invoice_0169",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0169.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0169.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0170",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0170.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0170.json"
+    },
+    {
+      "doc_id": "train_invoice_0171",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0171.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0171.json"
+    },
+    {
+      "doc_id": "train_invoice_0172",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0172.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0172.json"
+    },
+    {
+      "doc_id": "train_invoice_0173",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0173.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0173.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0174",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0174.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0174.json"
+    },
+    {
+      "doc_id": "train_pan_card_0175",
+      "doc_type": "pan_card",
+      "is_tampered": true,
+      "tamper_types": [
+        "invalid_pan_format: PAN violates 10-char alphanumeric regex"
+      ],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0175.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0175.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0176",
+      "doc_type": "bank_statement",
+      "is_tampered": true,
+      "tamper_types": [
+        "duplicate_transactions: ref_no TXN70797197 duplicated"
+      ],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0176.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0176.json"
+    },
+    {
+      "doc_id": "train_invoice_0177",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0177.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0177.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0178",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0178.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0178.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0179",
+      "doc_type": "aadhaar_card",
+      "is_tampered": true,
+      "tamper_types": [
+        "invalid_aadhaar_format: Aadhaar contains alphabets and incorrect length"
+      ],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0179.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0179.json"
+    },
+    {
+      "doc_id": "train_pan_card_0180",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0180.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0180.json"
+    },
+    {
+      "doc_id": "train_invoice_0181",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0181.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0181.json"
+    },
+    {
+      "doc_id": "train_pan_card_0182",
+      "doc_type": "pan_card",
+      "is_tampered": true,
+      "tamper_types": [
+        "invalid_pan_format: PAN violates 10-char alphanumeric regex"
+      ],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0182.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0182.json"
+    },
+    {
+      "doc_id": "train_pan_card_0183",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0183.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0183.json"
+    },
+    {
+      "doc_id": "train_invoice_0184",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0184.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0184.json"
+    },
+    {
+      "doc_id": "train_invoice_0185",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0185.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0185.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0186",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0186.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0186.json"
+    },
+    {
+      "doc_id": "train_pan_card_0187",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0187.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0187.json"
+    },
+    {
+      "doc_id": "train_pan_card_0188",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0188.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0188.json"
+    },
+    {
+      "doc_id": "train_invoice_0189",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0189.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0189.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0190",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0190.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0190.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0191",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0191.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0191.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0192",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0192.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0192.json"
+    },
+    {
+      "doc_id": "train_pan_card_0193",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0193.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0193.json"
+    },
+    {
+      "doc_id": "train_invoice_0194",
+      "doc_type": "invoice",
+      "is_tampered": true,
+      "tamper_types": [
+        "total_mismatch: grand total does not match subtotal + tax"
+      ],
+      "pdf_path": "data\\raw\\train\\train_invoice_0194.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0194.json"
+    },
+    {
+      "doc_id": "train_invoice_0195",
+      "doc_type": "invoice",
+      "is_tampered": true,
+      "tamper_types": [
+        "future_dates: invoice date 2030-04-01 is far in the future"
+      ],
+      "pdf_path": "data\\raw\\train\\train_invoice_0195.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0195.json"
+    },
+    {
+      "doc_id": "train_invoice_0196",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0196.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0196.json"
+    },
+    {
+      "doc_id": "train_pan_card_0197",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0197.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0197.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0198",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0198.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0198.json"
+    },
+    {
+      "doc_id": "train_invoice_0199",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0199.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0199.json"
+    },
+    {
+      "doc_id": "train_invoice_0200",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0200.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0200.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0201",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0201.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0201.json"
+    },
+    {
+      "doc_id": "train_invoice_0202",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0202.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0202.json"
+    },
+    {
+      "doc_id": "train_invoice_0203",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0203.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0203.json"
+    },
+    {
+      "doc_id": "train_invoice_0204",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0204.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0204.json"
+    },
+    {
+      "doc_id": "train_invoice_0205",
+      "doc_type": "invoice",
+      "is_tampered": true,
+      "tamper_types": [
+        "invalid_gstin: vendor GSTIN violates 15-character standard pattern"
+      ],
+      "pdf_path": "data\\raw\\train\\train_invoice_0205.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0205.json"
+    },
+    {
+      "doc_id": "train_invoice_0206",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0206.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0206.json"
+    },
+    {
+      "doc_id": "train_invoice_0207",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0207.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0207.json"
+    },
+    {
+      "doc_id": "train_pan_card_0208",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0208.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0208.json"
+    },
+    {
+      "doc_id": "train_pan_card_0209",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_pan_card_0209.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_pan_card_0209.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0210",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0210.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0210.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0211",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0211.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0211.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0212",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0212.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0212.json"
+    },
+    {
+      "doc_id": "train_invoice_0213",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0213.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0213.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0214",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0214.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0214.json"
+    },
+    {
+      "doc_id": "train_invoice_0215",
+      "doc_type": "invoice",
+      "is_tampered": true,
+      "tamper_types": [
+        "future_dates: invoice date 2030-04-01 is far in the future"
+      ],
+      "pdf_path": "data\\raw\\train\\train_invoice_0215.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0215.json"
+    },
+    {
+      "doc_id": "train_invoice_0216",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0216.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0216.json"
+    },
+    {
+      "doc_id": "train_invoice_0217",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0217.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0217.json"
+    },
+    {
+      "doc_id": "train_invoice_0218",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0218.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0218.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0219",
+      "doc_type": "aadhaar_card",
+      "is_tampered": true,
+      "tamper_types": [
+        "invalid_aadhaar_format: Aadhaar contains alphabets and incorrect length"
+      ],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0219.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0219.json"
+    },
+    {
+      "doc_id": "train_invoice_0220",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_invoice_0220.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_invoice_0220.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0221",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0221.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0221.json"
+    },
+    {
+      "doc_id": "train_aadhaar_card_0222",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_aadhaar_card_0222.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_aadhaar_card_0222.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0223",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0223.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0223.json"
+    },
+    {
+      "doc_id": "train_bank_statement_0224",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\train\\train_bank_statement_0224.pdf",
+      "gt_path": "data\\ground_truth\\train\\train_bank_statement_0224.json"
+    }
+  ],
+  "test": [
+    {
+      "doc_id": "test_bank_statement_0001",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0001.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0001.json"
+    },
+    {
+      "doc_id": "test_invoice_0002",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0002.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0002.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0003",
+      "doc_type": "bank_statement",
+      "is_tampered": true,
+      "tamper_types": [
+        "duplicate_transactions: ref_no TXN84964625 duplicated"
+      ],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0003.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0003.json"
+    },
+    {
+      "doc_id": "test_invoice_0004",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0004.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0004.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0005",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0005.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0005.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0006",
+      "doc_type": "bank_statement",
+      "is_tampered": true,
+      "tamper_types": [
+        "duplicate_transactions: ref_no TXN70814320 duplicated"
+      ],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0006.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0006.json"
+    },
+    {
+      "doc_id": "test_invoice_0007",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0007.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0007.json"
+    },
+    {
+      "doc_id": "test_invoice_0008",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0008.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0008.json"
+    },
+    {
+      "doc_id": "test_invoice_0009",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0009.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0009.json"
+    },
+    {
+      "doc_id": "test_pan_card_0010",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_pan_card_0010.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_pan_card_0010.json"
+    },
+    {
+      "doc_id": "test_invoice_0011",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0011.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0011.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0012",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0012.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0012.json"
+    },
+    {
+      "doc_id": "test_pan_card_0013",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_pan_card_0013.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_pan_card_0013.json"
+    },
+    {
+      "doc_id": "test_aadhaar_card_0014",
+      "doc_type": "aadhaar_card",
+      "is_tampered": true,
+      "tamper_types": [
+        "invalid_aadhaar_format: Aadhaar contains alphabets and incorrect length"
+      ],
+      "pdf_path": "data\\raw\\test\\test_aadhaar_card_0014.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_aadhaar_card_0014.json"
+    },
+    {
+      "doc_id": "test_invoice_0015",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0015.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0015.json"
+    },
+    {
+      "doc_id": "test_invoice_0016",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0016.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0016.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0017",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0017.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0017.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0018",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0018.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0018.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0019",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0019.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0019.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0020",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0020.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0020.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0021",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0021.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0021.json"
+    },
+    {
+      "doc_id": "test_pan_card_0022",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_pan_card_0022.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_pan_card_0022.json"
+    },
+    {
+      "doc_id": "test_pan_card_0023",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_pan_card_0023.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_pan_card_0023.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0024",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0024.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0024.json"
+    },
+    {
+      "doc_id": "test_invoice_0025",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0025.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0025.json"
+    },
+    {
+      "doc_id": "test_invoice_0026",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0026.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0026.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0027",
+      "doc_type": "bank_statement",
+      "is_tampered": true,
+      "tamper_types": [
+        "balance_mismatch: closing balance altered"
+      ],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0027.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0027.json"
+    },
+    {
+      "doc_id": "test_invoice_0028",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0028.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0028.json"
+    },
+    {
+      "doc_id": "test_aadhaar_card_0029",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_aadhaar_card_0029.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_aadhaar_card_0029.json"
+    },
+    {
+      "doc_id": "test_invoice_0030",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0030.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0030.json"
+    },
+    {
+      "doc_id": "test_invoice_0031",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0031.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0031.json"
+    },
+    {
+      "doc_id": "test_invoice_0032",
+      "doc_type": "invoice",
+      "is_tampered": true,
+      "tamper_types": [
+        "future_dates: invoice date 2030-04-01 is far in the future"
+      ],
+      "pdf_path": "data\\raw\\test\\test_invoice_0032.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0032.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0033",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0033.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0033.json"
+    },
+    {
+      "doc_id": "test_invoice_0034",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0034.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0034.json"
+    },
+    {
+      "doc_id": "test_invoice_0035",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0035.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0035.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0036",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0036.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0036.json"
+    },
+    {
+      "doc_id": "test_invoice_0037",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0037.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0037.json"
+    },
+    {
+      "doc_id": "test_invoice_0038",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0038.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0038.json"
+    },
+    {
+      "doc_id": "test_aadhaar_card_0039",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_aadhaar_card_0039.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_aadhaar_card_0039.json"
+    },
+    {
+      "doc_id": "test_aadhaar_card_0040",
+      "doc_type": "aadhaar_card",
+      "is_tampered": true,
+      "tamper_types": [
+        "invalid_aadhaar_format: Aadhaar contains alphabets and incorrect length"
+      ],
+      "pdf_path": "data\\raw\\test\\test_aadhaar_card_0040.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_aadhaar_card_0040.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0041",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0041.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0041.json"
+    },
+    {
+      "doc_id": "test_aadhaar_card_0042",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_aadhaar_card_0042.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_aadhaar_card_0042.json"
+    },
+    {
+      "doc_id": "test_pan_card_0043",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_pan_card_0043.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_pan_card_0043.json"
+    },
+    {
+      "doc_id": "test_invoice_0044",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0044.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0044.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0045",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0045.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0045.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0046",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0046.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0046.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0047",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0047.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0047.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0048",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0048.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0048.json"
+    },
+    {
+      "doc_id": "test_invoice_0049",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0049.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0049.json"
+    },
+    {
+      "doc_id": "test_invoice_0050",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0050.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0050.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0051",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0051.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0051.json"
+    },
+    {
+      "doc_id": "test_invoice_0052",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0052.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0052.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0053",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0053.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0053.json"
+    },
+    {
+      "doc_id": "test_pan_card_0054",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_pan_card_0054.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_pan_card_0054.json"
+    },
+    {
+      "doc_id": "test_invoice_0055",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0055.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0055.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0056",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0056.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0056.json"
+    },
+    {
+      "doc_id": "test_invoice_0057",
+      "doc_type": "invoice",
+      "is_tampered": true,
+      "tamper_types": [
+        "total_mismatch: grand total does not match subtotal + tax"
+      ],
+      "pdf_path": "data\\raw\\test\\test_invoice_0057.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0057.json"
+    },
+    {
+      "doc_id": "test_invoice_0058",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0058.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0058.json"
+    },
+    {
+      "doc_id": "test_invoice_0059",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0059.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0059.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0060",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0060.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0060.json"
+    },
+    {
+      "doc_id": "test_invoice_0061",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0061.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0061.json"
+    },
+    {
+      "doc_id": "test_aadhaar_card_0062",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_aadhaar_card_0062.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_aadhaar_card_0062.json"
+    },
+    {
+      "doc_id": "test_aadhaar_card_0063",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_aadhaar_card_0063.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_aadhaar_card_0063.json"
+    },
+    {
+      "doc_id": "test_invoice_0064",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0064.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0064.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0065",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0065.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0065.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0066",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0066.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0066.json"
+    },
+    {
+      "doc_id": "test_aadhaar_card_0067",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_aadhaar_card_0067.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_aadhaar_card_0067.json"
+    },
+    {
+      "doc_id": "test_invoice_0068",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0068.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0068.json"
+    },
+    {
+      "doc_id": "test_aadhaar_card_0069",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_aadhaar_card_0069.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_aadhaar_card_0069.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0070",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0070.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0070.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0071",
+      "doc_type": "bank_statement",
+      "is_tampered": true,
+      "tamper_types": [
+        "balance_mismatch: closing balance altered"
+      ],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0071.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0071.json"
+    },
+    {
+      "doc_id": "test_invoice_0072",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0072.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0072.json"
+    },
+    {
+      "doc_id": "test_invoice_0073",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0073.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0073.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0074",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0074.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0074.json"
+    },
+    {
+      "doc_id": "test_invoice_0075",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0075.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0075.json"
+    },
+    {
+      "doc_id": "test_aadhaar_card_0076",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_aadhaar_card_0076.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_aadhaar_card_0076.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0077",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0077.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0077.json"
+    },
+    {
+      "doc_id": "test_aadhaar_card_0078",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_aadhaar_card_0078.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_aadhaar_card_0078.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0079",
+      "doc_type": "bank_statement",
+      "is_tampered": true,
+      "tamper_types": [
+        "future_dates: transaction date 2029-06-15 after period end"
+      ],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0079.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0079.json"
+    },
+    {
+      "doc_id": "test_pan_card_0080",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_pan_card_0080.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_pan_card_0080.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0081",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0081.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0081.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0082",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0082.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0082.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0083",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0083.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0083.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0084",
+      "doc_type": "bank_statement",
+      "is_tampered": true,
+      "tamper_types": [
+        "balance_mismatch: closing balance altered"
+      ],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0084.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0084.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0085",
+      "doc_type": "bank_statement",
+      "is_tampered": true,
+      "tamper_types": [
+        "future_dates: transaction date 2029-06-15 after period end"
+      ],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0085.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0085.json"
+    },
+    {
+      "doc_id": "test_invoice_0086",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0086.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0086.json"
+    },
+    {
+      "doc_id": "test_aadhaar_card_0087",
+      "doc_type": "aadhaar_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_aadhaar_card_0087.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_aadhaar_card_0087.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0088",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0088.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0088.json"
+    },
+    {
+      "doc_id": "test_pan_card_0089",
+      "doc_type": "pan_card",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_pan_card_0089.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_pan_card_0089.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0090",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0090.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0090.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0091",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0091.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0091.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0092",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0092.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0092.json"
+    },
+    {
+      "doc_id": "test_invoice_0093",
+      "doc_type": "invoice",
+      "is_tampered": true,
+      "tamper_types": [
+        "invalid_gstin: vendor GSTIN violates 15-character standard pattern"
+      ],
+      "pdf_path": "data\\raw\\test\\test_invoice_0093.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0093.json"
+    },
+    {
+      "doc_id": "test_invoice_0094",
+      "doc_type": "invoice",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_invoice_0094.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_invoice_0094.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0095",
+      "doc_type": "bank_statement",
+      "is_tampered": true,
+      "tamper_types": [
+        "balance_mismatch: closing balance altered"
+      ],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0095.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0095.json"
+    },
+    {
+      "doc_id": "test_bank_statement_0096",
+      "doc_type": "bank_statement",
+      "is_tampered": false,
+      "tamper_types": [],
+      "pdf_path": "data\\raw\\test\\test_bank_statement_0096.pdf",
+      "gt_path": "data\\ground_truth\\test\\test_bank_statement_0096.json"
+    }
+  ],
+  "degraded_scans": [
+    {
+      "scan_id": "scan_test_bank_statement_0001",
+      "original_doc_id": "test_bank_statement_0001",
+      "doc_type": "bank_statement",
+      "image_path": "data\\degraded_scans\\scan_test_bank_statement_0001.png",
+      "gt_path": "data\\degraded_scans\\scan_test_bank_statement_0001.json"
+    },
+    {
+      "scan_id": "scan_test_invoice_0002",
+      "original_doc_id": "test_invoice_0002",
+      "doc_type": "invoice",
+      "image_path": "data\\degraded_scans\\scan_test_invoice_0002.png",
+      "gt_path": "data\\degraded_scans\\scan_test_invoice_0002.json"
+    },
+    {
+      "scan_id": "scan_test_bank_statement_0003",
+      "original_doc_id": "test_bank_statement_0003",
+      "doc_type": "bank_statement",
+      "image_path": "data\\degraded_scans\\scan_test_bank_statement_0003.png",
+      "gt_path": "data\\degraded_scans\\scan_test_bank_statement_0003.json"
+    },
+    {
+      "scan_id": "scan_test_invoice_0004",
+      "original_doc_id": "test_invoice_0004",
+      "doc_type": "invoice",
+      "image_path": "data\\degraded_scans\\scan_test_invoice_0004.png",
+      "gt_path": "data\\degraded_scans\\scan_test_invoice_0004.json"
+    },
+    {
+      "scan_id": "scan_test_bank_statement_0005",
+      "original_doc_id": "test_bank_statement_0005",
+      "doc_type": "bank_statement",
+      "image_path": "data\\degraded_scans\\scan_test_bank_statement_0005.png",
+      "gt_path": "data\\degraded_scans\\scan_test_bank_statement_0005.json"
+    },
+    {
+      "scan_id": "scan_test_bank_statement_0006",
+      "original_doc_id": "test_bank_statement_0006",
+      "doc_type": "bank_statement",
+      "image_path": "data\\degraded_scans\\scan_test_bank_statement_0006.png",
+      "gt_path": "data\\degraded_scans\\scan_test_bank_statement_0006.json"
+    },
+    {
+      "scan_id": "scan_test_invoice_0007",
+      "original_doc_id": "test_invoice_0007",
+      "doc_type": "invoice",
+      "image_path": "data\\degraded_scans\\scan_test_invoice_0007.png",
+      "gt_path": "data\\degraded_scans\\scan_test_invoice_0007.json"
+    },
+    {
+      "scan_id": "scan_test_invoice_0008",
+      "original_doc_id": "test_invoice_0008",
+      "doc_type": "invoice",
+      "image_path": "data\\degraded_scans\\scan_test_invoice_0008.png",
+      "gt_path": "data\\degraded_scans\\scan_test_invoice_0008.json"
+    },
+    {
+      "scan_id": "scan_test_invoice_0009",
+      "original_doc_id": "test_invoice_0009",
+      "doc_type": "invoice",
+      "image_path": "data\\degraded_scans\\scan_test_invoice_0009.png",
+      "gt_path": "data\\degraded_scans\\scan_test_invoice_0009.json"
+    },
+    {
+      "scan_id": "scan_test_pan_card_0010",
+      "original_doc_id": "test_pan_card_0010",
+      "doc_type": "pan_card",
+      "image_path": "data\\degraded_scans\\scan_test_pan_card_0010.png",
+      "gt_path": "data\\degraded_scans\\scan_test_pan_card_0010.json"
+    },
+    {
+      "scan_id": "scan_test_invoice_0011",
+      "original_doc_id": "test_invoice_0011",
+      "doc_type": "invoice",
+      "image_path": "data\\degraded_scans\\scan_test_invoice_0011.png",
+      "gt_path": "data\\degraded_scans\\scan_test_invoice_0011.json"
+    },
+    {
+      "scan_id": "scan_test_bank_statement_0012",
+      "original_doc_id": "test_bank_statement_0012",
+      "doc_type": "bank_statement",
+      "image_path": "data\\degraded_scans\\scan_test_bank_statement_0012.png",
+      "gt_path": "data\\degraded_scans\\scan_test_bank_statement_0012.json"
+    },
+    {
+      "scan_id": "scan_test_pan_card_0013",
+      "original_doc_id": "test_pan_card_0013",
+      "doc_type": "pan_card",
+      "image_path": "data\\degraded_scans\\scan_test_pan_card_0013.png",
+      "gt_path": "data\\degraded_scans\\scan_test_pan_card_0013.json"
+    },
+    {
+      "scan_id": "scan_test_aadhaar_card_0014",
+      "original_doc_id": "test_aadhaar_card_0014",
+      "doc_type": "aadhaar_card",
+      "image_path": "data\\degraded_scans\\scan_test_aadhaar_card_0014.png",
+      "gt_path": "data\\degraded_scans\\scan_test_aadhaar_card_0014.json"
+    },
+    {
+      "scan_id": "scan_test_invoice_0015",
+      "original_doc_id": "test_invoice_0015",
+      "doc_type": "invoice",
+      "image_path": "data\\degraded_scans\\scan_test_invoice_0015.png",
+      "gt_path": "data\\degraded_scans\\scan_test_invoice_0015.json"
+    },
+    {
+      "scan_id": "scan_test_invoice_0016",
+      "original_doc_id": "test_invoice_0016",
+      "doc_type": "invoice",
+      "image_path": "data\\degraded_scans\\scan_test_invoice_0016.png",
+      "gt_path": "data\\degraded_scans\\scan_test_invoice_0016.json"
+    },
+    {
+      "scan_id": "scan_test_bank_statement_0017",
+      "original_doc_id": "test_bank_statement_0017",
+      "doc_type": "bank_statement",
+      "image_path": "data\\degraded_scans\\scan_test_bank_statement_0017.png",
+      "gt_path": "data\\degraded_scans\\scan_test_bank_statement_0017.json"
+    },
+    {
+      "scan_id": "scan_test_bank_statement_0018",
+      "original_doc_id": "test_bank_statement_0018",
+      "doc_type": "bank_statement",
+      "image_path": "data\\degraded_scans\\scan_test_bank_statement_0018.png",
+      "gt_path": "data\\degraded_scans\\scan_test_bank_statement_0018.json"
+    },
+    {
+      "scan_id": "scan_test_bank_statement_0019",
+      "original_doc_id": "test_bank_statement_0019",
+      "doc_type": "bank_statement",
+      "image_path": "data\\degraded_scans\\scan_test_bank_statement_0019.png",
+      "gt_path": "data\\degraded_scans\\scan_test_bank_statement_0019.json"
+    },
+    {
+      "scan_id": "scan_test_bank_statement_0020",
+      "original_doc_id": "test_bank_statement_0020",
+      "doc_type": "bank_statement",
+      "image_path": "data\\degraded_scans\\scan_test_bank_statement_0020.png",
+      "gt_path": "data\\degraded_scans\\scan_test_bank_statement_0020.json"
+    },
+    {
+      "scan_id": "scan_test_bank_statement_0021",
+      "original_doc_id": "test_bank_statement_0021",
+      "doc_type": "bank_statement",
+      "image_path": "data\\degraded_scans\\scan_test_bank_statement_0021.png",
+      "gt_path": "data\\degraded_scans\\scan_test_bank_statement_0021.json"
+    },
+    {
+      "scan_id": "scan_test_pan_card_0022",
+      "original_doc_id": "test_pan_card_0022",
+      "doc_type": "pan_card",
+      "image_path": "data\\degraded_scans\\scan_test_pan_card_0022.png",
+      "gt_path": "data\\degraded_scans\\scan_test_pan_card_0022.json"
+    },
+    {
+      "scan_id": "scan_test_pan_card_0023",
+      "original_doc_id": "test_pan_card_0023",
+      "doc_type": "pan_card",
+      "image_path": "data\\degraded_scans\\scan_test_pan_card_0023.png",
+      "gt_path": "data\\degraded_scans\\scan_test_pan_card_0023.json"
+    },
+    {
+      "scan_id": "scan_test_bank_statement_0024",
+      "original_doc_id": "test_bank_statement_0024",
+      "doc_type": "bank_statement",
+      "image_path": "data\\degraded_scans\\scan_test_bank_statement_0024.png",
+      "gt_path": "data\\degraded_scans\\scan_test_bank_statement_0024.json"
+    },
+    {
+      "scan_id": "scan_test_invoice_0025",
+      "original_doc_id": "test_invoice_0025",
+      "doc_type": "invoice",
+      "image_path": "data\\degraded_scans\\scan_test_invoice_0025.png",
+      "gt_path": "data\\degraded_scans\\scan_test_invoice_0025.json"
+    },
+    {
+      "scan_id": "scan_test_invoice_0026",
+      "original_doc_id": "test_invoice_0026",
+      "doc_type": "invoice",
+      "image_path": "data\\degraded_scans\\scan_test_invoice_0026.png",
+      "gt_path": "data\\degraded_scans\\scan_test_invoice_0026.json"
+    },
+    {
+      "scan_id": "scan_test_bank_statement_0027",
+      "original_doc_id": "test_bank_statement_0027",
+      "doc_type": "bank_statement",
+      "image_path": "data\\degraded_scans\\scan_test_bank_statement_0027.png",
+      "gt_path": "data\\degraded_scans\\scan_test_bank_statement_0027.json"
+    },
+    {
+      "scan_id": "scan_test_invoice_0028",
+      "original_doc_id": "test_invoice_0028",
+      "doc_type": "invoice",
+      "image_path": "data\\degraded_scans\\scan_test_invoice_0028.png",
+      "gt_path": "data\\degraded_scans\\scan_test_invoice_0028.json"
+    },
+    {
+      "scan_id": "scan_test_aadhaar_card_0029",
+      "original_doc_id": "test_aadhaar_card_0029",
+      "doc_type": "aadhaar_card",
+      "image_path": "data\\degraded_scans\\scan_test_aadhaar_card_0029.png",
+      "gt_path": "data\\degraded_scans\\scan_test_aadhaar_card_0029.json"
+    },
+    {
+      "scan_id": "scan_test_invoice_0030",
+      "original_doc_id": "test_invoice_0030",
+      "doc_type": "invoice",
+      "image_path": "data\\degraded_scans\\scan_test_invoice_0030.png",
+      "gt_path": "data\\degraded_scans\\scan_test_invoice_0030.json"
+    },
+    {
+      "scan_id": "scan_test_invoice_0031",
+      "original_doc_id": "test_invoice_0031",
+      "doc_type": "invoice",
+      "image_path": "data\\degraded_scans\\scan_test_invoice_0031.png",
+      "gt_path": "data\\degraded_scans\\scan_test_invoice_0031.json"
+    },
+    {
+      "scan_id": "scan_test_invoice_0032",
+      "original_doc_id": "test_invoice_0032",
+      "doc_type": "invoice",
+      "image_path": "data\\degraded_scans\\scan_test_invoice_0032.png",
+      "gt_path": "data\\degraded_scans\\scan_test_invoice_0032.json"
+    },
+    {
+      "scan_id": "scan_test_bank_statement_0033",
+      "original_doc_id": "test_bank_statement_0033",
+      "doc_type": "bank_statement",
+      "image_path": "data\\degraded_scans\\scan_test_bank_statement_0033.png",
+      "gt_path": "data\\degraded_scans\\scan_test_bank_statement_0033.json"
+    },
+    {
+      "scan_id": "scan_test_invoice_0034",
+      "original_doc_id": "test_invoice_0034",
+      "doc_type": "invoice",
+      "image_path": "data\\degraded_scans\\scan_test_invoice_0034.png",
+      "gt_path": "data\\degraded_scans\\scan_test_invoice_0034.json"
+    },
+    {
+      "scan_id": "scan_test_invoice_0035",
+      "original_doc_id": "test_invoice_0035",
+      "doc_type": "invoice",
+      "image_path": "data\\degraded_scans\\scan_test_invoice_0035.png",
+      "gt_path": "data\\degraded_scans\\scan_test_invoice_0035.json"
+    },
+    {
+      "scan_id": "scan_test_bank_statement_0036",
+      "original_doc_id": "test_bank_statement_0036",
+      "doc_type": "bank_statement",
+      "image_path": "data\\degraded_scans\\scan_test_bank_statement_0036.png",
+      "gt_path": "data\\degraded_scans\\scan_test_bank_statement_0036.json"
+    },
+    {
+      "scan_id": "scan_test_invoice_0037",
+      "original_doc_id": "test_invoice_0037",
+      "doc_type": "invoice",
+      "image_path": "data\\degraded_scans\\scan_test_invoice_0037.png",
+      "gt_path": "data\\degraded_scans\\scan_test_invoice_0037.json"
+    },
+    {
+      "scan_id": "scan_test_invoice_0038",
+      "original_doc_id": "test_invoice_0038",
+      "doc_type": "invoice",
+      "image_path": "data\\degraded_scans\\scan_test_invoice_0038.png",
+      "gt_path": "data\\degraded_scans\\scan_test_invoice_0038.json"
+    },
+    {
+      "scan_id": "scan_test_aadhaar_card_0039",
+      "original_doc_id": "test_aadhaar_card_0039",
+      "doc_type": "aadhaar_card",
+      "image_path": "data\\degraded_scans\\scan_test_aadhaar_card_0039.png",
+      "gt_path": "data\\degraded_scans\\scan_test_aadhaar_card_0039.json"
+    },
+    {
+      "scan_id": "scan_test_aadhaar_card_0040",
+      "original_doc_id": "test_aadhaar_card_0040",
+      "doc_type": "aadhaar_card",
+      "image_path": "data\\degraded_scans\\scan_test_aadhaar_card_0040.png",
+      "gt_path": "data\\degraded_scans\\scan_test_aadhaar_card_0040.json"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "document_id": "train_invoice_0217",
+  "document_type": "invoice",
+  "vendor_name": "Vortex Tech Solutions Pvt Ltd",
+  "vendor_gstin": "07AAAAA1234A1Z5",
+  "vendor_category": "IT & Cloud Services",
+  "client_name": "Venkatesh-Sathe",
+  "client_gstin": "07CZDDI1397G1A8",
+  "invoice_number": "INV-2025-3765",
+  "invoice_date": "2025-02-12",
+  "due_date": "2025-03-14",
+  "line_items": [
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 4,
+      "unit_price": 7500.0,
+      "total": 30000.0
+    },
+    {
+      "description": "Software License Subscription",
+      "quantity": 1,
+      "unit_price": 12000.0,
+      "total": 12000.0
+    },
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 2,
+      "unit_price": 6200.0,
+      "total": 12400.0
+    }
+  ],
+  "subtotal": 54400.0,
+  "tax_amount": 9792.0,
+  "tax_rate": "18%",
+  "grand_total": 64192.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

@@ -1,0 +1,127 @@
+{
+  "document_id": "train_bank_statement_0211",
+  "document_type": "bank_statement",
+  "bank_name": "Apex National Bank",
+  "branch": "Connaught Place, New Delhi",
+  "ifsc": "APEX0169966",
+  "account_holder": "Parth Ravi",
+  "account_number": "75615147530",
+  "period_start": "2025-10-01",
+  "period_end": "2025-10-31",
+  "opening_balance": 97633.22,
+  "closing_balance": 131868.53,
+  "total_deposits": 100894.58,
+  "total_withdrawals": 66659.27,
+  "transactions": [
+    {
+      "date": "03/10/2025",
+      "raw_date": "2025-10-03",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN26050250",
+      "debit": 16923.4,
+      "credit": 0.0,
+      "balance": 80709.82
+    },
+    {
+      "date": "04/10/2025",
+      "raw_date": "2025-10-04",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN52906872",
+      "debit": 0.0,
+      "credit": 2518.61,
+      "balance": 83228.43
+    },
+    {
+      "date": "05/10/2025",
+      "raw_date": "2025-10-05",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN46597195",
+      "debit": 0.0,
+      "credit": 6134.16,
+      "balance": 89362.59
+    },
+    {
+      "date": "07-Oct-2025",
+      "raw_date": "2025-10-07",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN49146492",
+      "debit": 0.0,
+      "credit": 2180.66,
+      "balance": 91543.25
+    },
+    {
+      "date": "08-Oct-2025",
+      "raw_date": "2025-10-08",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN22684736",
+      "debit": 0.0,
+      "credit": 22167.03,
+      "balance": 113710.28
+    },
+    {
+      "date": "09/10/2025",
+      "raw_date": "2025-10-09",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN50409241",
+      "debit": 0.0,
+      "credit": 11409.26,
+      "balance": 125119.54
+    },
+    {
+      "date": "2025-10-11",
+      "raw_date": "2025-10-11",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN29289438",
+      "debit": 12631.21,
+      "credit": 0.0,
+      "balance": 112488.33
+    },
+    {
+      "date": "12/10/2025",
+      "raw_date": "2025-10-12",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN65296966",
+      "debit": 0.0,
+      "credit": 27368.87,
+      "balance": 139857.2
+    },
+    {
+      "date": "13-Oct-2025",
+      "raw_date": "2025-10-13",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN35288872",
+      "debit": 0.0,
+      "credit": 17866.71,
+      "balance": 157723.91
+    },
+    {
+      "date": "2025-10-14",
+      "raw_date": "2025-10-14",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN27613681",
+      "debit": 3135.81,
+      "credit": 0.0,
+      "balance": 154588.1
+    },
+    {
+      "date": "2025-10-16",
+      "raw_date": "2025-10-16",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN58663129",
+      "debit": 0.0,
+      "credit": 11249.28,
+      "balance": 165837.38
+    },
+    {
+      "date": "18-Oct-2025",
+      "raw_date": "2025-10-18",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN33113253",
+      "debit": 33968.85,
+      "credit": 0.0,
+      "balance": 131868.53
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

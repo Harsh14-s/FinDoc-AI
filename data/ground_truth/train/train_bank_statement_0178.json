@@ -1,0 +1,136 @@
+{
+  "document_id": "train_bank_statement_0178",
+  "document_type": "bank_statement",
+  "bank_name": "Beacon Cooperative Urban Bank",
+  "branch": "MG Road, Bengaluru",
+  "ifsc": "BCOB0484795",
+  "account_holder": "Shivani Shukla",
+  "account_number": "89655177547",
+  "period_start": "2025-01-01",
+  "period_end": "2025-01-29",
+  "opening_balance": 96018.7,
+  "closing_balance": 130345.9,
+  "total_deposits": 152302.62,
+  "total_withdrawals": 117975.42,
+  "transactions": [
+    {
+      "date": "2025-01-03",
+      "raw_date": "2025-01-03",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN20745888",
+      "debit": 33679.95,
+      "credit": 0.0,
+      "balance": 62338.75
+    },
+    {
+      "date": "2025-01-05",
+      "raw_date": "2025-01-05",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN91882291",
+      "debit": 18555.81,
+      "credit": 0.0,
+      "balance": 43782.94
+    },
+    {
+      "date": "2025-01-06",
+      "raw_date": "2025-01-06",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN99753695",
+      "debit": 23398.92,
+      "credit": 0.0,
+      "balance": 20384.02
+    },
+    {
+      "date": "08/01/2025",
+      "raw_date": "2025-01-08",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN11447323",
+      "debit": 0.0,
+      "credit": 12352.34,
+      "balance": 32736.36
+    },
+    {
+      "date": "10/01/2025",
+      "raw_date": "2025-01-10",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN54495054",
+      "debit": 20301.8,
+      "credit": 0.0,
+      "balance": 12434.56
+    },
+    {
+      "date": "12-Jan-2025",
+      "raw_date": "2025-01-12",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN90213415",
+      "debit": 0.0,
+      "credit": 1718.76,
+      "balance": 14153.32
+    },
+    {
+      "date": "2025-01-14",
+      "raw_date": "2025-01-14",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN87596783",
+      "debit": 0.0,
+      "credit": 22210.85,
+      "balance": 36364.17
+    },
+    {
+      "date": "15/01/2025",
+      "raw_date": "2025-01-15",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN48495745",
+      "debit": 22038.94,
+      "credit": 0.0,
+      "balance": 14325.23
+    },
+    {
+      "date": "16/01/2025",
+      "raw_date": "2025-01-16",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN47292234",
+      "debit": 0.0,
+      "credit": 17943.07,
+      "balance": 32268.3
+    },
+    {
+      "date": "17-Jan-2025",
+      "raw_date": "2025-01-17",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN11906295",
+      "debit": 0.0,
+      "credit": 30096.11,
+      "balance": 62364.41
+    },
+    {
+      "date": "18-Jan-2025",
+      "raw_date": "2025-01-18",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN30285078",
+      "debit": 0.0,
+      "credit": 20916.07,
+      "balance": 83280.48
+    },
+    {
+      "date": "20-Jan-2025",
+      "raw_date": "2025-01-20",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN45064728",
+      "debit": 0.0,
+      "credit": 28370.5,
+      "balance": 111650.98
+    },
+    {
+      "date": "21/01/2025",
+      "raw_date": "2025-01-21",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN14441335",
+      "debit": 0.0,
+      "credit": 18694.92,
+      "balance": 130345.9
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

@@ -1,0 +1,11 @@
+{
+  "document_id": "train_aadhaar_card_0108",
+  "document_type": "aadhaar_card",
+  "full_name": "Eta Sagar",
+  "gender": "Other",
+  "dob": "2000-02-16",
+  "aadhaar_number": "3627 4272 5308",
+  "address": "474, Contractor Path, Aurangabad 368516",
+  "is_tampered": false,
+  "tamper_types": []
+}

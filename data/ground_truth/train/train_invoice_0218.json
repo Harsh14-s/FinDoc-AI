@@ -1,0 +1,44 @@
+{
+  "document_id": "train_invoice_0218",
+  "document_type": "invoice",
+  "vendor_name": "BlueSky Office Supplies Pvt Ltd",
+  "vendor_gstin": "09DDDDD3456D1Z1",
+  "vendor_category": "Office Equipment",
+  "client_name": "Bhardwaj-Shere",
+  "client_gstin": "07LECBW4064S0E3",
+  "invoice_number": "INV-2025-9178",
+  "invoice_date": "2025-05-25",
+  "due_date": "2025-06-24",
+  "line_items": [
+    {
+      "description": "Network Security Audit & Patching",
+      "quantity": 4,
+      "unit_price": 18000.0,
+      "total": 72000.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 4,
+      "unit_price": 25000.0,
+      "total": 100000.0
+    },
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 5,
+      "unit_price": 8500.0,
+      "total": 42500.0
+    },
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 3,
+      "unit_price": 6200.0,
+      "total": 18600.0
+    }
+  ],
+  "subtotal": 233100.0,
+  "tax_amount": 41958.0,
+  "tax_rate": "18%",
+  "grand_total": 275058.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

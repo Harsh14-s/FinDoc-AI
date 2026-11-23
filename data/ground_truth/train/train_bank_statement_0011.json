@@ -1,0 +1,118 @@
+{
+  "document_id": "train_bank_statement_0011",
+  "document_type": "bank_statement",
+  "bank_name": "Metro Alliance Bank",
+  "branch": "Sector 62, Noida",
+  "ifsc": "METR0152727",
+  "account_holder": "Pahal Bhatt",
+  "account_number": "33457816221",
+  "period_start": "2025-05-01",
+  "period_end": "2025-06-01",
+  "opening_balance": 65919.08,
+  "closing_balance": -32415.03,
+  "total_deposits": 68037.13,
+  "total_withdrawals": 166371.24,
+  "transactions": [
+    {
+      "date": "03/05/2025",
+      "raw_date": "2025-05-03",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN60885459",
+      "debit": 0.0,
+      "credit": 26762.42,
+      "balance": 92681.5
+    },
+    {
+      "date": "2025-05-05",
+      "raw_date": "2025-05-05",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN82399599",
+      "debit": 16725.59,
+      "credit": 0.0,
+      "balance": 75955.91
+    },
+    {
+      "date": "2025-05-07",
+      "raw_date": "2025-05-07",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN97477029",
+      "debit": 27452.54,
+      "credit": 0.0,
+      "balance": 48503.37
+    },
+    {
+      "date": "2025-05-08",
+      "raw_date": "2025-05-08",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN30452412",
+      "debit": 0.0,
+      "credit": 1203.11,
+      "balance": 49706.48
+    },
+    {
+      "date": "09/05/2025",
+      "raw_date": "2025-05-09",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN39254705",
+      "debit": 19956.95,
+      "credit": 0.0,
+      "balance": 29749.53
+    },
+    {
+      "date": "11-May-2025",
+      "raw_date": "2025-05-11",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN91503378",
+      "debit": 0.0,
+      "credit": 6288.73,
+      "balance": 36038.26
+    },
+    {
+      "date": "12-May-2025",
+      "raw_date": "2025-05-12",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN24508768",
+      "debit": 0.0,
+      "credit": 33782.87,
+      "balance": 69821.13
+    },
+    {
+      "date": "13/05/2025",
+      "raw_date": "2025-05-13",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN60372847",
+      "debit": 31826.9,
+      "credit": 0.0,
+      "balance": 37994.23
+    },
+    {
+      "date": "2025-05-14",
+      "raw_date": "2025-05-14",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN42594692",
+      "debit": 29154.72,
+      "credit": 0.0,
+      "balance": 8839.51
+    },
+    {
+      "date": "2025-05-16",
+      "raw_date": "2025-05-16",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN85958181",
+      "debit": 27969.84,
+      "credit": 0.0,
+      "balance": -19130.33
+    },
+    {
+      "date": "18-May-2025",
+      "raw_date": "2025-05-18",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN77908907",
+      "debit": 13284.7,
+      "credit": 0.0,
+      "balance": -32415.03
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

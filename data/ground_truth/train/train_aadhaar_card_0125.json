@@ -1,0 +1,11 @@
+{
+  "document_id": "train_aadhaar_card_0125",
+  "document_type": "aadhaar_card",
+  "full_name": "Upkaar Sanghvi",
+  "gender": "Other",
+  "dob": "1979-05-22",
+  "aadhaar_number": "9266 7113 1182",
+  "address": "45/502, Rattan Street, Ajmer-183667",
+  "is_tampered": false,
+  "tamper_types": []
+}

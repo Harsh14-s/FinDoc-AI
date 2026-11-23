@@ -1,0 +1,32 @@
+{
+  "document_id": "test_invoice_0044",
+  "document_type": "invoice",
+  "vendor_name": "Pinnacle Advisory & Consulting LLP",
+  "vendor_gstin": "29CCCCC9012C1Z8",
+  "vendor_category": "Professional Services",
+  "client_name": "Bhatnagar, Chaudry and Yadav",
+  "client_gstin": "07QQFHO2553U7M1",
+  "invoice_number": "INV-2025-1381",
+  "invoice_date": "2025-10-26",
+  "due_date": "2025-11-25",
+  "line_items": [
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 3,
+      "unit_price": 25000.0,
+      "total": 75000.0
+    },
+    {
+      "description": "Software License Subscription",
+      "quantity": 5,
+      "unit_price": 12000.0,
+      "total": 60000.0
+    }
+  ],
+  "subtotal": 135000.0,
+  "tax_amount": 24300.0,
+  "tax_rate": "18%",
+  "grand_total": 159300.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

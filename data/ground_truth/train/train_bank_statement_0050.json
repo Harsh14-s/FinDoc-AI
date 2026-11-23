@@ -1,0 +1,118 @@
+{
+  "document_id": "train_bank_statement_0050",
+  "document_type": "bank_statement",
+  "bank_name": "Metro Alliance Bank",
+  "branch": "Sector 62, Noida",
+  "ifsc": "METR0105433",
+  "account_holder": "Omkaar Chad",
+  "account_number": "30490284200",
+  "period_start": "2025-09-01",
+  "period_end": "2025-09-30",
+  "opening_balance": 75863.43,
+  "closing_balance": 135458.58,
+  "total_deposits": 114883.94,
+  "total_withdrawals": 55288.79,
+  "transactions": [
+    {
+      "date": "03-Sep-2025",
+      "raw_date": "2025-09-03",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN48307798",
+      "debit": 10409.95,
+      "credit": 0.0,
+      "balance": 65453.48
+    },
+    {
+      "date": "2025-09-04",
+      "raw_date": "2025-09-04",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN15006085",
+      "debit": 8511.6,
+      "credit": 0.0,
+      "balance": 56941.88
+    },
+    {
+      "date": "06/09/2025",
+      "raw_date": "2025-09-06",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN14877451",
+      "debit": 0.0,
+      "credit": 32720.33,
+      "balance": 89662.21
+    },
+    {
+      "date": "2025-09-08",
+      "raw_date": "2025-09-08",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN48851599",
+      "debit": 0.0,
+      "credit": 32813.0,
+      "balance": 122475.21
+    },
+    {
+      "date": "09/09/2025",
+      "raw_date": "2025-09-09",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN54968591",
+      "debit": 4201.87,
+      "credit": 0.0,
+      "balance": 118273.34
+    },
+    {
+      "date": "11-Sep-2025",
+      "raw_date": "2025-09-11",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN28012011",
+      "debit": 31179.47,
+      "credit": 0.0,
+      "balance": 87093.87
+    },
+    {
+      "date": "13-Sep-2025",
+      "raw_date": "2025-09-13",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN31809610",
+      "debit": 0.0,
+      "credit": 4386.31,
+      "balance": 91480.18
+    },
+    {
+      "date": "15/09/2025",
+      "raw_date": "2025-09-15",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN55246430",
+      "debit": 985.9,
+      "credit": 0.0,
+      "balance": 90494.28
+    },
+    {
+      "date": "16/09/2025",
+      "raw_date": "2025-09-16",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN95728324",
+      "debit": 0.0,
+      "credit": 21577.93,
+      "balance": 112072.21
+    },
+    {
+      "date": "2025-09-18",
+      "raw_date": "2025-09-18",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN22802372",
+      "debit": 0.0,
+      "credit": 14328.75,
+      "balance": 126400.96
+    },
+    {
+      "date": "19/09/2025",
+      "raw_date": "2025-09-19",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN45002007",
+      "debit": 0.0,
+      "credit": 9057.62,
+      "balance": 135458.58
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

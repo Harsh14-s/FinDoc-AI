@@ -1,0 +1,118 @@
+{
+  "document_id": "train_bank_statement_0034",
+  "document_type": "bank_statement",
+  "bank_name": "Metro Alliance Bank",
+  "branch": "Sector 62, Noida",
+  "ifsc": "METR0602248",
+  "account_holder": "Mohammed Khalsa",
+  "account_number": "14428758277",
+  "period_start": "2025-07-01",
+  "period_end": "2025-08-01",
+  "opening_balance": 110762.19,
+  "closing_balance": 101963.81,
+  "total_deposits": 91027.26,
+  "total_withdrawals": 99825.64,
+  "transactions": [
+    {
+      "date": "2025-07-03",
+      "raw_date": "2025-07-03",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN29909029",
+      "debit": 11612.86,
+      "credit": 0.0,
+      "balance": 99149.33
+    },
+    {
+      "date": "04/07/2025",
+      "raw_date": "2025-07-04",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN53645651",
+      "debit": 20695.08,
+      "credit": 0.0,
+      "balance": 78454.25
+    },
+    {
+      "date": "06-Jul-2025",
+      "raw_date": "2025-07-06",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN25356396",
+      "debit": 15341.88,
+      "credit": 0.0,
+      "balance": 63112.37
+    },
+    {
+      "date": "07/07/2025",
+      "raw_date": "2025-07-07",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN55490631",
+      "debit": 8383.03,
+      "credit": 0.0,
+      "balance": 54729.34
+    },
+    {
+      "date": "09-Jul-2025",
+      "raw_date": "2025-07-09",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN51946203",
+      "debit": 11282.92,
+      "credit": 0.0,
+      "balance": 43446.42
+    },
+    {
+      "date": "2025-07-11",
+      "raw_date": "2025-07-11",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN73655158",
+      "debit": 0.0,
+      "credit": 33398.94,
+      "balance": 76845.36
+    },
+    {
+      "date": "2025-07-12",
+      "raw_date": "2025-07-12",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN60015814",
+      "debit": 0.0,
+      "credit": 3831.47,
+      "balance": 80676.83
+    },
+    {
+      "date": "2025-07-13",
+      "raw_date": "2025-07-13",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN99927658",
+      "debit": 19878.08,
+      "credit": 0.0,
+      "balance": 60798.75
+    },
+    {
+      "date": "15-Jul-2025",
+      "raw_date": "2025-07-15",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN66765623",
+      "debit": 0.0,
+      "credit": 30639.45,
+      "balance": 91438.2
+    },
+    {
+      "date": "16-Jul-2025",
+      "raw_date": "2025-07-16",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN87566910",
+      "debit": 12631.79,
+      "credit": 0.0,
+      "balance": 78806.41
+    },
+    {
+      "date": "2025-07-17",
+      "raw_date": "2025-07-17",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN40097636",
+      "debit": 0.0,
+      "credit": 23157.4,
+      "balance": 101963.81
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

@@ -1,0 +1,11 @@
+{
+  "document_id": "test_aadhaar_card_0042",
+  "document_type": "aadhaar_card",
+  "full_name": "Arin Oza",
+  "gender": "Other",
+  "dob": "1986-03-19",
+  "aadhaar_number": "9157 3102 6006",
+  "address": "H.No. 86, Kata Chowk, Udaipur-660937",
+  "is_tampered": false,
+  "tamper_types": []
+}

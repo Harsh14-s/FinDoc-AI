@@ -1,0 +1,11 @@
+{
+  "document_id": "test_aadhaar_card_0078",
+  "document_type": "aadhaar_card",
+  "full_name": "Advik Konda",
+  "gender": "Female",
+  "dob": "1994-02-14",
+  "aadhaar_number": "3514 5133 9049",
+  "address": "086, Nagy Ganj, Erode-419518",
+  "is_tampered": false,
+  "tamper_types": []
+}

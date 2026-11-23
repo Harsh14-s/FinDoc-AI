@@ -1,0 +1,145 @@
+{
+  "document_id": "train_bank_statement_0095",
+  "document_type": "bank_statement",
+  "bank_name": "Beacon Cooperative Urban Bank",
+  "branch": "MG Road, Bengaluru",
+  "ifsc": "BCOB0690984",
+  "account_holder": "Harish Vora",
+  "account_number": "91379145093",
+  "period_start": "2025-03-01",
+  "period_end": "2025-03-30",
+  "opening_balance": 129587.11,
+  "closing_balance": 208476.93,
+  "total_deposits": 149155.92,
+  "total_withdrawals": 70266.1,
+  "transactions": [
+    {
+      "date": "2025-03-03",
+      "raw_date": "2025-03-03",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN22114140",
+      "debit": 0.0,
+      "credit": 17420.06,
+      "balance": 147007.17
+    },
+    {
+      "date": "04/03/2025",
+      "raw_date": "2025-03-04",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN10091737",
+      "debit": 0.0,
+      "credit": 18662.47,
+      "balance": 165669.64
+    },
+    {
+      "date": "05/03/2025",
+      "raw_date": "2025-03-05",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN33818260",
+      "debit": 0.0,
+      "credit": 12256.19,
+      "balance": 177925.83
+    },
+    {
+      "date": "2025-03-06",
+      "raw_date": "2025-03-06",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN29012298",
+      "debit": 0.0,
+      "credit": 5596.06,
+      "balance": 183521.89
+    },
+    {
+      "date": "08-Mar-2025",
+      "raw_date": "2025-03-08",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN63095937",
+      "debit": 32996.35,
+      "credit": 0.0,
+      "balance": 150525.54
+    },
+    {
+      "date": "2025-03-09",
+      "raw_date": "2025-03-09",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN28314232",
+      "debit": 0.0,
+      "credit": 10910.9,
+      "balance": 161436.44
+    },
+    {
+      "date": "11-Mar-2025",
+      "raw_date": "2025-03-11",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN85427317",
+      "debit": 6509.99,
+      "credit": 0.0,
+      "balance": 154926.45
+    },
+    {
+      "date": "13/03/2025",
+      "raw_date": "2025-03-13",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN60785855",
+      "debit": 28598.67,
+      "credit": 0.0,
+      "balance": 126327.78
+    },
+    {
+      "date": "15-Mar-2025",
+      "raw_date": "2025-03-15",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN10241310",
+      "debit": 0.0,
+      "credit": 6630.94,
+      "balance": 132958.72
+    },
+    {
+      "date": "2025-03-17",
+      "raw_date": "2025-03-17",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN92058189",
+      "debit": 0.0,
+      "credit": 21282.41,
+      "balance": 154241.13
+    },
+    {
+      "date": "18/03/2025",
+      "raw_date": "2025-03-18",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN41943272",
+      "debit": 0.0,
+      "credit": 26214.34,
+      "balance": 180455.47
+    },
+    {
+      "date": "20-Mar-2025",
+      "raw_date": "2025-03-20",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN21908603",
+      "debit": 0.0,
+      "credit": 22448.44,
+      "balance": 202903.91
+    },
+    {
+      "date": "22/03/2025",
+      "raw_date": "2025-03-22",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN19099261",
+      "debit": 0.0,
+      "credit": 7734.11,
+      "balance": 210638.02
+    },
+    {
+      "date": "24-Mar-2025",
+      "raw_date": "2025-03-24",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN68816911",
+      "debit": 2161.09,
+      "credit": 0.0,
+      "balance": 208476.93
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

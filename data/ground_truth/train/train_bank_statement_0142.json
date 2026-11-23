@@ -1,0 +1,109 @@
+{
+  "document_id": "train_bank_statement_0142",
+  "document_type": "bank_statement",
+  "bank_name": "Beacon Cooperative Urban Bank",
+  "branch": "MG Road, Bengaluru",
+  "ifsc": "BCOB0912378",
+  "account_holder": "Reva Viswanathan",
+  "account_number": "76616851997",
+  "period_start": "2025-08-01",
+  "period_end": "2025-08-29",
+  "opening_balance": 72633.87,
+  "closing_balance": 83428.54,
+  "total_deposits": 98596.77,
+  "total_withdrawals": 87802.1,
+  "transactions": [
+    {
+      "date": "03/08/2025",
+      "raw_date": "2025-08-03",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN95977279",
+      "debit": 0.0,
+      "credit": 30454.89,
+      "balance": 103088.76
+    },
+    {
+      "date": "2025-08-05",
+      "raw_date": "2025-08-05",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN19575640",
+      "debit": 29787.08,
+      "credit": 0.0,
+      "balance": 73301.68
+    },
+    {
+      "date": "06-Aug-2025",
+      "raw_date": "2025-08-06",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN52530677",
+      "debit": 0.0,
+      "credit": 8373.52,
+      "balance": 81675.2
+    },
+    {
+      "date": "08/08/2025",
+      "raw_date": "2025-08-08",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN69713250",
+      "debit": 14143.21,
+      "credit": 0.0,
+      "balance": 67531.99
+    },
+    {
+      "date": "10-Aug-2025",
+      "raw_date": "2025-08-10",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN26782572",
+      "debit": 0.0,
+      "credit": 29970.31,
+      "balance": 97502.3
+    },
+    {
+      "date": "2025-08-11",
+      "raw_date": "2025-08-11",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN20746107",
+      "debit": 24674.04,
+      "credit": 0.0,
+      "balance": 72828.26
+    },
+    {
+      "date": "12-Aug-2025",
+      "raw_date": "2025-08-12",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN73509922",
+      "debit": 0.0,
+      "credit": 2700.84,
+      "balance": 75529.1
+    },
+    {
+      "date": "2025-08-13",
+      "raw_date": "2025-08-13",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN80327779",
+      "debit": 0.0,
+      "credit": 27097.21,
+      "balance": 102626.31
+    },
+    {
+      "date": "14/08/2025",
+      "raw_date": "2025-08-14",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN62324272",
+      "debit": 3408.74,
+      "credit": 0.0,
+      "balance": 99217.57
+    },
+    {
+      "date": "2025-08-15",
+      "raw_date": "2025-08-15",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN26966692",
+      "debit": 15789.03,
+      "credit": 0.0,
+      "balance": 83428.54
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

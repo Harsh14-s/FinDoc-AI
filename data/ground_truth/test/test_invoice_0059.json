@@ -1,0 +1,50 @@
+{
+  "document_id": "test_invoice_0059",
+  "document_type": "invoice",
+  "vendor_name": "Pinnacle Advisory & Consulting LLP",
+  "vendor_gstin": "29CCCCC9012C1Z8",
+  "vendor_category": "Professional Services",
+  "client_name": "Ramaswamy, Suri and Dhar",
+  "client_gstin": "07OYXFZ9466G7V1",
+  "invoice_number": "INV-2025-8280",
+  "invoice_date": "2025-04-20",
+  "due_date": "2025-05-20",
+  "line_items": [
+    {
+      "description": "Network Security Audit & Patching",
+      "quantity": 4,
+      "unit_price": 18000.0,
+      "total": 72000.0
+    },
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 4,
+      "unit_price": 7500.0,
+      "total": 30000.0
+    },
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 1,
+      "unit_price": 6200.0,
+      "total": 6200.0
+    },
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 4,
+      "unit_price": 4500.0,
+      "total": 18000.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 3,
+      "unit_price": 25000.0,
+      "total": 75000.0
+    }
+  ],
+  "subtotal": 201200.0,
+  "tax_amount": 36216.0,
+  "tax_rate": "18%",
+  "grand_total": 237416.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

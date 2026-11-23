@@ -1,0 +1,50 @@
+{
+  "document_id": "train_invoice_0078",
+  "document_type": "invoice",
+  "vendor_name": "Vortex Tech Solutions Pvt Ltd",
+  "vendor_gstin": "07AAAAA1234A1Z5",
+  "vendor_category": "IT & Cloud Services",
+  "client_name": "Sanghvi, Mody and Bhasin",
+  "client_gstin": "07KPLJE9133K4A1",
+  "invoice_number": "INV-2025-9757",
+  "invoice_date": "2025-07-07",
+  "due_date": "2025-08-06",
+  "line_items": [
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 3,
+      "unit_price": 8500.0,
+      "total": 25500.0
+    },
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 5,
+      "unit_price": 3500.0,
+      "total": 17500.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 5,
+      "unit_price": 25000.0,
+      "total": 125000.0
+    },
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 2,
+      "unit_price": 7500.0,
+      "total": 15000.0
+    },
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 5,
+      "unit_price": 6200.0,
+      "total": 31000.0
+    }
+  ],
+  "subtotal": 214000.0,
+  "tax_amount": 38520.0,
+  "tax_rate": "18%",
+  "grand_total": 252520.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

@@ -1,0 +1,38 @@
+{
+  "document_id": "train_invoice_0206",
+  "document_type": "invoice",
+  "vendor_name": "BlueSky Office Supplies Pvt Ltd",
+  "vendor_gstin": "09DDDDD3456D1Z1",
+  "vendor_category": "Office Equipment",
+  "client_name": "Iyengar, Mani and Nagi",
+  "client_gstin": "07VUCLA4019L3C8",
+  "invoice_number": "INV-2025-5749",
+  "invoice_date": "2025-10-22",
+  "due_date": "2025-11-21",
+  "line_items": [
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 1,
+      "unit_price": 3500.0,
+      "total": 3500.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 4,
+      "unit_price": 25000.0,
+      "total": 100000.0
+    },
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 1,
+      "unit_price": 7500.0,
+      "total": 7500.0
+    }
+  ],
+  "subtotal": 111000.0,
+  "tax_amount": 19980.0,
+  "tax_rate": "18%",
+  "grand_total": 130980.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

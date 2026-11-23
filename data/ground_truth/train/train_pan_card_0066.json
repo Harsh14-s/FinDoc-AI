@@ -1,0 +1,12 @@
+{
+  "document_id": "train_pan_card_0066",
+  "document_type": "pan_card",
+  "full_name": "Ishwar Gade",
+  "father_name": "Chatura Bal",
+  "dob": "1976-10-21",
+  "pan_number": "INVALID43",
+  "is_tampered": true,
+  "tamper_types": [
+    "invalid_pan_format: PAN violates 10-char alphanumeric regex"
+  ]
+}

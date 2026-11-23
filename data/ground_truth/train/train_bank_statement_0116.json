@@ -1,0 +1,109 @@
+{
+  "document_id": "train_bank_statement_0116",
+  "document_type": "bank_statement",
+  "bank_name": "Beacon Cooperative Urban Bank",
+  "branch": "MG Road, Bengaluru",
+  "ifsc": "BCOB0689648",
+  "account_holder": "Tarak Kaul",
+  "account_number": "82542473920",
+  "period_start": "2025-04-01",
+  "period_end": "2025-05-02",
+  "opening_balance": 143794.39,
+  "closing_balance": 123157.33,
+  "total_deposits": 83367.11,
+  "total_withdrawals": 104004.17,
+  "transactions": [
+    {
+      "date": "02-Apr-2025",
+      "raw_date": "2025-04-02",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN93182506",
+      "debit": 11953.06,
+      "credit": 0.0,
+      "balance": 131841.33
+    },
+    {
+      "date": "2025-04-04",
+      "raw_date": "2025-04-04",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN25303956",
+      "debit": 0.0,
+      "credit": 25199.02,
+      "balance": 157040.35
+    },
+    {
+      "date": "05/04/2025",
+      "raw_date": "2025-04-05",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN95048563",
+      "debit": 0.0,
+      "credit": 12276.82,
+      "balance": 169317.17
+    },
+    {
+      "date": "07-Apr-2025",
+      "raw_date": "2025-04-07",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN28850770",
+      "debit": 0.0,
+      "credit": 6163.36,
+      "balance": 175480.53
+    },
+    {
+      "date": "09/04/2025",
+      "raw_date": "2025-04-09",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN26206227",
+      "debit": 0.0,
+      "credit": 7259.29,
+      "balance": 182739.82
+    },
+    {
+      "date": "2025-04-10",
+      "raw_date": "2025-04-10",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN55356673",
+      "debit": 7074.97,
+      "credit": 0.0,
+      "balance": 175664.85
+    },
+    {
+      "date": "2025-04-12",
+      "raw_date": "2025-04-12",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN89028889",
+      "debit": 0.0,
+      "credit": 32468.62,
+      "balance": 208133.47
+    },
+    {
+      "date": "14/04/2025",
+      "raw_date": "2025-04-14",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN28070539",
+      "debit": 33488.57,
+      "credit": 0.0,
+      "balance": 174644.9
+    },
+    {
+      "date": "15-Apr-2025",
+      "raw_date": "2025-04-15",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN68090825",
+      "debit": 19586.31,
+      "credit": 0.0,
+      "balance": 155058.59
+    },
+    {
+      "date": "2025-04-17",
+      "raw_date": "2025-04-17",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN87652255",
+      "debit": 31901.26,
+      "credit": 0.0,
+      "balance": 123157.33
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

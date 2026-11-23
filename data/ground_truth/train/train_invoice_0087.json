@@ -1,0 +1,50 @@
+{
+  "document_id": "train_invoice_0087",
+  "document_type": "invoice",
+  "vendor_name": "Pinnacle Advisory & Consulting LLP",
+  "vendor_gstin": "29CCCCC9012C1Z8",
+  "vendor_category": "Professional Services",
+  "client_name": "Agarwal, Shere and Sachdev",
+  "client_gstin": "07OCWDN0385R9J7",
+  "invoice_number": "INV-2025-2525",
+  "invoice_date": "2025-01-08",
+  "due_date": "2025-02-07",
+  "line_items": [
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 5,
+      "unit_price": 7500.0,
+      "total": 37500.0
+    },
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 2,
+      "unit_price": 8500.0,
+      "total": 17000.0
+    },
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 4,
+      "unit_price": 3500.0,
+      "total": 14000.0
+    },
+    {
+      "description": "Cloud Server Hosting - Monthly",
+      "quantity": 1,
+      "unit_price": 4500.0,
+      "total": 4500.0
+    },
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 5,
+      "unit_price": 6200.0,
+      "total": 31000.0
+    }
+  ],
+  "subtotal": 104000.0,
+  "tax_amount": 18720.0,
+  "tax_rate": "18%",
+  "grand_total": 122720.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

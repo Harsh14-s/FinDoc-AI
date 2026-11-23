@@ -1,0 +1,44 @@
+{
+  "document_id": "test_invoice_0008",
+  "document_type": "invoice",
+  "vendor_name": "BlueSky Office Supplies Pvt Ltd",
+  "vendor_gstin": "09DDDDD3456D1Z1",
+  "vendor_category": "Office Equipment",
+  "client_name": "Srinivas and Sons",
+  "client_gstin": "07XSYDI9363P8W5",
+  "invoice_number": "INV-2025-5922",
+  "invoice_date": "2025-03-05",
+  "due_date": "2025-04-04",
+  "line_items": [
+    {
+      "description": "Logistics Freight Handling Services",
+      "quantity": 5,
+      "unit_price": 8500.0,
+      "total": 42500.0
+    },
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 1,
+      "unit_price": 6200.0,
+      "total": 6200.0
+    },
+    {
+      "description": "Data Backup Storage (5TB Tier)",
+      "quantity": 5,
+      "unit_price": 3500.0,
+      "total": 17500.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 1,
+      "unit_price": 25000.0,
+      "total": 25000.0
+    }
+  ],
+  "subtotal": 91200.0,
+  "tax_amount": 16416.0,
+  "tax_rate": "18%",
+  "grand_total": 107616.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

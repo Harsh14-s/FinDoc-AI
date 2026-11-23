@@ -1,0 +1,138 @@
+{
+  "document_id": "train_bank_statement_0017",
+  "document_type": "bank_statement",
+  "bank_name": "Beacon Cooperative Urban Bank",
+  "branch": "MG Road, Bengaluru",
+  "ifsc": "BCOB0387636",
+  "account_holder": "Niharika Gupta",
+  "account_number": "29473961937",
+  "period_start": "2025-01-01",
+  "period_end": "2025-01-29",
+  "opening_balance": 94169.87,
+  "closing_balance": 132786.29,
+  "total_deposits": 114387.0,
+  "total_withdrawals": 75770.58,
+  "transactions": [
+    {
+      "date": "02/01/2025",
+      "raw_date": "2025-01-02",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN48163378",
+      "debit": 0.0,
+      "credit": 923.16,
+      "balance": 95093.03
+    },
+    {
+      "date": "04/01/2025",
+      "raw_date": "2025-01-04",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN43887075",
+      "debit": 0.0,
+      "credit": 33809.67,
+      "balance": 128902.7
+    },
+    {
+      "date": "05-Jan-2025",
+      "raw_date": "2025-01-05",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN94482772",
+      "debit": 3055.83,
+      "credit": 0.0,
+      "balance": 125846.87
+    },
+    {
+      "date": "06/01/2025",
+      "raw_date": "2025-01-06",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN85543051",
+      "debit": 0.0,
+      "credit": 5647.32,
+      "balance": 131494.19
+    },
+    {
+      "date": "07-Jan-2025",
+      "raw_date": "2025-01-07",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN91378577",
+      "debit": 0.0,
+      "credit": 26873.3,
+      "balance": 158367.49
+    },
+    {
+      "date": "08-Jan-2025",
+      "raw_date": "2025-01-08",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN49910061",
+      "debit": 31843.4,
+      "credit": 0.0,
+      "balance": 126524.09
+    },
+    {
+      "date": "2025-01-10",
+      "raw_date": "2025-01-10",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN23318904",
+      "debit": 2577.95,
+      "credit": 0.0,
+      "balance": 123946.14
+    },
+    {
+      "date": "11-Jan-2025",
+      "raw_date": "2025-01-11",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN33328859",
+      "debit": 5918.47,
+      "credit": 0.0,
+      "balance": 118027.67
+    },
+    {
+      "date": "12-Jan-2025",
+      "raw_date": "2025-01-12",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN70465583",
+      "debit": 0.0,
+      "credit": 592.31,
+      "balance": 118619.98
+    },
+    {
+      "date": "14-Jan-2025",
+      "raw_date": "2025-01-14",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN47945817",
+      "debit": 0.0,
+      "credit": 10439.62,
+      "balance": 129059.6
+    },
+    {
+      "date": "16-Jan-2025",
+      "raw_date": "2025-01-16",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN93893865",
+      "debit": 32374.93,
+      "credit": 0.0,
+      "balance": 96684.67
+    },
+    {
+      "date": "17/01/2025",
+      "raw_date": "2025-01-17",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN29997018",
+      "debit": 0.0,
+      "credit": 8255.93,
+      "balance": 104940.6
+    },
+    {
+      "date": "2029-06-15",
+      "raw_date": "2029-06-15",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN89865458",
+      "debit": 0.0,
+      "credit": 27845.69,
+      "balance": 132786.29
+    }
+  ],
+  "is_tampered": true,
+  "tamper_types": [
+    "future_dates: transaction date 2029-06-15 after period end"
+  ]
+}

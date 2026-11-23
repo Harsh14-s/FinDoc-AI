@@ -1,0 +1,44 @@
+{
+  "document_id": "train_invoice_0172",
+  "document_type": "invoice",
+  "vendor_name": "Vortex Tech Solutions Pvt Ltd",
+  "vendor_gstin": "07AAAAA1234A1Z5",
+  "vendor_category": "IT & Cloud Services",
+  "client_name": "Tata PLC",
+  "client_gstin": "07NNSSF6814M4H7",
+  "invoice_number": "INV-2025-4385",
+  "invoice_date": "2025-09-12",
+  "due_date": "2025-10-12",
+  "line_items": [
+    {
+      "description": "Warehouse Pallet Storage Fee",
+      "quantity": 5,
+      "unit_price": 6200.0,
+      "total": 31000.0
+    },
+    {
+      "description": "Software License Subscription",
+      "quantity": 2,
+      "unit_price": 12000.0,
+      "total": 24000.0
+    },
+    {
+      "description": "Ergonomic Mesh Office Chairs",
+      "quantity": 2,
+      "unit_price": 7500.0,
+      "total": 15000.0
+    },
+    {
+      "description": "IT Consulting & Architecture Hours",
+      "quantity": 1,
+      "unit_price": 25000.0,
+      "total": 25000.0
+    }
+  ],
+  "subtotal": 95000.0,
+  "tax_amount": 17100.0,
+  "tax_rate": "18%",
+  "grand_total": 112100.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

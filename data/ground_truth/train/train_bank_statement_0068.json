@@ -1,0 +1,91 @@
+{
+  "document_id": "train_bank_statement_0068",
+  "document_type": "bank_statement",
+  "bank_name": "Metro Alliance Bank",
+  "branch": "Sector 62, Noida",
+  "ifsc": "METR0823975",
+  "account_holder": "Michael Saran",
+  "account_number": "90228079908",
+  "period_start": "2025-09-01",
+  "period_end": "2025-09-30",
+  "opening_balance": 68120.92,
+  "closing_balance": 177801.79,
+  "total_deposits": 129221.77,
+  "total_withdrawals": 19540.9,
+  "transactions": [
+    {
+      "date": "2025-09-03",
+      "raw_date": "2025-09-03",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN21523236",
+      "debit": 0.0,
+      "credit": 32258.89,
+      "balance": 100379.81
+    },
+    {
+      "date": "2025-09-04",
+      "raw_date": "2025-09-04",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN71113711",
+      "debit": 0.0,
+      "credit": 11260.22,
+      "balance": 111640.03
+    },
+    {
+      "date": "06-Sep-2025",
+      "raw_date": "2025-09-06",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN68809636",
+      "debit": 0.0,
+      "credit": 16927.61,
+      "balance": 128567.64
+    },
+    {
+      "date": "08-Sep-2025",
+      "raw_date": "2025-09-08",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN15997257",
+      "debit": 0.0,
+      "credit": 2817.51,
+      "balance": 131385.15
+    },
+    {
+      "date": "2025-09-09",
+      "raw_date": "2025-09-09",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN96969050",
+      "debit": 0.0,
+      "credit": 29796.71,
+      "balance": 161181.86
+    },
+    {
+      "date": "10-Sep-2025",
+      "raw_date": "2025-09-10",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN54424679",
+      "debit": 19540.9,
+      "credit": 0.0,
+      "balance": 141640.96
+    },
+    {
+      "date": "2025-09-12",
+      "raw_date": "2025-09-12",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN34756698",
+      "debit": 0.0,
+      "credit": 14474.14,
+      "balance": 156115.1
+    },
+    {
+      "date": "14/09/2025",
+      "raw_date": "2025-09-14",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN36484437",
+      "debit": 0.0,
+      "credit": 21686.69,
+      "balance": 177801.79
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

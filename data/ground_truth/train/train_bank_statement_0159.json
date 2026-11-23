@@ -1,0 +1,127 @@
+{
+  "document_id": "train_bank_statement_0159",
+  "document_type": "bank_statement",
+  "bank_name": "State Mercantile Commercial Bank",
+  "branch": "Bandra Kurla Complex, Mumbai",
+  "ifsc": "SMCB0700727",
+  "account_holder": "Aarav Pandit",
+  "account_number": "41857204108",
+  "period_start": "2025-03-01",
+  "period_end": "2025-04-01",
+  "opening_balance": 146317.15,
+  "closing_balance": 194583.88,
+  "total_deposits": 130308.06,
+  "total_withdrawals": 82041.33,
+  "transactions": [
+    {
+      "date": "03-Mar-2025",
+      "raw_date": "2025-03-03",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN28599426",
+      "debit": 7633.13,
+      "credit": 0.0,
+      "balance": 138684.02
+    },
+    {
+      "date": "2025-03-04",
+      "raw_date": "2025-03-04",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN80303981",
+      "debit": 0.0,
+      "credit": 11160.44,
+      "balance": 149844.46
+    },
+    {
+      "date": "2025-03-06",
+      "raw_date": "2025-03-06",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN85812116",
+      "debit": 0.0,
+      "credit": 23140.0,
+      "balance": 172984.46
+    },
+    {
+      "date": "2025-03-08",
+      "raw_date": "2025-03-08",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN25889673",
+      "debit": 33226.75,
+      "credit": 0.0,
+      "balance": 139757.71
+    },
+    {
+      "date": "10/03/2025",
+      "raw_date": "2025-03-10",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN52773504",
+      "debit": 0.0,
+      "credit": 25584.24,
+      "balance": 165341.95
+    },
+    {
+      "date": "12-Mar-2025",
+      "raw_date": "2025-03-12",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN95476210",
+      "debit": 32715.01,
+      "credit": 0.0,
+      "balance": 132626.94
+    },
+    {
+      "date": "2025-03-14",
+      "raw_date": "2025-03-14",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN24330619",
+      "debit": 0.0,
+      "credit": 27379.22,
+      "balance": 160006.16
+    },
+    {
+      "date": "15-Mar-2025",
+      "raw_date": "2025-03-15",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN92138779",
+      "debit": 0.0,
+      "credit": 26804.44,
+      "balance": 186810.6
+    },
+    {
+      "date": "2025-03-17",
+      "raw_date": "2025-03-17",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN41163012",
+      "debit": 8466.44,
+      "credit": 0.0,
+      "balance": 178344.16
+    },
+    {
+      "date": "2025-03-18",
+      "raw_date": "2025-03-18",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN73968467",
+      "debit": 0.0,
+      "credit": 3241.9,
+      "balance": 181586.06
+    },
+    {
+      "date": "20/03/2025",
+      "raw_date": "2025-03-20",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN62004039",
+      "debit": 0.0,
+      "credit": 6847.19,
+      "balance": 188433.25
+    },
+    {
+      "date": "2025-03-22",
+      "raw_date": "2025-03-22",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN40369856",
+      "debit": 0.0,
+      "credit": 6150.63,
+      "balance": 194583.88
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

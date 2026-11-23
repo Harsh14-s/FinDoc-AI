@@ -1,0 +1,100 @@
+{
+  "document_id": "test_bank_statement_0092",
+  "document_type": "bank_statement",
+  "bank_name": "Beacon Cooperative Urban Bank",
+  "branch": "MG Road, Bengaluru",
+  "ifsc": "BCOB0549192",
+  "account_holder": "Ikbal Dugal",
+  "account_number": "70884656703",
+  "period_start": "2025-06-01",
+  "period_end": "2025-06-30",
+  "opening_balance": 94094.2,
+  "closing_balance": 35664.08,
+  "total_deposits": 39956.7,
+  "total_withdrawals": 98386.82,
+  "transactions": [
+    {
+      "date": "03-Jun-2025",
+      "raw_date": "2025-06-03",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN68719406",
+      "debit": 0.0,
+      "credit": 23256.39,
+      "balance": 117350.59
+    },
+    {
+      "date": "2025-06-05",
+      "raw_date": "2025-06-05",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN23317762",
+      "debit": 31752.96,
+      "credit": 0.0,
+      "balance": 85597.63
+    },
+    {
+      "date": "2025-06-06",
+      "raw_date": "2025-06-06",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN65201022",
+      "debit": 21760.98,
+      "credit": 0.0,
+      "balance": 63836.65
+    },
+    {
+      "date": "08-Jun-2025",
+      "raw_date": "2025-06-08",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN69606543",
+      "debit": 3939.72,
+      "credit": 0.0,
+      "balance": 59896.93
+    },
+    {
+      "date": "09-Jun-2025",
+      "raw_date": "2025-06-09",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN71019389",
+      "debit": 7809.55,
+      "credit": 0.0,
+      "balance": 52087.38
+    },
+    {
+      "date": "11/06/2025",
+      "raw_date": "2025-06-11",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN26702129",
+      "debit": 0.0,
+      "credit": 16700.31,
+      "balance": 68787.69
+    },
+    {
+      "date": "2025-06-13",
+      "raw_date": "2025-06-13",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN63124525",
+      "debit": 22747.65,
+      "credit": 0.0,
+      "balance": 46040.04
+    },
+    {
+      "date": "15/06/2025",
+      "raw_date": "2025-06-15",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN98406780",
+      "debit": 9732.52,
+      "credit": 0.0,
+      "balance": 36307.52
+    },
+    {
+      "date": "2025-06-17",
+      "raw_date": "2025-06-17",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN65640853",
+      "debit": 643.44,
+      "credit": 0.0,
+      "balance": 35664.08
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

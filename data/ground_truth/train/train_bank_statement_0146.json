@@ -1,0 +1,120 @@
+{
+  "document_id": "train_bank_statement_0146",
+  "document_type": "bank_statement",
+  "bank_name": "Apex National Bank",
+  "branch": "Connaught Place, New Delhi",
+  "ifsc": "APEX0458521",
+  "account_holder": "Joshua Vyas",
+  "account_number": "37889711817",
+  "period_start": "2025-07-01",
+  "period_end": "2025-07-31",
+  "opening_balance": 123215.67,
+  "closing_balance": 92702.14,
+  "total_deposits": 76268.63,
+  "total_withdrawals": 106782.16,
+  "transactions": [
+    {
+      "date": "2025-07-03",
+      "raw_date": "2025-07-03",
+      "description": "ONLINE-SHOPPING-AMZN",
+      "ref_no": "TXN20767361",
+      "debit": 1594.93,
+      "credit": 0.0,
+      "balance": 121620.74
+    },
+    {
+      "date": "2025-07-04",
+      "raw_date": "2025-07-04",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN73102032",
+      "debit": 2962.77,
+      "credit": 0.0,
+      "balance": 118657.97
+    },
+    {
+      "date": "05-Jul-2025",
+      "raw_date": "2025-07-05",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN26369402",
+      "debit": 29074.7,
+      "credit": 0.0,
+      "balance": 89583.27
+    },
+    {
+      "date": "2025-07-06",
+      "raw_date": "2025-07-06",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN14497675",
+      "debit": 15782.15,
+      "credit": 0.0,
+      "balance": 73801.12
+    },
+    {
+      "date": "08/07/2025",
+      "raw_date": "2025-07-08",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN73461570",
+      "debit": 34383.0,
+      "credit": 0.0,
+      "balance": 39418.12
+    },
+    {
+      "date": "10-Jul-2025",
+      "raw_date": "2025-07-10",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN15662097",
+      "debit": 0.0,
+      "credit": 5972.09,
+      "balance": 45390.21
+    },
+    {
+      "date": "2025-07-11",
+      "raw_date": "2025-07-11",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN58375646",
+      "debit": 10809.05,
+      "credit": 0.0,
+      "balance": 34581.16
+    },
+    {
+      "date": "2025-07-12",
+      "raw_date": "2025-07-12",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN12022353",
+      "debit": 0.0,
+      "credit": 15478.58,
+      "balance": 50059.74
+    },
+    {
+      "date": "2025-07-14",
+      "raw_date": "2025-07-14",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN11198544",
+      "debit": 0.0,
+      "credit": 27725.46,
+      "balance": 77785.2
+    },
+    {
+      "date": "2025-07-16",
+      "raw_date": "2025-07-16",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN43382936",
+      "debit": 0.0,
+      "credit": 27092.5,
+      "balance": 104877.7
+    },
+    {
+      "date": "2029-06-15",
+      "raw_date": "2029-06-15",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN93903841",
+      "debit": 12175.56,
+      "credit": 0.0,
+      "balance": 92702.14
+    }
+  ],
+  "is_tampered": true,
+  "tamper_types": [
+    "future_dates: transaction date 2029-06-15 after period end"
+  ]
+}

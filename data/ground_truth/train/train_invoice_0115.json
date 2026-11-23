@@ -1,0 +1,32 @@
+{
+  "document_id": "train_invoice_0115",
+  "document_type": "invoice",
+  "vendor_name": "BlueSky Office Supplies Pvt Ltd",
+  "vendor_gstin": "09DDDDD3456D1Z1",
+  "vendor_category": "Office Equipment",
+  "client_name": "Sha Inc",
+  "client_gstin": "07IYKNE3900W5J3",
+  "invoice_number": "INV-2025-1588",
+  "invoice_date": "2025-09-18",
+  "due_date": "2025-10-18",
+  "line_items": [
+    {
+      "description": "Software License Subscription",
+      "quantity": 5,
+      "unit_price": 12000.0,
+      "total": 60000.0
+    },
+    {
+      "description": "Network Security Audit & Patching",
+      "quantity": 5,
+      "unit_price": 18000.0,
+      "total": 90000.0
+    }
+  ],
+  "subtotal": 150000.0,
+  "tax_amount": 27000.0,
+  "tax_rate": "18%",
+  "grand_total": 177000.0,
+  "is_tampered": false,
+  "tamper_types": []
+}

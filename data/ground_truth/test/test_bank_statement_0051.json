@@ -1,0 +1,91 @@
+{
+  "document_id": "test_bank_statement_0051",
+  "document_type": "bank_statement",
+  "bank_name": "Beacon Cooperative Urban Bank",
+  "branch": "MG Road, Bengaluru",
+  "ifsc": "BCOB0760374",
+  "account_holder": "Yashasvi Talwar",
+  "account_number": "70917863948",
+  "period_start": "2025-01-01",
+  "period_end": "2025-01-29",
+  "opening_balance": 133733.34,
+  "closing_balance": 230988.28,
+  "total_deposits": 135181.02,
+  "total_withdrawals": 37926.08,
+  "transactions": [
+    {
+      "date": "2025-01-02",
+      "raw_date": "2025-01-02",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN28996104",
+      "debit": 0.0,
+      "credit": 22385.66,
+      "balance": 156119.0
+    },
+    {
+      "date": "2025-01-03",
+      "raw_date": "2025-01-03",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN37430524",
+      "debit": 0.0,
+      "credit": 19435.22,
+      "balance": 175554.22
+    },
+    {
+      "date": "2025-01-04",
+      "raw_date": "2025-01-04",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN36512868",
+      "debit": 11245.47,
+      "credit": 0.0,
+      "balance": 164308.75
+    },
+    {
+      "date": "06/01/2025",
+      "raw_date": "2025-01-06",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN50681488",
+      "debit": 0.0,
+      "credit": 21401.87,
+      "balance": 185710.62
+    },
+    {
+      "date": "08/01/2025",
+      "raw_date": "2025-01-08",
+      "description": "POS-RETAIL-GROCERY",
+      "ref_no": "TXN20739561",
+      "debit": 0.0,
+      "credit": 27454.47,
+      "balance": 213165.09
+    },
+    {
+      "date": "10-Jan-2025",
+      "raw_date": "2025-01-10",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN77819218",
+      "debit": 0.0,
+      "credit": 15727.47,
+      "balance": 228892.56
+    },
+    {
+      "date": "2025-01-12",
+      "raw_date": "2025-01-12",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN74693042",
+      "debit": 0.0,
+      "credit": 28776.33,
+      "balance": 257668.89
+    },
+    {
+      "date": "14-Jan-2025",
+      "raw_date": "2025-01-14",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN50296396",
+      "debit": 26680.61,
+      "credit": 0.0,
+      "balance": 230988.28
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

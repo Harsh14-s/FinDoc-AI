@@ -1,0 +1,136 @@
+{
+  "document_id": "test_bank_statement_0036",
+  "document_type": "bank_statement",
+  "bank_name": "Apex National Bank",
+  "branch": "Connaught Place, New Delhi",
+  "ifsc": "APEX0397901",
+  "account_holder": "Ishaan Iyengar",
+  "account_number": "36625030001",
+  "period_start": "2025-03-01",
+  "period_end": "2025-03-30",
+  "opening_balance": 135672.78,
+  "closing_balance": 179412.14,
+  "total_deposits": 162248.29,
+  "total_withdrawals": 118508.93,
+  "transactions": [
+    {
+      "date": "2025-03-02",
+      "raw_date": "2025-03-02",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN43012764",
+      "debit": 0.0,
+      "credit": 29739.93,
+      "balance": 165412.71
+    },
+    {
+      "date": "2025-03-03",
+      "raw_date": "2025-03-03",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN45136671",
+      "debit": 0.0,
+      "credit": 6574.67,
+      "balance": 171987.38
+    },
+    {
+      "date": "04/03/2025",
+      "raw_date": "2025-03-04",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN24894008",
+      "debit": 0.0,
+      "credit": 13572.84,
+      "balance": 185560.22
+    },
+    {
+      "date": "05-Mar-2025",
+      "raw_date": "2025-03-05",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN59976005",
+      "debit": 13252.6,
+      "credit": 0.0,
+      "balance": 172307.62
+    },
+    {
+      "date": "06-Mar-2025",
+      "raw_date": "2025-03-06",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN68212652",
+      "debit": 34920.47,
+      "credit": 0.0,
+      "balance": 137387.15
+    },
+    {
+      "date": "2025-03-07",
+      "raw_date": "2025-03-07",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN35453201",
+      "debit": 0.0,
+      "credit": 32383.36,
+      "balance": 169770.51
+    },
+    {
+      "date": "09-Mar-2025",
+      "raw_date": "2025-03-09",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN67651904",
+      "debit": 0.0,
+      "credit": 11469.33,
+      "balance": 181239.84
+    },
+    {
+      "date": "2025-03-10",
+      "raw_date": "2025-03-10",
+      "description": "UPI-TRANSFER-SALARY",
+      "ref_no": "TXN88829544",
+      "debit": 0.0,
+      "credit": 26826.34,
+      "balance": 208066.18
+    },
+    {
+      "date": "12-Mar-2025",
+      "raw_date": "2025-03-12",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN17148298",
+      "debit": 0.0,
+      "credit": 11804.98,
+      "balance": 219871.16
+    },
+    {
+      "date": "14/03/2025",
+      "raw_date": "2025-03-14",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN88394188",
+      "debit": 0.0,
+      "credit": 29876.84,
+      "balance": 249748.0
+    },
+    {
+      "date": "2025-03-15",
+      "raw_date": "2025-03-15",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN92528662",
+      "debit": 27789.4,
+      "credit": 0.0,
+      "balance": 221958.6
+    },
+    {
+      "date": "16/03/2025",
+      "raw_date": "2025-03-16",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN78338099",
+      "debit": 30943.56,
+      "credit": 0.0,
+      "balance": 191015.04
+    },
+    {
+      "date": "18-Mar-2025",
+      "raw_date": "2025-03-18",
+      "description": "FIXED-DEPOSIT-INTEREST",
+      "ref_no": "TXN60181152",
+      "debit": 11602.9,
+      "credit": 0.0,
+      "balance": 179412.14
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}

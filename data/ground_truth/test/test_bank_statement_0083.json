@@ -1,0 +1,109 @@
+{
+  "document_id": "test_bank_statement_0083",
+  "document_type": "bank_statement",
+  "bank_name": "State Mercantile Commercial Bank",
+  "branch": "Bandra Kurla Complex, Mumbai",
+  "ifsc": "SMCB0547883",
+  "account_holder": "Daksha Kibe",
+  "account_number": "40167854047",
+  "period_start": "2025-07-01",
+  "period_end": "2025-07-30",
+  "opening_balance": 69163.74,
+  "closing_balance": 196521.97,
+  "total_deposits": 177560.68,
+  "total_withdrawals": 50202.45,
+  "transactions": [
+    {
+      "date": "02/07/2025",
+      "raw_date": "2025-07-02",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN25087236",
+      "debit": 25162.37,
+      "credit": 0.0,
+      "balance": 44001.37
+    },
+    {
+      "date": "03/07/2025",
+      "raw_date": "2025-07-03",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN47824471",
+      "debit": 0.0,
+      "credit": 33498.09,
+      "balance": 77499.46
+    },
+    {
+      "date": "2025-07-04",
+      "raw_date": "2025-07-04",
+      "description": "IMPS-PEER-TRANSFER",
+      "ref_no": "TXN21382241",
+      "debit": 0.0,
+      "credit": 12937.03,
+      "balance": 90436.49
+    },
+    {
+      "date": "05-Jul-2025",
+      "raw_date": "2025-07-05",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN54942009",
+      "debit": 0.0,
+      "credit": 15287.68,
+      "balance": 105724.17
+    },
+    {
+      "date": "06-Jul-2025",
+      "raw_date": "2025-07-06",
+      "description": "UPI-SWIGGY-FOOD",
+      "ref_no": "TXN50475203",
+      "debit": 0.0,
+      "credit": 23520.93,
+      "balance": 129245.1
+    },
+    {
+      "date": "08/07/2025",
+      "raw_date": "2025-07-08",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN46385523",
+      "debit": 0.0,
+      "credit": 30701.37,
+      "balance": 159946.47
+    },
+    {
+      "date": "2025-07-10",
+      "raw_date": "2025-07-10",
+      "description": "ELECTRICITY-BILL-PAYMENT",
+      "ref_no": "TXN20250139",
+      "debit": 25040.08,
+      "credit": 0.0,
+      "balance": 134906.39
+    },
+    {
+      "date": "11/07/2025",
+      "raw_date": "2025-07-11",
+      "description": "NEFT-INWARD-REMITTANCE",
+      "ref_no": "TXN62425387",
+      "debit": 0.0,
+      "credit": 11548.83,
+      "balance": 146455.22
+    },
+    {
+      "date": "2025-07-13",
+      "raw_date": "2025-07-13",
+      "description": "ATM-CASH-WITHDRAWAL",
+      "ref_no": "TXN47376435",
+      "debit": 0.0,
+      "credit": 15247.13,
+      "balance": 161702.35
+    },
+    {
+      "date": "14/07/2025",
+      "raw_date": "2025-07-14",
+      "description": "INTEREST-CREDIT",
+      "ref_no": "TXN34410491",
+      "debit": 0.0,
+      "credit": 34819.62,
+      "balance": 196521.97
+    }
+  ],
+  "is_tampered": false,
+  "tamper_types": []
+}
